@@ -1,0 +1,23 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-docstiffanyleacom-prod-91621-authRole",
+            "UnauthRoleArn": "arn:aws:iam::011206842424:role/amplify-docstiffanyleacom-prod-91621-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::011206842424:role/amplify-docstiffanyleacom-prod-91621-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-docstiffanyleacom-prod-91621-deployment",
+            "UnauthRoleName": "amplify-docstiffanyleacom-prod-91621-unauthRole",
+            "StackName": "amplify-docstiffanyleacom-prod-91621",
+            "StackId": "arn:aws:cloudformation:us-west-2:011206842424:stack/amplify-docstiffanyleacom-prod-91621/7d2ba960-e300-11ea-ac2e-06c1882c17fc",
+            "AmplifyAppId": "d3nmmwaymuhlnn"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3nmmwaymuhlnn",
+                    "type": "cicd"
+                }
+            }
+        }
+    }
+}
