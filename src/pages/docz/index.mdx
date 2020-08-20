@@ -1,47 +1,22 @@
 ---
 name: Docz
-menu: Tools / Docs
-route: /docz
+menu: Docs
+route: /tools/docz
 ---
 
-# Basic Docz example
+import { MdOpenInNew } from "react-icons/md";
 
-## Using `create-docz-app`
+# Docz
 
-```sh
-npx create-docz-app docz-app-basic
-# or
-yarn create docz-app docz-app-basic
-```
+## Overview
 
-## Download manually
+Docz[<MdOpenInNew />](https://www.docz.site/) is a documentation site generator.
+
+## CLI
 
 ```sh
-curl https://codeload.github.com/doczjs/docz/tar.gz/master | tar -xz --strip=2 docz-master/examples/basic
-mv basic docz-basic-example
-cd docz-basic-example
-```
 
-## Setup
-
-```sh
-yarn # npm i
-```
-
-## Run
-
-```sh
-yarn dev # npm run dev
-```
-
-## Build
-
-```sh
-yarn build # npm run build
-```
-
-## Serve built app
-
-```sh
-yarn serve # npm run serve
+npm run dev
+npm run build
+npm run serve
 ```
