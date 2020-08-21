@@ -20,9 +20,11 @@ There is no possible way to contain such a broad spectrum of knowledge in such d
 - UI/UX/Design resources (adobe.../sketch/figma)
 - presentations and training (tools/do's and dont's/previously given)
 - interview specific knowledge (big o/CS degree stuff)
+- networking (dns/cdn/aws/domain)
+- databases (document/relational/graph)
 - and many... many... many more.
 
-## Specfic Pain Points
+## Specific Pain Points
 
 - Ramping back up on a less visited topic can be time-consuming
   - I only need a 5-min refresher... not a 3-hour tutorial
