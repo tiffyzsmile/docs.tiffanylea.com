@@ -1,5 +1,6 @@
 // doczrc.js
 export default {
+  public: "/public",
   dest: "dist",
   title: "Tiffany Lea KB",
   ignore: [
