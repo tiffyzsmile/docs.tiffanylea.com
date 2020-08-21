@@ -1,0 +1,115 @@
+---
+name: Prettier
+menu: Tools
+route: /tools/prettier
+---
+
+# Prettier
+
+## Ignore (Files and Folders)
+
+Use `.prettierignore` in the root of your project. (gitignore syntax).
+
+```
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+```
+
+## Ignore (Inline Comments)
+
+Use “prettier-ignore” comments to ignore parts of files.
+
+## JS
+
+```js
+matrix(1, 0, 0, 0, 1, 0, 0, 0, 1);
+
+// prettier-ignore
+matrix(
+  1, 0, 0,
+  0, 1, 0,
+  0, 0, 1
+)
+```
+
+## JSX
+
+```jsx
+<div>
+  {/* prettier-ignore */}
+  <span     ugly  format=''   />
+</div>
+```
+
+## HTML
+
+```
+<!-- prettier-ignore -->
+<div         class="x"       >hello world</div            >
+
+<!-- prettier-ignore-attribute -->
+<div
+  (mousedown)="       onStart    (    )         "
+  (mouseup)="         onEnd      (    )         "
+></div>
+
+<!-- prettier-ignore-attribute (mouseup) -->
+<div
+  (mousedown)="onStart()"
+  (mouseup)="         onEnd      (    )         "
+></div>
+```
+
+## CSS
+
+```
+/* prettier-ignore */
+.my    ugly rule
+{
+
+}
+```
+
+## Markdown
+
+```
+<!-- prettier-ignore -->
+Do   not    format   this
+```
+
+## YAML
+
+```
+# prettier-ignore
+key  : value
+hello: world
+```
+
+## GraphQL
+
+```
+{
+  # prettier-ignore
+  addReaction(input:{superLongInputFieldName:"MDU6SXNzdWUyMzEzOTE1NTE=",content:HOORAY}) {
+    reaction {content}
+  }
+}
+```
+
+## Handlebars
+
+```
+{{! prettier-ignore }}
+<div>
+  "hello! my parent was ignored"
+  {{#my-crazy-component     "shall"     be="preserved"}}
+    <This
+      is  =  "also preserved as is"
+    />
+  {{/my-crazy-component}}
+</div>
+```
