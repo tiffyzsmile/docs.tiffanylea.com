@@ -4,7 +4,14 @@ menu: Languages
 route: /languages/markdown
 ---
 
-# Markdown
+# Markdown Resources
+
+- Cheatsheet <ExternalLink
+    text="Github Cheatsheet"
+    href="/public/pdfs/markdown-cheatsheet.pdf"
+  />
+
+# Markdown Syntax
 
 ## Headings
 
@@ -17,8 +24,8 @@ route: /languages/markdown
 ###### H6
 ```
 
-
 ## Text Styles
+
 ```
 **bold text**
 
@@ -29,8 +36,8 @@ route: /languages/markdown
 
 ```
 
-
 ## Lists
+
 ```
 1. First item
 2. Second item
@@ -41,30 +48,33 @@ route: /languages/markdown
 - Third item
 ```
 
-
 ## Code
 
 ### Inline Code
-~~~
-`inline code`  
-~~~
+
+```
+`inline code`
+```
 
 ### Code Blocks
+
 #### Backticks ```
-~~~
-``` 
-code block 
+
+````
+```
+code block
 ```
 
 ```js
 var a = 1;
 ```
-~~~
+````
 
-####  Tildes ~~~
+#### Tildes ~~~
+
 ```
-~~~ 
-code block 
+~~~
+code block
 ~~~
 
 ~~~js
@@ -72,16 +82,15 @@ var a = 1;
 ~~~
 ```
 
+#### Space 4 spaces/1 tab
 
-####  Space 4 spaces/1 tab
-``` 
+```
 
         you can also use tab or 4 space indent
 
     code block
 
 ```
-        
 
 ## Horizontal Rule
 
@@ -89,10 +98,10 @@ var a = 1;
 ---
 ```
 
-
 ## Links
 
 ### Inline Links
+
 ```
 [Link Text](https://www.google.com)
 
@@ -104,6 +113,7 @@ var a = 1;
 ### Reference Links
 
 Reference can be defined anywhere in the document
+
 ```
 [id]: http://example.com/  "Optional Title Here"
 
@@ -113,17 +123,20 @@ This is [an example][id] reference-style link.
 ## Images
 
 ### Inline Images
+
 ```
 ![Alternative text](/path/to/img.jpg "Optional title")
 ```
 
 ### Reference Images
+
 ```
 [id]: url/to/image  "Optional title"
 ![Alternative text][id]
 ```
 
 ### Table [^1]
+
 ```
 | Syntax | Description |
 | ----------- | ----------- |
@@ -131,8 +144,8 @@ This is [an example][id] reference-style link.
 | Paragraph | Text |
 ```
 
-
 ### Footnote [^1]
+
 ```
 Here's a sentence with a footnote. [^1]
 
@@ -140,18 +153,20 @@ Here's a sentence with a footnote. [^1]
 ```
 
 ### Definition List [^1]
+
 ```
 term
 : definition
 ```
 
-
 ### Strikethrough [^1]
+
 ```
 ~~The world is flat.~~
 ```
 
 ### Task List [^1]
+
 ```
 - [x] Write the press release
 - [ ] Update the website
@@ -159,6 +174,3 @@ term
 ```
 
 [^1]: Not all Markdown applications support these elements.
-
-
-
