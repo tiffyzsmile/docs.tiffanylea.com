@@ -12,6 +12,7 @@ export default {
   ],
   menu: [
     "Overview",
+    "Todo",
     //        { name: 'Overview1', menu: ['Todos'] }
   ],
 };
