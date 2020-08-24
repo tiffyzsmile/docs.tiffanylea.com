@@ -1,0 +1,78 @@
+---
+name: Big O
+menu: Algorithms
+route: /algorithms/bigo
+---
+
+import Code from "../../components/Code";
+
+# Big O Notation
+
+## What is it?
+
+Simplified analysis of an algorithm's efficiency.
+
+- We analyze time complexity for:
+
+  - very large input size
+  - worst case scenario
+
+## Formula
+
+```
+O(n)
+```
+
+- O: represents the function or algorithm that is being evaluated
+- n: represents the number of elements/input
+
+## Order of Complexity
+
+|     | Big O            | Description                         | What that means                                                                             |
+| --- | ---------------- | ----------------------------------- | ------------------------------------------------------------------------------------------- |
+| 🤩  | O(1)             | Static                              | You know exactly how long it will take to run the function everytime (large or small input) |
+| 😁  | O(log n)         | "divide and conquer", binary search | Break results into 2, eliminate 50% that doesn't contain item                               |
+| 🙂  | O(n)             | Directly and linearly linked with N | How long it takes to run is directly based on how big N is (for loops)                      |
+| 😒  | O(n log n)       | Merge search, like deck of cards    | ...                                                                                         |
+| 😬  | O(n<sup>2</sup>) | Checking list and grocery cart      | Doing something against 2+ variable length inputs makes it exponential                      |
+| 😳  | O(infinity)      | Flipping a coin                     | There is a chance the coin may never turn up heads and would have to go on forever          |
+
+## General Rules
+
+1. Certain terms "dominate" others, drop lower order terms
+
+<Code>O(1) `<` O(logn) `<` O(n) `<` O(nlogn) `<` O(n<sup>2</sup>) `<` O(2<sup>n</sup>) `<` O(n!)</Code>
+
+2. Ignore constants
+
+```
+5n -> O(n)
+```
+
+3. Conditional Statements: Use the worst case
+
+## Example:
+
+<Code>
+  T(n) = 17n<sup>4</sup> + 3n<sup>3</sup> + 4n + 8
+</Code>
+
+<br />
+<Code>
+  1. T(n) = 17n<sup>4</sup>
+  <strike>
+    + 3n<sup>3</sup> + 4n + 8
+  </strike>
+</Code>
+<br />
+<Code>
+  why?... O(n<sup>4</sup>) dominates over O(n<sup>3</sup>) O(n) O(1)
+</Code>
+<br />
+<Code>
+  2. T(n) = <strike>17</strike>n<sup>4</sup>
+</Code>
+<br />
+<Code>
+  T(n) = O(n<sup>4</sup>)
+</Code>
