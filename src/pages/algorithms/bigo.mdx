@@ -10,12 +10,7 @@ import Code from "../../components/Code";
 
 ## What is it?
 
-Simplified analysis of an algorithm's efficiency.
-
-- We analyze time complexity for:
-
-  - very large input size
-  - worst case scenario
+Simplified analysis of an algorithm's efficiency in worst case scenario (very large input size).
 
 ## Formula
 
@@ -23,7 +18,7 @@ Simplified analysis of an algorithm's efficiency.
 O(n)
 ```
 
-- O: represents the function or algorithm that is being evaluated
+- O: represents the function or algorithm that is being evaluated... "Big O"
 - n: represents the number of elements/input
 
 ## Order of Complexity
@@ -55,24 +50,11 @@ O(n)
 
 <Code>
   T(n) = 17n<sup>4</sup> + 3n<sup>3</sup> + 4n + 8
-</Code>
-
-<br />
-<Code>
-  1. T(n) = 17n<sup>4</sup>
-  <strike>
-    + 3n<sup>3</sup> + 4n + 8
-  </strike>
-</Code>
-<br />
-<Code>
-  why?... O(n<sup>4</sup>) dominates over O(n<sup>3</sup>) O(n) O(1)
-</Code>
-<br />
-<Code>
-  2. T(n) = <strike>17</strike>n<sup>4</sup>
-</Code>
-<br />
-<Code>
+  <br />
+  1. O(n<sup>4</sup>) dominates over O(n<sup>3</sup>) O(n) O(1)
+  <br />
+  T(n) = 17n<sup>4</sup> <br />
+  2. Ignore constants
+  <br />
   T(n) = O(n<sup>4</sup>)
 </Code>
