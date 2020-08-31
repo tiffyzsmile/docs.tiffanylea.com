@@ -6,4 +6,144 @@ route: /languages/javascript
 
 # Javascript
 
-Coming soon...
+```html
+<script type="text/javascript">
+  var a = 5;
+</script>
+
+<script src="/externalfile/filename.js"></script>
+```
+
+## Operators
+
+### Arithmetic Operators
+
+| Operator | Description                  |
+| -------- | ---------------------------- |
+| +        | Addition                     |
+| -        | Subtraction                  |
+| \*       | Multiplication               |
+| \*\*     | Exponentiation (ES2016)      |
+| /        | Division                     |
+| %        | Modulus (Division Remainder) |
+| ++       | Increment                    |
+| --       | Decrement                    |
+
+### Comparison Operators
+
+| Operator | Description                       |
+| -------- | --------------------------------- |
+| ==       | equal to                          |
+| ===      | equal value and equal type        |
+| !=       | not equal                         |
+| !==      | not equal value or not equal type |
+| `>`      | greater than                      |
+| `<`      | less than                         |
+| `>`=     | greater than or equal to          |
+| `<`=     | less than or equal to             |
+| ?        | ternary operator                  |
+
+### Logical Operators
+
+| Operator     | Description |
+| ------------ | ----------- |
+| &&           | logical and |
+| &#124;&#124; | logical or  |
+| !            | logical not |
+
+### Type Operators
+
+| Operator   | Description                                                |
+| ---------- | ---------------------------------------------------------- |
+| typeof     | Returns the type of a variable                             |
+| instanceof | Returns true if an object is an instance of an object type |
+
+### Assignment Operators
+
+| Operator | Example     | Same As        |
+| -------- | ----------- | -------------- |
+| =        | x = y       | x = y          |
+| +=       | x += y      | x = x + y      |
+| -=       | x -= y      | x = x - y      |
+| \*=      | x \*= y     | x = x \* y     |
+| /=       | x /= y      | x = x / y      |
+| %=       | x %= y      | x = x % y      |
+| `<<`=    | x `<<`= y   | x = x `<<` y   |
+| `>>`=    | x `>>`= y   | x = x `>>` y   |
+| `>>>`=   | x `>>>`= y  | x = x `>>>` y  |
+| &=       | x &= y      | x = x & y      |
+| ^=       | x ^= y      | x = x ^ y      |
+| &#124;=  | x &#124;= y | x = x &#124; y |
+| \*\*=    | x \*\*= y   | x = x \*\* y   |
+
+### Random
+
+```js
+// Delay - 1 second timeout
+setTimeout(function () {}, 1000);
+
+("use strict"); // Use strict mode to write secure code
+x = 1; // Throws an error because variable is not declared
+```
+
+### Functions
+
+```js
+function addNumbers(a, b) {
+  return a + b;
+}
+x = addNumbers(1, 2);
+```
+
+### Edit DOM Element
+
+```js
+document.getElementById("elementID").innerHTML = "Hello World!";
+```
+
+### Output
+
+```js
+console.log(a); // write to the browser console
+
+document.write(a); // write to the HTML
+
+alert(a); // output in an alert box
+
+confirm("Really?"); // yes/no dialog, returns true/false depending on user click
+
+prompt("Your age?", "0"); // input dialog. Second argument is the initial value
+```
+
+### Comments
+
+```js
+/* Multi line
+comment */
+
+// One line
+```
+
+## Variables
+
+```js
+var a; // variable
+var b = "init"; // string
+var c = "Hi" + " " + "Joe"; // = "Hi Joe"
+var d = 1 + 2 + "3"; // = "33"
+var e = [2, 3, 5, 8]; // array
+var f = false; // boolean
+var g = /()/; // RegEx
+var h = function () {}; // function object
+const PI = 3.14; // constant
+var a = 1,
+  b = 2,
+  c = a + b; // one line
+let z = "zzz"; // block scope local variable
+
+// Values
+false, true; // boolean
+18, 3.14, 0b10011, 0xf6, NaN; // number
+"flower", "John"; // string
+undefined, null, Infinity; // special
+```
