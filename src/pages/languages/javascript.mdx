@@ -14,6 +14,18 @@ route: /languages/javascript
 <script src="/externalfile/filename.js"></script>
 ```
 
+## Data types
+
+| Data Types | Examples                                                            |
+| ---------- | ------------------------------------------------------------------- |
+| undefined  | A variable that has not been assigned a value is of type undefined. |
+| null       | no value.                                                           |
+| string     | 'a', 'aa', 'aaa', 'Hello!', '11 cats'                               |
+| number     | 12, -1, 0.4                                                         |
+| boolean    | true, false                                                         |
+| object     | A collection of properties.                                         |
+| symbol     | Represents a unique identifier.                                     |
+
 ## Operators
 
 ### Arithmetic Operators
@@ -88,11 +100,45 @@ x = 1; // Throws an error because variable is not declared
 
 ### Functions
 
+#### Declaring
+
 ```js
-function addNumbers(a, b) {
-  return a + b;
+// Function declaration
+function add(num1, num2) {
+  return num1 + num2;
 }
-x = addNumbers(1, 2);
+
+// Function expression
+var add = function (num1, num2) {
+  return num1 + num2;
+};
+
+//Arrow Function
+const add = (num1, num2) => {
+  return num1 + num2;
+};
+
+let a = () => arguments; // arguments doesn't work with arrow function
+console.log(a("hi")); // $: Uncaught ReferenceError: arguments is not defined
+
+let b = (...args) => args;
+console.log(b("hi")); // $: ["hi"]
+```
+
+```js
+// Create chainable interfaces
+var A = {
+  x: function () {
+    console.log("x");
+    return A; // makes it chainable, could also return this
+  },
+  y: function () {
+    console.log("y");
+    return A; // makes it chainable, could also return this
+  },
+};
+
+A.x().y();
 ```
 
 ### Edit DOM Element
@@ -126,24 +172,100 @@ comment */
 
 ## Variables
 
-```js
-var a; // variable
-var b = "init"; // string
-var c = "Hi" + " " + "Joe"; // = "Hi Joe"
-var d = 1 + 2 + "3"; // = "33"
-var e = [2, 3, 5, 8]; // array
-var f = false; // boolean
-var g = /()/; // RegEx
-var h = function () {}; // function object
-const PI = 3.14; // constant
-var a = 1,
-  b = 2,
-  c = a + b; // one line
-let z = "zzz"; // block scope local variable
+|            |   var    |  let  | const |
+| ---------- | :------: | :---: | :---: |
+| reassigned |   yes    |  yes  |  no   |
+| redeclared |   yes    |  no   |  no   |
+| scope      | function | block | block |
 
-// Values
-false, true; // boolean
-18, 3.14, 0b10011, 0xf6, NaN; // number
-"flower", "John"; // string
-undefined, null, Infinity; // special
+```js
+var x; // `x` will be `undefined`
+
+const FOO = 42; // convention is to use CAPS for constants
+
+var hello = "world";
+let bar = "baz";
+```
+
+### Variable Scope
+
+```js
+var a = 42; // function scope
+if (true) {
+  var b = 7; // function scope
+  let c = 123; // block scope {}
+  const d = 5; // block scope {}
+}
+
+console.log(a); // we can access the `a` variable // $: 42
+console.log(b); // we can access `b` as well // $: 7
+console.log(c); // only available in if block // $: ReferenceError: c is not defined
+console.log(d); // only available in if block // $: ReferenceError: d is not defined
+```
+
+## Objects
+
+An object is a built-in data type for storing key-value pairs.
+
+Data inside objects are unordered, and the values can be of any type.
+
+```js
+let person = {
+  name: "tiffany",
+  age: 23,
+  greet: function () {
+    console.log(`welcome ${this.name}`);
+  },
+  // method shorthand
+  hello() {
+    console.log(`hello ${this.name}`);
+  },
+  //  arrow function
+  goodbye: () => {
+    console.log(`goodbye ${this.name}`);
+  },
+};
+
+// accessing properties
+person.name; // dot notation
+person["name"]; // bracket notation
+person[propertynamevar]; // dynamic bracket notation propertynamevar = 'name'
+
+// deleting properties
+delete person.age;
+delete person["age"];
+
+// object methods
+person.greet(); // $: "welcome tiffany"
+person.hello(); // $: "hello tiffany"
+person.goodbye(); //  arrow function won't have access to same this // $: "goodbye"
+```
+
+### Locking objects?
+
+|                         | add property |  update property  | delete property |
+| ----------------------- | :----------: | :---------------: | :-------------: |
+| Object.freeze()         |      no      |        no         |       no        |
+| Object.seal()           |     yes      |        no         |       no        |
+| Object.defineProperty() |   function   | writable property |      block      |
+
+```js
+let person = {
+  name: "tiffany",
+  age: 23,
+};
+
+// with Object.freeze(): doesn't allow property add/update/delete
+Object.freeze(person);
+person.age = 25; // attempts to add/update/delete properties will be ignored
+console.log(person); // { name: "tiffany", age: 23 }
+
+// with Object.seal(): allows property value updates but no add/delete
+Object.seal(person);
+person.age = 25; // will update
+delete person.age; // attempts to add/delete properties will be ignored
+console.log(person); // { name: "tiffany", age: 25 }
+
+// with Object.defineProperty()
+Object.defineProperty(person, "age", { value: 25, writable: false });
 ```
