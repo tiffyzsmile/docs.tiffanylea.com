@@ -12,6 +12,7 @@ export default {
   ],
   menu: [
     "Overview",
+    "Javascript",
     //        { name: 'Overview1', menu: ['Todos'] }
   ],
 };
