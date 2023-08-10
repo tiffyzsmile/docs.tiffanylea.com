@@ -889,6 +889,53 @@
         }
       ]
     },
+    "docs-code": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs-code",
+          "tagsPath": "/docs-code/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/sidebars.js",
+          "contentPath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/docs-code",
+          "contentPathLocalized": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/i18n/en/docusaurus-plugin-content-docs-docs-code/current",
+          "docs": [
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Code",
+              "description": "Coming Soon...",
+              "source": "@site/docs-code/index.mdx",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs-code/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Code"
+              },
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "index"
+              }
+            ]
+          }
+        }
+      ]
+    },
     "docs-prep": {
       "loadedVersions": [
         {

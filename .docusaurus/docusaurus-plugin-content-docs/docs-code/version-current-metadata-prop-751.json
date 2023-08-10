@@ -1,0 +1,28 @@
+{
+  "pluginId": "docs-code",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Code",
+        "href": "/docs-code/",
+        "docId": "index"
+      }
+    ]
+  },
+  "docs": {
+    "index": {
+      "id": "index",
+      "title": "Code",
+      "description": "Coming Soon...",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

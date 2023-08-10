@@ -25,6 +25,15 @@ export default {
     [
       "@docusaurus/plugin-content-docs",
       {
+        "id": "docs-code",
+        "path": "docs-code",
+        "routeBasePath": "docs-code",
+        "sidebarPath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/sidebars.js"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
         "id": "docs-prep",
         "path": "docs-prep",
         "routeBasePath": "docs-prep",
@@ -66,6 +75,12 @@ export default {
           "activeBaseRegex": "/docs/"
         },
         {
+          "to": "/docs-code/",
+          "label": "Code",
+          "position": "right",
+          "activeBaseRegex": "/docs-code/"
+        },
+        {
           "to": "/docs-prep/",
           "label": "Interview Prep",
           "position": "right",
@@ -83,6 +98,10 @@ export default {
             {
               "label": "Docs",
               "to": "/docs/"
+            },
+            {
+              "label": "Code",
+              "to": "/docs-code/"
             },
             {
               "label": "Interview Prep",

@@ -32,15 +32,15 @@ const config = {
     locales: ["en"],
   },
   plugins: [
-    //    [
-    //      "@docusaurus/plugin-content-docs",
-    //      {
-    //        id: "docs-kb",
-    //        path: "docs-kb",
-    //        routeBasePath: "docs-kb",
-    //        sidebarPath: require.resolve("./sidebars.js"),
-    //      },
-    //    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "docs-code",
+        path: "docs-code",
+        routeBasePath: "docs-code",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -106,6 +106,12 @@ const config = {
             activeBaseRegex: `/docs/`,
           },
           {
+            to: "/docs-code/", // ./docs-api/Intro.md
+            label: "Code",
+            position: "right",
+            activeBaseRegex: `/docs-code/`,
+          },
+          {
             to: "/docs-prep/", // ./docs-system/Intro.md
             label: "Interview Prep",
             position: "right",
@@ -128,6 +134,10 @@ const config = {
               {
                 label: "Docs",
                 to: "/docs/",
+              },
+              {
+                label: "Code",
+                to: "/docs-code/",
               },
               {
                 label: "Interview Prep",

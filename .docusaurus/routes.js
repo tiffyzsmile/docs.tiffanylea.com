@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '2ae'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5c3'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '5c8'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '10c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '90a'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '8fd'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '84a'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', '697'),
     exact: true
@@ -273,6 +308,18 @@ export default [
       {
         path: '/docs/versioncontrol/github',
         component: ComponentCreator('/docs/versioncontrol/github', '463'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      }
+    ]
+  },
+  {
+    path: '/docs-code',
+    component: ComponentCreator('/docs-code', '067'),
+    routes: [
+      {
+        path: '/docs-code/',
+        component: ComponentCreator('/docs-code/', '45d'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Code",
+  "description": "Coming Soon...",
+  "source": "@site/docs-code/index.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs-code/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Code"
+  },
+  "sidebar": "tutorialSidebar"
+}
