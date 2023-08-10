@@ -1,0 +1,15 @@
+{
+  "title": "Naming Conventions",
+  "slug": "/category/naming-conventions",
+  "permalink": "/docs/category/naming-conventions",
+  "navigation": {
+    "previous": {
+      "title": "Servant Leadership",
+      "permalink": "/docs/leadership/servant-leadership"
+    },
+    "next": {
+      "title": "Events",
+      "permalink": "/docs/naming/events"
+    }
+  }
+}

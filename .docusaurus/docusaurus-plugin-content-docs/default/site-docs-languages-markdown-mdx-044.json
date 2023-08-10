@@ -1,0 +1,27 @@
+{
+  "unversionedId": "languages/markdown",
+  "id": "languages/markdown",
+  "title": "Markdown",
+  "description": "Resources",
+  "source": "@site/docs/languages/markdown.mdx",
+  "sourceDirName": "languages",
+  "slug": "/languages/markdown",
+  "permalink": "/docs/languages/markdown",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Markdown",
+    "menu": "Languages",
+    "route": "/languages/markdown"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get URL Tiers",
+    "permalink": "/docs/languages/javascript/javscript-url-manipulation"
+  },
+  "next": {
+    "title": "TypeScript",
+    "permalink": "/docs/languages/typescript"
+  }
+}

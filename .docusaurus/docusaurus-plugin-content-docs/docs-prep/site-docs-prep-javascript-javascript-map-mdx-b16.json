@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/javascript-map",
+  "id": "javascript/javascript-map",
+  "title": "Javascript Map",
+  "description": "",
+  "source": "@site/docs-prep/javascript/javascript-map.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-map",
+  "permalink": "/docs-prep/javascript/javascript-map",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Map",
+    "metaTitle": "Javascript Map | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Map"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Data Structures",
+    "permalink": "/docs-prep/javascript/javascript-data-structures"
+  },
+  "next": {
+    "title": "Javascript Prototype",
+    "permalink": "/docs-prep/javascript/javascript-prototype"
+  }
+}

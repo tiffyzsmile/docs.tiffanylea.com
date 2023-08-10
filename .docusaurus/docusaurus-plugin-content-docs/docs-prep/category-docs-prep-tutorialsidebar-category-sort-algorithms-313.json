@@ -1,0 +1,15 @@
+{
+  "title": "Sort Algorithms",
+  "slug": "/category/sort-algorithms",
+  "permalink": "/docs-prep/category/sort-algorithms",
+  "navigation": {
+    "previous": {
+      "title": "Search Algorithms",
+      "permalink": "/docs-prep/algorithms/search/"
+    },
+    "next": {
+      "title": "Bubble Sort O(n^2)",
+      "permalink": "/docs-prep/algorithms/sort/bubble-sort"
+    }
+  }
+}

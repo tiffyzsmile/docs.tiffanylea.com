@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tools/eslint",
+  "id": "tools/eslint",
+  "title": "Eslint",
+  "description": "Ignoring Files and Folders",
+  "source": "@site/docs/tools/eslint.mdx",
+  "sourceDirName": "tools",
+  "slug": "/tools/eslint",
+  "permalink": "/docs/tools/eslint",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Eslint",
+    "menu": "Tools",
+    "route": "/tools/eslint"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docker",
+    "permalink": "/docs/tools/docker"
+  },
+  "next": {
+    "title": "Mermaid",
+    "permalink": "/docs/tools/mermaid"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/general/reverse-array-in-place",
+  "id": "algorithms/general/reverse-array-in-place",
+  "title": "Reverse Array in Place",
+  "description": "<img",
+  "source": "@site/docs-prep/algorithms/general/reverse-array-in-place.mdx",
+  "sourceDirName": "algorithms/general",
+  "slug": "/algorithms/general/reverse-array-in-place",
+  "permalink": "/docs-prep/algorithms/general/reverse-array-in-place",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Reverse Array in Place",
+    "metaTitle": "Reverse Array in Place | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Reverse Array in Place algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ransom Note",
+    "permalink": "/docs-prep/algorithms/general/ransom-note"
+  },
+  "next": {
+    "title": "Reverse Words",
+    "permalink": "/docs-prep/algorithms/general/reverse-words"
+  }
+}

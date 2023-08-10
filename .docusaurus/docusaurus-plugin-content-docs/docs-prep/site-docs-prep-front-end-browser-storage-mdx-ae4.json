@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/browser-storage",
+  "id": "front-end/browser-storage",
+  "title": "Browser Storage",
+  "description": "IndexDB",
+  "source": "@site/docs-prep/front-end/browser-storage.mdx",
+  "sourceDirName": "front-end",
+  "slug": "/front-end/browser-storage",
+  "permalink": "/docs-prep/front-end/browser-storage",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Browser Storage",
+    "metaTitle": "Browser Storage | Front End Engineering | Interview Prep | Tiffany Lea",
+    "metaDescription": "Browser Storage"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Front End",
+    "permalink": "/docs-prep/category/front-end"
+  },
+  "next": {
+    "title": "CSS",
+    "permalink": "/docs-prep/front-end/css"
+  }
+}

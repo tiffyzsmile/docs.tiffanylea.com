@@ -1,0 +1,27 @@
+{
+  "unversionedId": "languages/html",
+  "id": "languages/html",
+  "title": "HTML",
+  "description": "Links",
+  "source": "@site/docs/languages/html.mdx",
+  "sourceDirName": "languages",
+  "slug": "/languages/html",
+  "permalink": "/docs/languages/html",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "HTML",
+    "menu": "Languages",
+    "route": "/languages/html"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS",
+    "permalink": "/docs/languages/css"
+  },
+  "next": {
+    "title": "Javascript",
+    "permalink": "/docs/category/javascript"
+  }
+}

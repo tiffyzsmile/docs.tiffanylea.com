@@ -1,0 +1,667 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "aws/amplify",
+              "path": "/docs/aws/amplify",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "designsystems/designsystems",
+              "path": "/docs/designsystems/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "designsystems/resources",
+              "path": "/docs/designsystems/resources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "designsystems/terminology",
+              "path": "/docs/designsystems/terminology",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "designsystems/ui-component-libraries",
+              "path": "/docs/designsystems/ui-component-libraries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "inspiration",
+              "path": "/docs/inspiration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "languages/css",
+              "path": "/docs/languages/css",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "languages/html",
+              "path": "/docs/languages/html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "languages/javascript/javascript",
+              "path": "/docs/languages/javascript/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "languages/javascript/javascript-objects",
+              "path": "/docs/languages/javascript/javascript-objects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "languages/javascript/javscript-url-manipulation",
+              "path": "/docs/languages/javascript/javscript-url-manipulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "languages/markdown",
+              "path": "/docs/languages/markdown",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "languages/typescript",
+              "path": "/docs/languages/typescript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "leadership/servant-leadership",
+              "path": "/docs/leadership/servant-leadership",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "naming/events",
+              "path": "/docs/naming/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "network/router",
+              "path": "/docs/network/router",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resources/links",
+              "path": "/docs/resources/links",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tools/docker",
+              "path": "/docs/tools/docker",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tools/eslint",
+              "path": "/docs/tools/eslint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tools/mermaid",
+              "path": "/docs/tools/mermaid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tools/prettier",
+              "path": "/docs/tools/prettier",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "utils/process",
+              "path": "/docs/utils/process",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "versioncontrol/github",
+              "path": "/docs/versioncontrol/github",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/aws",
+              "path": "/docs/category/aws",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/design-systems",
+              "path": "/docs/category/design-systems",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/code",
+              "path": "/docs/category/code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/javascript",
+              "path": "/docs/category/javascript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/leadership",
+              "path": "/docs/category/leadership",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/naming-conventions",
+              "path": "/docs/category/naming-conventions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/network",
+              "path": "/docs/category/network",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/resources",
+              "path": "/docs/category/resources",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tools",
+              "path": "/docs/category/tools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/utils",
+              "path": "/docs/category/utils",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/version-control",
+              "path": "/docs/category/version-control",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/category/aws",
+                "label": "AWS"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "docs-prep": {
+      "path": "/docs-prep",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs-prep",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "algorithms/algorithms",
+              "path": "/docs-prep/algorithms/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/big-o",
+              "path": "/docs-prep/algorithms/big-o",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/cache/lru-cache",
+              "path": "/docs-prep/algorithms/cache/lru-cache",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/general/caesar-cipher",
+              "path": "/docs-prep/algorithms/general/caesar-cipher",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/general/fizz-buzz",
+              "path": "/docs-prep/algorithms/general/fizz-buzz",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/general/is-palindrome",
+              "path": "/docs-prep/algorithms/general/is-palindrome",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/general/ransom-note",
+              "path": "/docs-prep/algorithms/general/ransom-note",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/general/reverse-array-in-place",
+              "path": "/docs-prep/algorithms/general/reverse-array-in-place",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/general/reverse-words",
+              "path": "/docs-prep/algorithms/general/reverse-words",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/helpers/string-reversal",
+              "path": "/docs-prep/algorithms/helpers/string-reversal",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/logarithms",
+              "path": "/docs-prep/algorithms/logarithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/search/binary-search",
+              "path": "/docs-prep/algorithms/search/binary-search",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/search/linear-search",
+              "path": "/docs-prep/algorithms/search/linear-search",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/search/search",
+              "path": "/docs-prep/algorithms/search/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/sort/bubble-sort",
+              "path": "/docs-prep/algorithms/sort/bubble-sort",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/sort/insertion-sort",
+              "path": "/docs-prep/algorithms/sort/insertion-sort",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/sort/merge-sort",
+              "path": "/docs-prep/algorithms/sort/merge-sort",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/sort/sort",
+              "path": "/docs-prep/algorithms/sort/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "algorithms/time-and-space-complexity",
+              "path": "/docs-prep/algorithms/time-and-space-complexity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "behavioral/evaluation",
+              "path": "/docs-prep/behavioral/evaluation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "behavioral/general-questions",
+              "path": "/docs-prep/behavioral/general-questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "behavioral/leveling",
+              "path": "/docs-prep/behavioral/leveling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "behavioral/manager-questions",
+              "path": "/docs-prep/behavioral/manager-questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-structures/binary-search-tree/binary-search-tree",
+              "path": "/docs-prep/data-structures/binary-search-tree/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-structures/binary-search-tree/breadth-first-search",
+              "path": "/docs-prep/data-structures/binary-search-tree/breadth-first-search",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-structures/binary-search-tree/depth-first-search",
+              "path": "/docs-prep/data-structures/binary-search-tree/depth-first-search",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-structures/data-structures",
+              "path": "/docs-prep/data-structures/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-structures/hash-table",
+              "path": "/docs-prep/data-structures/hash-table",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-structures/linked-list",
+              "path": "/docs-prep/data-structures/linked-list",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/browser-storage",
+              "path": "/docs-prep/front-end/browser-storage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/css",
+              "path": "/docs-prep/front-end/css",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/data-retrieval",
+              "path": "/docs-prep/front-end/data-retrieval",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/dom",
+              "path": "/docs-prep/front-end/dom",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/html/semantics",
+              "path": "/docs-prep/front-end/html/semantics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/http",
+              "path": "/docs-prep/front-end/http",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/performance/performance",
+              "path": "/docs-prep/front-end/performance/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/performance/performance-images",
+              "path": "/docs-prep/front-end/performance/performance-images",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "front-end/system-design/radio",
+              "path": "/docs-prep/front-end/system-design/radio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/docs-prep/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/constructor-functions",
+              "path": "/docs-prep/javascript/concepts/constructor-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/currying",
+              "path": "/docs-prep/javascript/concepts/currying",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/factory-functions",
+              "path": "/docs-prep/javascript/concepts/factory-functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/javascript-closures",
+              "path": "/docs-prep/javascript/concepts/javascript-closures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/javascript-hoisting",
+              "path": "/docs-prep/javascript/concepts/javascript-hoisting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/javascript-scope",
+              "path": "/docs-prep/javascript/concepts/javascript-scope",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/javascript-this-call-apply",
+              "path": "/docs-prep/javascript/concepts/javascript-this-call-apply",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/concepts/recursion",
+              "path": "/docs-prep/javascript/concepts/recursion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/event-loop",
+              "path": "/docs-prep/javascript/event-loop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript",
+              "path": "/docs-prep/javascript/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-arrays",
+              "path": "/docs-prep/javascript/javascript-arrays",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-classes",
+              "path": "/docs-prep/javascript/javascript-classes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-data-structures",
+              "path": "/docs-prep/javascript/javascript-data-structures",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-map",
+              "path": "/docs-prep/javascript/javascript-map",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-prototype",
+              "path": "/docs-prep/javascript/javascript-prototype",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-questions",
+              "path": "/docs-prep/javascript/javascript-questions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-set",
+              "path": "/docs-prep/javascript/javascript-set",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/javascript-terms",
+              "path": "/docs-prep/javascript/javascript-terms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "random/dynamic",
+              "path": "/docs-prep/random/dynamic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "random/pointers-in-c",
+              "path": "/docs-prep/random/pointers-in-c",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "random/random",
+              "path": "/docs-prep/random/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/react",
+              "path": "/docs-prep/react/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "react/react-hooks",
+              "path": "/docs-prep/react/react-hooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding",
+              "path": "/docs-prep/technical/coding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding-event-emitter",
+              "path": "/docs-prep/technical/coding-event-emitter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding-first-duplicate-in-array",
+              "path": "/docs-prep/technical/coding-first-duplicate-in-array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding-first-unique-char-in-string",
+              "path": "/docs-prep/technical/coding-first-unique-char-in-string",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding-flatten-array",
+              "path": "/docs-prep/technical/coding-flatten-array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding-reduce-function",
+              "path": "/docs-prep/technical/coding-reduce-function",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding-rotate-image-in-place",
+              "path": "/docs-prep/technical/coding-rotate-image-in-place",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/coding-spiral-2d-array",
+              "path": "/docs-prep/technical/coding-spiral-2d-array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/kth-largest-element-lc215",
+              "path": "/docs-prep/technical/kth-largest-element-lc215",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/merge-k-sorted-lists",
+              "path": "/docs-prep/technical/merge-k-sorted-lists",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/merge-sorted-array-lc88",
+              "path": "/docs-prep/technical/merge-sorted-array-lc88",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/merge-two-sorted-lists-lc21",
+              "path": "/docs-prep/technical/merge-two-sorted-lists-lc21",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/most-common-substring",
+              "path": "/docs-prep/technical/most-common-substring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/technical",
+              "path": "/docs-prep/technical/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/two-sum-lc1",
+              "path": "/docs-prep/technical/two-sum-lc1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/cache-algorithms",
+              "path": "/docs-prep/category/cache-algorithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/general-algorithms",
+              "path": "/docs-prep/category/general-algorithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/algorithm-helpers",
+              "path": "/docs-prep/category/algorithm-helpers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/search-algorithms",
+              "path": "/docs-prep/category/search-algorithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sort-algorithms",
+              "path": "/docs-prep/category/sort-algorithms",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/behavioral",
+              "path": "/docs-prep/category/behavioral",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/front-end",
+              "path": "/docs-prep/category/front-end",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/html",
+              "path": "/docs-prep/category/html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/system-design",
+              "path": "/docs-prep/category/system-design",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/javascript",
+              "path": "/docs-prep/category/javascript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/concepts",
+              "path": "/docs-prep/category/concepts",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs-prep/algorithms/",
+                "label": "Algorithms"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/concepts/factory-functions",
+  "id": "javascript/concepts/factory-functions",
+  "title": "Factory Functions",
+  "description": "A factory function is a function that creates and returns a new object.",
+  "source": "@site/docs-prep/javascript/concepts/factory-functions.mdx",
+  "sourceDirName": "javascript/concepts",
+  "slug": "/javascript/concepts/factory-functions",
+  "permalink": "/docs-prep/javascript/concepts/factory-functions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Factory Functions",
+    "metaTitle": "Factory Functions | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "All about Factory Functions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Currying",
+    "permalink": "/docs-prep/javascript/concepts/currying"
+  },
+  "next": {
+    "title": "Closures",
+    "permalink": "/docs-prep/javascript/concepts/javascript-closures"
+  }
+}

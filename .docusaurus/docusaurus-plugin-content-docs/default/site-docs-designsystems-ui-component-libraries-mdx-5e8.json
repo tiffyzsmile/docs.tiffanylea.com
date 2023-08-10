@@ -1,0 +1,25 @@
+{
+  "unversionedId": "designsystems/ui-component-libraries",
+  "id": "designsystems/ui-component-libraries",
+  "title": "UI Component Libraries",
+  "description": "Some reasons to go explore these:",
+  "source": "@site/docs/designsystems/ui-component-libraries.mdx",
+  "sourceDirName": "designsystems",
+  "slug": "/designsystems/ui-component-libraries",
+  "permalink": "/docs/designsystems/ui-component-libraries",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "UI Component Libraries"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Terminology",
+    "permalink": "/docs/designsystems/terminology"
+  },
+  "next": {
+    "title": "Docs",
+    "permalink": "/docs/"
+  }
+}

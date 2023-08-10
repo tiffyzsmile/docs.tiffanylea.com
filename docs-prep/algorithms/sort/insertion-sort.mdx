@@ -1,0 +1,45 @@
+---
+title: Insertion Sort O(n^2)
+metaTitle: 'Insertion Sort O(n^2) | Sort | Algorithms | Interview Prep | Tiffany Lea'
+metaDescription: 'Insertion Sort O(n^2)'
+---
+
+# What is Insertion Sort?
+
+<img src="/files/images/insertion-sort.gif" alt="Insertion Sort" />
+
+Although it is one of the elementary sorting algorithms with O(n<sup>2</sup>) worst-case time, insertion sort is the algorithm of choice either when the data is nearly sorted (because it is adaptive) or when the problem size is small (because it has low overhead).
+
+For these reasons, and because it is also stable, insertion sort is often used as the recursive base case (when the problem size is small) for higher overhead divide-and-conquer sorting algorithms, such as merge sort or quick sort.
+
+# Performance
+
+<img src="/files/images/insertion-sort-performance.gif" alt="Insertion Sort Performance" />
+
+[Nice visual site](https://www.toptal.com/developers/sorting-algorithms/insertion-sort)
+
+# Properties
+
+- Stable
+- O(1) extra space
+- O(n^2) comparisons and swaps
+- Adaptive: O(n) time when nearly sorted
+- Very low overhead
+
+# How to code Insertion Sort?
+
+```javascript
+let insertionSort = (inputArr) => {
+  let length = inputArr.length;
+  for (let i = 1; i < length; i++) {
+    let key = inputArr[i];
+    let j = i - 1;
+    while (j >= 0 && inputArr[j] > key) {
+      inputArr[j + 1] = inputArr[j];
+      j = j - 1;
+    }
+    inputArr[j + 1] = key;
+  }
+  return inputArr;
+};
+```

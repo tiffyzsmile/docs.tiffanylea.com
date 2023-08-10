@@ -1,0 +1,23 @@
+{
+  "unversionedId": "technical/two-sum-lc1",
+  "id": "technical/two-sum-lc1",
+  "title": "Two Sum LC1",
+  "description": "- Leetcode 1",
+  "source": "@site/docs-prep/technical/two-sum-lc1.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/two-sum-lc1",
+  "permalink": "/docs-prep/technical/two-sum-lc1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Two Sum LC1",
+    "metaTitle": "Two Sum LC1| Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Two Sum LC1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Most common substring",
+    "permalink": "/docs-prep/technical/most-common-substring"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "HTML",
+  "slug": "/category/html",
+  "permalink": "/docs-prep/category/html",
+  "navigation": {
+    "previous": {
+      "title": "DOM",
+      "permalink": "/docs-prep/front-end/dom"
+    },
+    "next": {
+      "title": "Semantics",
+      "permalink": "/docs-prep/front-end/html/semantics"
+    }
+  }
+}

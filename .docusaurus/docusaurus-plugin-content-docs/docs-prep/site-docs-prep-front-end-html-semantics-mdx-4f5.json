@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/html/semantics",
+  "id": "front-end/html/semantics",
+  "title": "Semantics",
+  "description": "Semantic HTML",
+  "source": "@site/docs-prep/front-end/html/semantics.mdx",
+  "sourceDirName": "front-end/html",
+  "slug": "/front-end/html/semantics",
+  "permalink": "/docs-prep/front-end/html/semantics",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Semantics",
+    "metaTitle": "Semantics | HTML | Front End Engineering | Interview Prep | Tiffany Lea",
+    "metaDescription": "HTML interview questions, cheatsheets and quick reference"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTML",
+    "permalink": "/docs-prep/category/html"
+  },
+  "next": {
+    "title": "HTTP",
+    "permalink": "/docs-prep/front-end/http"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/javascript-set",
+  "id": "javascript/javascript-set",
+  "title": "Javascript Set",
+  "description": "",
+  "source": "@site/docs-prep/javascript/javascript-set.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-set",
+  "permalink": "/docs-prep/javascript/javascript-set",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Set",
+    "metaTitle": "Javascript Set | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Set"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Questions",
+    "permalink": "/docs-prep/javascript/javascript-questions"
+  },
+  "next": {
+    "title": "Javascript Terms",
+    "permalink": "/docs-prep/javascript/javascript-terms"
+  }
+}

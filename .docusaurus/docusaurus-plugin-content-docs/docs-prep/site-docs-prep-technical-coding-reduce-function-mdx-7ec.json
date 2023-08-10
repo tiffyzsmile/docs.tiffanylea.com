@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/coding-reduce-function",
+  "id": "technical/coding-reduce-function",
+  "title": "Write Reduce Function",
+  "description": "The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.",
+  "source": "@site/docs-prep/technical/coding-reduce-function.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/coding-reduce-function",
+  "permalink": "/docs-prep/technical/coding-reduce-function",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Write Reduce Function",
+    "metaTitle": "Write Reduce Function | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Write Reduce Function coding challenge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Flatten Array",
+    "permalink": "/docs-prep/technical/coding-flatten-array"
+  },
+  "next": {
+    "title": "Rotate Image in Place",
+    "permalink": "/docs-prep/technical/coding-rotate-image-in-place"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "algorithms/algorithms",
+  "id": "algorithms/algorithms",
+  "title": "Algorithms",
+  "description": "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+  "source": "@site/docs-prep/algorithms/algorithms.mdx",
+  "sourceDirName": "algorithms",
+  "slug": "/algorithms/",
+  "permalink": "/docs-prep/algorithms/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Algorithms",
+    "metaTitle": "Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Algorithm Vocabulary and Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Big O Notation",
+    "permalink": "/docs-prep/algorithms/big-o"
+  }
+}

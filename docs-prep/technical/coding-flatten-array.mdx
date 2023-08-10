@@ -1,0 +1,45 @@
+---
+title: 'Flatten Array'
+metaTitle: 'Flatten Array | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Flatten Array coding challenge'
+---
+
+# Q: Flatten Array
+
+## Recursive Solution
+
+```javascript
+function flatten(arr) {
+  if (!Array.isArray(arr)) {
+    return [arr];
+  }
+
+  var array = [];
+  for (var i = 0; i < arr.length; i++) {
+    array = array.concat(flatten(arr[i]));
+  }
+  return array;
+}
+
+flatten([1, [2, [3]], [4]]); // => [1,2,3,4]
+```
+
+## Iterative Solution
+
+```javascript
+function flatten(arr) {
+  var array = [];
+  while (arr.length) {
+    var value = arr.shift();
+    if (Array.isArray(value)) {
+      // this line preserve the order
+      arr = value.concat(arr);
+    } else {
+      array.push(value);
+    }
+  }
+  return array;
+}
+
+flatten([1, [2, [3]], [4]]); // => [1,2,3,4]
+```

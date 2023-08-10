@@ -1,0 +1,27 @@
+{
+  "unversionedId": "behavioral/general-questions",
+  "id": "behavioral/general-questions",
+  "title": "General Questions",
+  "description": "Coming soon...",
+  "source": "@site/docs-prep/behavioral/general-questions.mdx",
+  "sourceDirName": "behavioral",
+  "slug": "/behavioral/general-questions",
+  "permalink": "/docs-prep/behavioral/general-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "General Questions",
+    "metaTitle": "General Questions | Behavioral | Interview Prep | Tiffany Lea",
+    "metaDescription": "General Questions of the Behavioral Portion of interviews"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Evaluation",
+    "permalink": "/docs-prep/behavioral/evaluation"
+  },
+  "next": {
+    "title": "Leveling",
+    "permalink": "/docs-prep/behavioral/leveling"
+  }
+}

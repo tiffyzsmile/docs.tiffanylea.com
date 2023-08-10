@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/javascript-questions",
+  "id": "javascript/javascript-questions",
+  "title": "Javascript Questions",
+  "description": "Remove Duplicates from array without loop",
+  "source": "@site/docs-prep/javascript/javascript-questions.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-questions",
+  "permalink": "/docs-prep/javascript/javascript-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Questions",
+    "metaTitle": "Javascript Questions | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Interview Questions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Prototype",
+    "permalink": "/docs-prep/javascript/javascript-prototype"
+  },
+  "next": {
+    "title": "Javascript Set",
+    "permalink": "/docs-prep/javascript/javascript-set"
+  }
+}

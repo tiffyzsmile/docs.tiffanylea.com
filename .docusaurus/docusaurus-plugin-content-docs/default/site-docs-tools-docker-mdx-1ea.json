@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tools/docker",
+  "id": "tools/docker",
+  "title": "Docker",
+  "description": "Overview",
+  "source": "@site/docs/tools/docker.mdx",
+  "sourceDirName": "tools",
+  "slug": "/tools/docker",
+  "permalink": "/docs/tools/docker",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Docker",
+    "menu": "Tools",
+    "route": "/tools/docker"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tools",
+    "permalink": "/docs/category/tools"
+  },
+  "next": {
+    "title": "Eslint",
+    "permalink": "/docs/tools/eslint"
+  }
+}

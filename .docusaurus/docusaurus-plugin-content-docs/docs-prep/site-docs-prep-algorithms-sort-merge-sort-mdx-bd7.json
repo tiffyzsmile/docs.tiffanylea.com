@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/sort/merge-sort",
+  "id": "algorithms/sort/merge-sort",
+  "title": "Merge Sort O(n·log(n))",
+  "description": "- Divide input array into subarrays",
+  "source": "@site/docs-prep/algorithms/sort/merge-sort.mdx",
+  "sourceDirName": "algorithms/sort",
+  "slug": "/algorithms/sort/merge-sort",
+  "permalink": "/docs-prep/algorithms/sort/merge-sort",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Merge Sort O(n·log(n))",
+    "metaTitle": "Merge Sort O(n·log(n)) | Sort | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Merge Sort O(n·log(n))"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Insertion Sort O(n^2)",
+    "permalink": "/docs-prep/algorithms/sort/insertion-sort"
+  },
+  "next": {
+    "title": "Sort Algorithms",
+    "permalink": "/docs-prep/algorithms/sort/"
+  }
+}

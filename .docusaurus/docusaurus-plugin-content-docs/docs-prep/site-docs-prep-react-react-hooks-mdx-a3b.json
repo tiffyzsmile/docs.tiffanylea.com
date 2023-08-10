@@ -1,0 +1,27 @@
+{
+  "unversionedId": "react/react-hooks",
+  "id": "react/react-hooks",
+  "title": "React Hooks",
+  "description": "- code snippets from https://www.snippetsofhooks.dev/",
+  "source": "@site/docs-prep/react/react-hooks.mdx",
+  "sourceDirName": "react",
+  "slug": "/react/react-hooks",
+  "permalink": "/docs-prep/react/react-hooks",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "React Hooks",
+    "metaTitle": "React Hooks | React | Interview Prep | Tiffany Lea",
+    "metaDescription": "React Hooks Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React",
+    "permalink": "/docs-prep/react/"
+  },
+  "next": {
+    "title": "Technical",
+    "permalink": "/docs-prep/technical/"
+  }
+}

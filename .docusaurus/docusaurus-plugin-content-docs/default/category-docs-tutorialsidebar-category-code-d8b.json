@@ -1,0 +1,15 @@
+{
+  "title": "Code",
+  "slug": "/category/code",
+  "permalink": "/docs/category/code",
+  "navigation": {
+    "previous": {
+      "title": "Inspiration",
+      "permalink": "/docs/inspiration"
+    },
+    "next": {
+      "title": "CSS",
+      "permalink": "/docs/languages/css"
+    }
+  }
+}

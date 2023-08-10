@@ -1,0 +1,25 @@
+{
+  "unversionedId": "aws/amplify",
+  "id": "aws/amplify",
+  "title": "Amplify",
+  "description": "Tracking",
+  "source": "@site/docs/aws/amplify.mdx",
+  "sourceDirName": "aws",
+  "slug": "/aws/amplify",
+  "permalink": "/docs/aws/amplify",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Amplify"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AWS",
+    "permalink": "/docs/category/aws"
+  },
+  "next": {
+    "title": "Design Systems",
+    "permalink": "/docs/category/design-systems"
+  }
+}

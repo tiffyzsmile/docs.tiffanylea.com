@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/general/fizz-buzz",
+  "id": "algorithms/general/fizz-buzz",
+  "title": "Fizz Buzz",
+  "description": "- problem solving abilities",
+  "source": "@site/docs-prep/algorithms/general/fizz-buzz.mdx",
+  "sourceDirName": "algorithms/general",
+  "slug": "/algorithms/general/fizz-buzz",
+  "permalink": "/docs-prep/algorithms/general/fizz-buzz",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Fizz Buzz",
+    "metaTitle": "Fizz Buzz | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Fizz Buzz algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Caesar Cipher",
+    "permalink": "/docs-prep/algorithms/general/caesar-cipher"
+  },
+  "next": {
+    "title": "Is Palindrome",
+    "permalink": "/docs-prep/algorithms/general/is-palindrome"
+  }
+}

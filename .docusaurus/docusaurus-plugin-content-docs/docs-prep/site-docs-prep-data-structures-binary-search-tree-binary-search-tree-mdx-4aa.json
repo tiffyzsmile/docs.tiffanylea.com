@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/binary-search-tree/binary-search-tree",
+  "id": "data-structures/binary-search-tree/binary-search-tree",
+  "title": "Binary Search Tree",
+  "description": "- Awesome Video",
+  "source": "@site/docs-prep/data-structures/binary-search-tree/binary-search-tree.mdx",
+  "sourceDirName": "data-structures/binary-search-tree",
+  "slug": "/data-structures/binary-search-tree/",
+  "permalink": "/docs-prep/data-structures/binary-search-tree/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Binary Search Tree",
+    "metaTitle": "Binary Search Tree | Data Structures | Interview Prep | Tiffany Lea",
+    "metaDescription": "Binary Search Tree"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Structures",
+    "permalink": "/docs-prep/data-structures/"
+  },
+  "next": {
+    "title": "Breadth First Search",
+    "permalink": "/docs-prep/data-structures/binary-search-tree/breadth-first-search"
+  }
+}

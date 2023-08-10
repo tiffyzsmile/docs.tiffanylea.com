@@ -1,0 +1,15 @@
+{
+  "title": "General Algorithms",
+  "slug": "/category/general-algorithms",
+  "permalink": "/docs-prep/category/general-algorithms",
+  "navigation": {
+    "previous": {
+      "title": "LRU Cache",
+      "permalink": "/docs-prep/algorithms/cache/lru-cache"
+    },
+    "next": {
+      "title": "Caesar Cipher",
+      "permalink": "/docs-prep/algorithms/general/caesar-cipher"
+    }
+  }
+}

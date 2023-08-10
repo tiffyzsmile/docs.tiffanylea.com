@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/kth-largest-element-lc215",
+  "id": "technical/kth-largest-element-lc215",
+  "title": "Kth Largest Element in an Array LC215",
+  "description": "Leetcode 215",
+  "source": "@site/docs-prep/technical/kth-largest-element-lc215.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/kth-largest-element-lc215",
+  "permalink": "/docs-prep/technical/kth-largest-element-lc215",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Kth Largest Element in an Array LC215",
+    "metaTitle": "Kth Largest Element in an Array LC215| Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Two Sum LC1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs-prep/technical/coding"
+  },
+  "next": {
+    "title": "Merge k Sorted Lists",
+    "permalink": "/docs-prep/technical/merge-k-sorted-lists"
+  }
+}

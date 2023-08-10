@@ -1,0 +1,27 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Docs",
+  "description": "This is a personal quick reference for some of the below and more:",
+  "source": "@site/docs/index.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Docs",
+    "metaTitle": "Docs | Tiffany Lea",
+    "metaDescription": "This is an overview of the purpose of Docs."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "UI Component Libraries",
+    "permalink": "/docs/designsystems/ui-component-libraries"
+  },
+  "next": {
+    "title": "Inspiration",
+    "permalink": "/docs/inspiration"
+  }
+}

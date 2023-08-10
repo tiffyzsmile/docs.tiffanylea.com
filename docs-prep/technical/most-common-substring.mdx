@@ -1,0 +1,36 @@
+---
+title: 'Most common substring'
+metaTitle: 'Most common substring | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Most common substring'
+---
+
+# Q: Given a string, find the most commonly occurring substring
+
+[Video walkthrough](https://www.youtube.com/watch?v=oyBXiJgU--U)
+
+```javascript
+const mostCommonSubstring = (str) => {
+  const freqCount = {};
+  const lcString = str.toLowerCase(); // O(n)
+
+  for (let char of lcString) {  // O(n)
+    freqCount[char] = freqCount[char] + 1 || 1;
+  }
+
+  let maxCount = 0;
+  let mxChar;
+
+  for (let key in freqCount) {  // O(n)
+    if (freqCount[key] > maxCount) {
+      maxCount = freqCount[key];
+      maxChar = key;
+    }
+  }
+
+  return maxChar;
+};
+
+console.log(mostCommonSubstring("DanNy"));
+```
+
+Big O -> 3(n) -> O(n)

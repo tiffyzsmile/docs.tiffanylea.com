@@ -1,0 +1,25 @@
+{
+  "unversionedId": "languages/css",
+  "id": "languages/css",
+  "title": "CSS",
+  "description": "Syntax",
+  "source": "@site/docs/languages/css.mdx",
+  "sourceDirName": "languages",
+  "slug": "/languages/css",
+  "permalink": "/docs/languages/css",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "CSS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code",
+    "permalink": "/docs/category/code"
+  },
+  "next": {
+    "title": "HTML",
+    "permalink": "/docs/languages/html"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/binary-search-tree/depth-first-search",
+  "id": "data-structures/binary-search-tree/depth-first-search",
+  "title": "Depth First Search",
+  "description": "Works by going \"deeper\" into one part of the graph and visiting all of its nodes all the way to the end.",
+  "source": "@site/docs-prep/data-structures/binary-search-tree/depth-first-search.mdx",
+  "sourceDirName": "data-structures/binary-search-tree",
+  "slug": "/data-structures/binary-search-tree/depth-first-search",
+  "permalink": "/docs-prep/data-structures/binary-search-tree/depth-first-search",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Depth First Search",
+    "metaTitle": "Depth First Search | Binary Search Tree | Data Structures | Interview Prep | Tiffany Lea",
+    "metaDescription": "Depth First Search"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Breadth First Search",
+    "permalink": "/docs-prep/data-structures/binary-search-tree/breadth-first-search"
+  },
+  "next": {
+    "title": "Hash Table",
+    "permalink": "/docs-prep/data-structures/hash-table"
+  }
+}

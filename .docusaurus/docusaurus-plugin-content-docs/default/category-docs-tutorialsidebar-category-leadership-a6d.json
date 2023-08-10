@@ -1,0 +1,15 @@
+{
+  "title": "Leadership",
+  "slug": "/category/leadership",
+  "permalink": "/docs/category/leadership",
+  "navigation": {
+    "previous": {
+      "title": "TypeScript",
+      "permalink": "/docs/languages/typescript"
+    },
+    "next": {
+      "title": "Servant Leadership",
+      "permalink": "/docs/leadership/servant-leadership"
+    }
+  }
+}

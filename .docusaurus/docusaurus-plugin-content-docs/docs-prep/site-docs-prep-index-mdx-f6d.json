@@ -1,0 +1,27 @@
+{
+  "unversionedId": "index",
+  "id": "index",
+  "title": "Interview Prep",
+  "description": "- General",
+  "source": "@site/docs-prep/index.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs-prep/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Interview Prep",
+    "metaTitle": "Interview Prep | Tiffany Lea",
+    "metaDescription": "This is an overview of the purpose of this site."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "RADIO",
+    "permalink": "/docs-prep/front-end/system-design/radio"
+  },
+  "next": {
+    "title": "Javascript",
+    "permalink": "/docs-prep/category/javascript"
+  }
+}

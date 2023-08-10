@@ -1,0 +1,25 @@
+{
+  "unversionedId": "designsystems/designsystems",
+  "id": "designsystems/designsystems",
+  "title": "Design Systems",
+  "description": "Design Systems I Like",
+  "source": "@site/docs/designsystems/designsystems.mdx",
+  "sourceDirName": "designsystems",
+  "slug": "/designsystems/",
+  "permalink": "/docs/designsystems/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Design Systems"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design Systems",
+    "permalink": "/docs/category/design-systems"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/docs/designsystems/resources"
+  }
+}

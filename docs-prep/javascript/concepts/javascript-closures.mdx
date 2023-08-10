@@ -1,0 +1,310 @@
+---
+title: 'Closures'
+metaTitle: 'Javascript Closures | Javascript | Interview Prep | Tiffany Lea'
+metaDescription: 'Javascript Closures'
+---
+
+
+# Javascript Closures
+
+A closure is when an outer function returns an inner function, the inner function is then executed in a different scope, and the inner function continues to maintain access to the outer function's variables, even though the outer function no longer exists.
+
+A closure allows the inner function that is returned access to all of the variables in the outer function which the inner function references, even though the outer function would have been destroyed by the time that the inner function is invoked.
+
+
+## Why use closures
+
+- Encapsulation 
+  - closures can hide variables of a function and selectively expose methods
+- Init functions 
+  - closures can be used to ensure that a function is only called once
+- Memory optimization 
+  - closures can be used to ensure that a large array or object is only initialized once
+- Functional programming 
+  - closures are a fundamental concept of functional programming. Without closures, higher-order functions and currying is not possible
+
+
+## Examples
+
+### Simple Closure
+
+```javascript
+function greet() {
+  const name = 'John';
+
+  return function () {
+    console.log(`Hi ${name}`);
+  };
+}
+
+const greeting = greet();
+
+greeting(); // Hi John
+```
+
+
+### Count Function
+
+```javascript
+function setCount() {
+  let number = 0;
+
+  return function () {
+    console.log(++number);
+  };
+}
+
+const counter = setCount();
+counter(); // 1
+counter(); // 2
+counter(); // 3
+```
+
+### For Loop Interview Question
+
+```javascript
+function addNumbers() {
+  var numbers = [];
+
+  for (var i = 1; i <= 3; i++) {
+    numbers.push(function () {
+      return i;
+    });
+  }
+
+  return numbers;
+}
+
+const getNumbers = addNumbers(); // this is when the for loop runs to completion
+
+console.log(getNumbers[0]()); // 4
+console.log(getNumbers[1]()); // 4 
+console.log(getNumbers[2]()); // 4
+```
+
+#### Why?
+
+- The var `i` in the for loop is hoisted
+  - Creating a `var i;` declaration below ` var numbers = [];` 
+- The value of `i` after the for loop ran to completion is 4 
+  - `i` iterates to 4 before the loop stops
+- Invoking each anonymous function returns 4 because the anonymous function returns the value of `i` at the time of execution
+- Each anonymous function has access to the `i` variable because of closures
+
+### For Loop with Let
+
+```javascript
+function addNumbers() {
+  var numbers = [];
+
+  for (let i = 1; i <= 3; i++) {
+    numbers.push(function () {
+      return i;
+    });
+  }
+
+  return numbers;
+}
+
+const getNumbers = addNumbers();
+
+console.log(getNumbers[0]()); // 1
+console.log(getNumbers[1]()); // 2
+console.log(getNumbers[2]()); // 3
+```
+
+Using `let` instead of `var` in the for loop will have a unique binding for each iteration. 
+
+Think of this as there being a unique `i` variable for each iteration.
+
+
+### For Loop with IIFE 
+
+```javascript
+const addNumbers = () => {
+  var numbers = [];
+
+  for (var i = 1; i <= 3; i++) {
+    ((index) => {
+      numbers.push(() => {
+        return index;
+      });
+    })(i);
+  }
+
+  return numbers;
+};
+
+const getNumbers = addNumbers();
+
+console.log(getNumbers[0]()); // 1
+console.log(getNumbers[1]()); // 2
+console.log(getNumbers[2]()); // 3
+```
+
+By wrapping each `numbers.push` in an IIFE, we are ensuring that the index variable is privately scoped to this function, and as a result, the index variable will have a unique binding for each iteration.
+
+
+### Interview Question - setTimeout
+
+```javascript
+const createCallbacks = () => {
+  for (var i = 1; i <= 3; i++) {
+    setTimeout(() => {
+      console.log(i);
+    }, i * 1000);
+  }
+};
+
+createCallbacks();
+// 4
+// 4
+// 4
+```
+
+- Invoking the `createCallbacks()` will run the for loop.
+- During each for loop iteration we create a `setTimeout` function. 
+  - Just creating the function (not invoking it) 
+- When we create a `setTimeout` function it is placed on the job queue 
+  - What javascript uses to keep track of when to run jobs
+- The `createCallbacks` function will run to completion almost immediately
+- Javascript will keep running the event loop which keeps running continuously to check if any code needs to execute
+  - It will also check the job queue to see if there's any functions that needs to be executed at a specified time
+  - If they do, that function will be executed at that time.
+
+The real question is how does each `setTimeout` function have access to the `i` variable?
+
+The answer is, you guessed it, closures.
+
+In this instance, `setTimeout` is the inner function because it is accessing the `i` variable which is hoisted outside of the for loop.
+
+It's important to understand that closures are created when functions are created, not when they are invoked. And because a closure was created when this `setTimeout` function was created, this enables the `setTimeout` function to access the `i` variable at whatever time the `setTimeout` function will run.
+
+## Practical Examples
+
+### Encapsulation
+
+```javascript
+const count = () => {
+  let count = 0;
+
+  return {
+    increment: () => ++count,
+    decrement: () => --count,
+    getCount: () => console.log(count),
+  };
+};
+
+const counter = count();
+
+counter.increment();
+counter.increment();
+counter.increment();
+counter.decrement();
+
+counter.getCount(); // 2
+```
+
+In the above example, we have successfully used a closure to implement encapsulation in javascript.
+
+### Using a Closure in an init function to ensure that the function is only executed once 
+
+```javascript
+const init = () => {
+  let initialized = false;
+
+  return () => {
+    if (initialized) {
+      return console.warn('⚠️ init function already called, not initializing');
+    }
+
+    initialized = true;
+    return console.info('initialized 🚀');
+  };
+};
+
+const initialize = init();
+
+initialize();
+initialize();
+initialize();
+```
+
+The above example demonstrates how you can use a closure to ensure that code in an init function is only executed once, regardless of how many times the init function is invoked. This is a very useful pattern with various practical applications. For instance, you could use this to ensure that a database connection is only initialized once.
+
+
+### Inefficient Memory Usage 
+
+```javascript
+const findByIndex = (index) => {
+  console.time('array creation');
+  const numbers = Array.from(Array(1000000).keys());
+  console.timeEnd('array creation');
+
+  const result = numbers[index];
+
+  console.log(`item by index ${index}=${result}`);
+
+  return result;
+};
+
+findByIndex(110351);
+findByIndex(911234);
+findByIndex(520109);
+findByIndex(398);
+
+// output
+// array creation: 61.145ms
+// item by index 110351=110351
+// array creation: 36.785ms
+// item by index 911234=911234
+// array creation: 41.395ms
+// item by index 520109=520109
+// array creation: 29.857ms
+// item by index 398=398
+```
+
+The problem with the above function is that every time the findByIndex function is invoked, a new numbers array with a million items are created.
+
+
+### Efficient Memory Usage
+
+```javascript
+const findByIndex = () => {
+  console.time('array creation');
+  const numbers = Array.from(Array(1000000).keys());
+  console.timeEnd('array creation');
+
+  return (index) => {
+    const result = numbers[index];
+
+    console.log(`item by index ${index}=${result}`);
+
+    return result;
+  };
+};
+
+const find = findByIndex();
+
+find(110351);
+find(911234);
+find(520109);
+find(398);
+
+// output
+// array creation: 52.937ms
+// item by index 110351=110351
+// item by index 911234=911234
+// item by index 520109=520109
+// item by index 398=398
+```
+
+In the above example, I changed the function so that it uses closures to ensure that the numbers array is only created once.
+
+And if we look at the script that logs out the time, we can see that the numbers array is only created once, which improves performance.
+
+
+## Resources
+
+- [humankode - Closures Made Easy](https://www.humankode.com/javascript/javascript-closures-made-easy/)
+- [mdn web docs _ closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)

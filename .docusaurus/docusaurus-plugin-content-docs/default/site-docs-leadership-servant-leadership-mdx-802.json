@@ -1,0 +1,27 @@
+{
+  "unversionedId": "leadership/servant-leadership",
+  "id": "leadership/servant-leadership",
+  "title": "Servant Leadership",
+  "description": "Articles",
+  "source": "@site/docs/leadership/servant-leadership.mdx",
+  "sourceDirName": "leadership",
+  "slug": "/leadership/servant-leadership",
+  "permalink": "/docs/leadership/servant-leadership",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Servant Leadership",
+    "menu": "Leadership",
+    "route": "/leadership/servant-leadership"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Leadership",
+    "permalink": "/docs/category/leadership"
+  },
+  "next": {
+    "title": "Naming Conventions",
+    "permalink": "/docs/category/naming-conventions"
+  }
+}

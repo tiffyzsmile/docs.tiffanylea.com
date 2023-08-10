@@ -1,0 +1,27 @@
+{
+  "unversionedId": "behavioral/manager-questions",
+  "id": "behavioral/manager-questions",
+  "title": "Manager Questions",
+  "description": "General",
+  "source": "@site/docs-prep/behavioral/manager-questions.mdx",
+  "sourceDirName": "behavioral",
+  "slug": "/behavioral/manager-questions",
+  "permalink": "/docs-prep/behavioral/manager-questions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Manager Questions",
+    "metaTitle": "Manager Questions | Behavioral | Interview Prep | Tiffany Lea",
+    "metaDescription": "Manager Questions of the Behavioral Portion of interviews"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Leveling",
+    "permalink": "/docs-prep/behavioral/leveling"
+  },
+  "next": {
+    "title": "Data Structures",
+    "permalink": "/docs-prep/data-structures/"
+  }
+}

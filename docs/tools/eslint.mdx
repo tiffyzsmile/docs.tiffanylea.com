@@ -1,0 +1,108 @@
+---
+name: Eslint
+menu: Tools
+route: /tools/eslint
+---
+
+# Eslint
+
+## Ignoring Files and Folders
+
+Use `.eslintignore` in the root of your project. (gitignore syntax).
+
+```
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+```
+
+Add `eslintIgnore` config to package.json
+
+```
+{
+  "name": "mypackage",
+  "version": "0.0.1",
+  "eslintIgnore": ["hello.js", "world.js"]
+}
+```
+
+## Disabling with Inline Comments
+
+```
+/* eslint-disable */
+
+alert('foo');
+
+/* eslint-enable */
+```
+
+```
+/* eslint-disable no-alert, no-console */
+
+alert('foo');
+console.log('bar');
+
+/* eslint-enable no-alert, no-console */
+```
+
+```
+/* eslint-disable no-alert */
+
+alert('foo');
+```
+
+## Ignoring Rules Per Line
+
+```
+alert('foo'); // eslint-disable-line
+
+// eslint-disable-next-line
+alert('foo');
+
+/* eslint-disable-next-line */
+alert('foo');
+
+alert('foo'); /* eslint-disable-line */
+```
+
+```
+alert('foo'); // eslint-disable-line no-alert
+
+// eslint-disable-next-line no-alert
+alert('foo');
+
+alert('foo'); /* eslint-disable-line no-alert */
+
+/* eslint-disable-next-line no-alert */
+alert('foo');
+```
+
+```
+alert('foo'); // eslint-disable-line no-alert, quotes, semi
+
+// eslint-disable-next-line no-alert, quotes, semi
+alert('foo');
+
+alert('foo'); /* eslint-disable-line no-alert, quotes, semi */
+
+/* eslint-disable-next-line no-alert, quotes, semi */
+alert('foo');
+```
+
+## Ignore Comments
+
+- must be after configuration
+- must be seperated by 2 or more consecutive '-'
+
+```
+// eslint-disable-next-line no-console -- Here's a description about why this configuration is necessary.
+console.log('hello');
+
+/* eslint eqeqeq: "off", curly: "error"
+    --------
+    Here's a description about why this configuration is necessary. */
+
+```

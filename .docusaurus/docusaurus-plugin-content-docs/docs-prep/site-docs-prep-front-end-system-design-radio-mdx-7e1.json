@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/system-design/radio",
+  "id": "front-end/system-design/radio",
+  "title": "RADIO",
+  "description": "Overview",
+  "source": "@site/docs-prep/front-end/system-design/radio.mdx",
+  "sourceDirName": "front-end/system-design",
+  "slug": "/front-end/system-design/radio",
+  "permalink": "/docs-prep/front-end/system-design/radio",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "RADIO",
+    "metaTitle": "RADIO | System Design | Front End Engineering | Interview Prep | Tiffany Lea",
+    "metaDescription": "Browser Storage"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "System Design",
+    "permalink": "/docs-prep/category/system-design"
+  },
+  "next": {
+    "title": "Interview Prep",
+    "permalink": "/docs-prep/"
+  }
+}

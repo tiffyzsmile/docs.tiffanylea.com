@@ -1,0 +1,15 @@
+{
+  "title": "Javascript",
+  "slug": "/category/javascript",
+  "permalink": "/docs-prep/category/javascript",
+  "navigation": {
+    "previous": {
+      "title": "Interview Prep",
+      "permalink": "/docs-prep/"
+    },
+    "next": {
+      "title": "Concepts",
+      "permalink": "/docs-prep/category/concepts"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Behavioral",
+  "slug": "/category/behavioral",
+  "permalink": "/docs-prep/category/behavioral",
+  "navigation": {
+    "previous": {
+      "title": "Time and Space Complexity",
+      "permalink": "/docs-prep/algorithms/time-and-space-complexity"
+    },
+    "next": {
+      "title": "Evaluation",
+      "permalink": "/docs-prep/behavioral/evaluation"
+    }
+  }
+}

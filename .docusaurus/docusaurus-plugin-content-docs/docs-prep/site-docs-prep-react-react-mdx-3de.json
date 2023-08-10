@@ -1,0 +1,27 @@
+{
+  "unversionedId": "react/react",
+  "id": "react/react",
+  "title": "React",
+  "description": "- The React Cheatsheet for 2020 (+ real-world examples)",
+  "source": "@site/docs-prep/react/react.mdx",
+  "sourceDirName": "react",
+  "slug": "/react/",
+  "permalink": "/docs-prep/react/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "React",
+    "metaTitle": "React | Interview Prep | Tiffany Lea",
+    "metaDescription": "React interview prep questions, cheatsheets and quick reference"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pointers in C",
+    "permalink": "/docs-prep/random/pointers-in-c"
+  },
+  "next": {
+    "title": "React Hooks",
+    "permalink": "/docs-prep/react/react-hooks"
+  }
+}

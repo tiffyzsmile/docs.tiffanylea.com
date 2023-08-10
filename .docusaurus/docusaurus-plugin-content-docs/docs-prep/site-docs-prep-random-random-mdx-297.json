@@ -1,0 +1,27 @@
+{
+  "unversionedId": "random/random",
+  "id": "random/random",
+  "title": "Random",
+  "description": "",
+  "source": "@site/docs-prep/random/random.mdx",
+  "sourceDirName": "random",
+  "slug": "/random/",
+  "permalink": "/docs-prep/random/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Random",
+    "metaTitle": "Random | Interview Prep | Tiffany Lea",
+    "metaDescription": "Random Interview Prep stuff that doesn't really have a home... Pointers in C..."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript",
+    "permalink": "/docs-prep/javascript/"
+  },
+  "next": {
+    "title": "Dynamic",
+    "permalink": "/docs-prep/random/dynamic"
+  }
+}

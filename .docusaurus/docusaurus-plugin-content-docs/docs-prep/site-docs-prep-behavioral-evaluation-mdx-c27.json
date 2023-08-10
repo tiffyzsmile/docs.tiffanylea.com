@@ -1,0 +1,27 @@
+{
+  "unversionedId": "behavioral/evaluation",
+  "id": "behavioral/evaluation",
+  "title": "Evaluation",
+  "description": "Collaboration",
+  "source": "@site/docs-prep/behavioral/evaluation.mdx",
+  "sourceDirName": "behavioral",
+  "slug": "/behavioral/evaluation",
+  "permalink": "/docs-prep/behavioral/evaluation",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Evaluation",
+    "metaTitle": "Evaluation | Behavioral | Interview Prep | Tiffany Lea",
+    "metaDescription": "Behavioral Portion tips on how to answer questions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Behavioral",
+    "permalink": "/docs-prep/category/behavioral"
+  },
+  "next": {
+    "title": "General Questions",
+    "permalink": "/docs-prep/behavioral/general-questions"
+  }
+}

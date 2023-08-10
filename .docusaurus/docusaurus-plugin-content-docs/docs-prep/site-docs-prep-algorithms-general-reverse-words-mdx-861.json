@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/general/reverse-words",
+  "id": "algorithms/general/reverse-words",
+  "title": "Reverse Words",
+  "description": "Take in a string as a parameter, reverse every word in that string, and return the new string",
+  "source": "@site/docs-prep/algorithms/general/reverse-words.mdx",
+  "sourceDirName": "algorithms/general",
+  "slug": "/algorithms/general/reverse-words",
+  "permalink": "/docs-prep/algorithms/general/reverse-words",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Reverse Words",
+    "metaTitle": "Reverse Words | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Reverse Words algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reverse Array in Place",
+    "permalink": "/docs-prep/algorithms/general/reverse-array-in-place"
+  },
+  "next": {
+    "title": "Algorithm Helpers",
+    "permalink": "/docs-prep/category/algorithm-helpers"
+  }
+}

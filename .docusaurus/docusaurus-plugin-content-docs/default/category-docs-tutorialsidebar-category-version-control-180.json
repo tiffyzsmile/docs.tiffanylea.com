@@ -1,0 +1,15 @@
+{
+  "title": "Version Control",
+  "slug": "/category/version-control",
+  "permalink": "/docs/category/version-control",
+  "navigation": {
+    "previous": {
+      "title": "Process",
+      "permalink": "/docs/utils/process"
+    },
+    "next": {
+      "title": "Github",
+      "permalink": "/docs/versioncontrol/github"
+    }
+  }
+}

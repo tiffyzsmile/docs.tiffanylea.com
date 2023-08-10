@@ -1,0 +1,99 @@
+---
+title: 'Data Retrieval'
+metaTitle: 'Data Retrieval | Front End Engineering | Interview Prep | Tiffany Lea'
+metaDescription: 'Browser Storage'
+---
+
+# Overview
+
+Long-Polling vs WebSockets vs Server-Sent Events (SSE)
+
+# Long-Polling (Hanging GET)
+
+Allows the server to push information to a client whenever the data is available.
+
+<img class="imgPadding" src="/files/images/long-polling.jpeg" alt="Long Polling" />
+
+1. Client HTTP request and waits for a response
+2. Server delays response til an update is available or a timeout occurred
+3. When available, the server sends a full response to the client
+4. Client then sends a new long-poll request, either immediately or after a pause (latency period)
+5. Each request has a timeout, so client has to reconnect periodically after connection is closed
+
+## Advantages
+
+- Easy to implement, good for small-scale projects
+- Nearly universally supported
+
+## Disadvantages
+
+- Usually not scalable
+- Creates a new connection each time, which can be intensive on the server
+- Reliable message ordering can be an issue for multiple requests
+- Increased latency as the server needs to wait for a new request
+
+# WebSockets
+
+WebSocket uses HTTP as the initial transport mechanism, but keeps the TCP connection alive after the HTTP response so it can be used for sending messages between client and server.
+
+<img class="imgPadding" src="/files/images/websockets.jpeg" alt="WebSockets" />
+
+The client establishes a WebSocket connection through a process known as the WebSocket handshake.
+In this way, a two-way (bi-directional) ongoing conversation can take place between a client and a server.
+
+## Use Cases
+
+- real-time polling applications
+- chat applications
+- media players
+
+## Advantages
+
+- Full-duplex asynchronous messaging
+- Better origin-based security model
+- Lightweight for both client and server
+- Ability to detect a dropped client connection
+- Can transmit both binary data and UTF-8
+
+## Disadvantages
+
+- Terminated connections aren't automatically recovered
+- Older browsers don't support WebSockets (becoming less relevant)
+- WebSockets require more upfront work
+
+# Server-Sent Events (SSEs)
+
+Server-Sent Events (SSE) enables a client to receive updates like text-based event data from a server via HTTP connection.
+
+<img class="imgPadding" src="/files/images/server-sent-events.jpeg" alt="Server-Sent Events" />
+
+Client establishes a long-term connection with server, which uses this connection to send data to client.
+If the client wants to send data to the server, it would require the use of another technology/protocol to do so.
+
+1. Client requests data from a server using regular HTTP
+2. The requested webpage opens a connection to the server
+3. The server sends the data to the client whenever there’s new information available
+
+SSEs are best when we need real-time traffic from the server to the client or if the server is generating data in a loop and will be sending multiple events to the client.
+
+## Use Cases
+
+- updating statuses
+- push notifications
+- newsletters
+- news feeds
+
+## Advantages
+
+- Simple to implement and use for both client and server
+- Supported by most browsers
+- No trouble with firewalls
+- Automatic reconnection, event IDs and the ability to send arbitrary events
+
+## Disadvantages
+
+- Unidirectional nature can be limiting
+- Limitation for the maximum number of open connections
+  - limit per browser is six (painful for multi tabs)
+- Does not support binary data (limited to UTF-8)
+- Not extensible if your app needs change

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/sort/bubble-sort",
+  "id": "algorithms/sort/bubble-sort",
+  "title": "Bubble Sort O(n^2)",
+  "description": "\\*Image from Algorithms",
+  "source": "@site/docs-prep/algorithms/sort/bubble-sort.mdx",
+  "sourceDirName": "algorithms/sort",
+  "slug": "/algorithms/sort/bubble-sort",
+  "permalink": "/docs-prep/algorithms/sort/bubble-sort",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Bubble Sort O(n^2)",
+    "metaTitle": "Bubble Sort O(n^2) | Sort | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Bubble Sort O(n^2)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sort Algorithms",
+    "permalink": "/docs-prep/category/sort-algorithms"
+  },
+  "next": {
+    "title": "Insertion Sort O(n^2)",
+    "permalink": "/docs-prep/algorithms/sort/insertion-sort"
+  }
+}

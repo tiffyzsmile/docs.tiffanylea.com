@@ -1,0 +1,15 @@
+{
+  "title": "Utils",
+  "slug": "/category/utils",
+  "permalink": "/docs/category/utils",
+  "navigation": {
+    "previous": {
+      "title": "Prettier",
+      "permalink": "/docs/tools/prettier"
+    },
+    "next": {
+      "title": "Process",
+      "permalink": "/docs/utils/process"
+    }
+  }
+}

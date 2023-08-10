@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/performance/performance",
+  "id": "front-end/performance/performance",
+  "title": "Performance",
+  "description": "- Facebook: good article about 2020 site re-write",
+  "source": "@site/docs-prep/front-end/performance/performance.mdx",
+  "sourceDirName": "front-end/performance",
+  "slug": "/front-end/performance/",
+  "permalink": "/docs-prep/front-end/performance/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Performance",
+    "metaTitle": "Performance | Front End Engineering | Interview Prep | Tiffany Lea",
+    "metaDescription": "Performance"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTTP",
+    "permalink": "/docs-prep/front-end/http"
+  },
+  "next": {
+    "title": "Images",
+    "permalink": "/docs-prep/front-end/performance/performance-images"
+  }
+}

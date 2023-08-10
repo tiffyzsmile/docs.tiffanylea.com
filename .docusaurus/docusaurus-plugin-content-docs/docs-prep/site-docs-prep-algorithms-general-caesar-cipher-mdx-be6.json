@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/general/caesar-cipher",
+  "id": "algorithms/general/caesar-cipher",
+  "title": "Caesar Cipher",
+  "description": "Julius Caesar protected his confidential information by encrypting it using a cipher.",
+  "source": "@site/docs-prep/algorithms/general/caesar-cipher.mdx",
+  "sourceDirName": "algorithms/general",
+  "slug": "/algorithms/general/caesar-cipher",
+  "permalink": "/docs-prep/algorithms/general/caesar-cipher",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Caesar Cipher",
+    "metaTitle": "Caesar Cipher | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Caesar Cipher algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "General Algorithms",
+    "permalink": "/docs-prep/category/general-algorithms"
+  },
+  "next": {
+    "title": "Fizz Buzz",
+    "permalink": "/docs-prep/algorithms/general/fizz-buzz"
+  }
+}

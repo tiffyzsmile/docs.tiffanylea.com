@@ -1,0 +1,33 @@
+---
+title: 'Scope'
+metaTitle: 'Javascript Scope | Javascript | Questions | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Javascript Scope interview questions'
+---
+
+# Scope
+
+
+## Q: What will be printed on the console?
+
+```javascript
+(function () {
+  var a = (b = 5);
+})();
+
+console.log(b); // $: 5
+```
+
+- variable `a` is declared using the keyword `var` as local function variable
+- b is not defined using `var` and is assigned to the global scope
+- doesn't use strict mode (`'use strict';`) inside the function
+  - strict mode requires you to explicitly reference to the global scope
+    - `var a = window.b = 5;`
+
+```javascript
+(function () {
+  'use strict';
+  var a = (b = 5);
+})();
+
+console.log(b); // $: Uncaught ReferenceError: b is not defined
+```

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/merge-k-sorted-lists",
+  "id": "technical/merge-k-sorted-lists",
+  "title": "Merge k Sorted Lists",
+  "description": "",
+  "source": "@site/docs-prep/technical/merge-k-sorted-lists.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/merge-k-sorted-lists",
+  "permalink": "/docs-prep/technical/merge-k-sorted-lists",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Merge k Sorted Lists",
+    "metaTitle": "Merge k Sorted Lists | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Merge k Sorted Lists"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kth Largest Element in an Array LC215",
+    "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+  },
+  "next": {
+    "title": "Merge Sorted Array LC88",
+    "permalink": "/docs-prep/technical/merge-sorted-array-lc88"
+  }
+}

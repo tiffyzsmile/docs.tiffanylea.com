@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/big-o",
+  "id": "algorithms/big-o",
+  "title": "Big O Notation",
+  "description": "What is Big O Notation?",
+  "source": "@site/docs-prep/algorithms/big-o.mdx",
+  "sourceDirName": "algorithms",
+  "slug": "/algorithms/big-o",
+  "permalink": "/docs-prep/algorithms/big-o",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Big O Notation",
+    "metaTitle": "Big O Notation | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Big O Notation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algorithms",
+    "permalink": "/docs-prep/algorithms/"
+  },
+  "next": {
+    "title": "Cache Algorithms",
+    "permalink": "/docs-prep/category/cache-algorithms"
+  }
+}

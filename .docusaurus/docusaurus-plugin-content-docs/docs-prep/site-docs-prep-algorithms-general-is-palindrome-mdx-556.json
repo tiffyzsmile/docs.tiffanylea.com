@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/general/is-palindrome",
+  "id": "algorithms/general/is-palindrome",
+  "title": "Is Palindrome",
+  "description": "Given a string, return true if the string is a palindrome or false if it is not.",
+  "source": "@site/docs-prep/algorithms/general/is-palindrome.mdx",
+  "sourceDirName": "algorithms/general",
+  "slug": "/algorithms/general/is-palindrome",
+  "permalink": "/docs-prep/algorithms/general/is-palindrome",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Is Palindrome",
+    "metaTitle": "Ransom Note | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Ransom Note algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fizz Buzz",
+    "permalink": "/docs-prep/algorithms/general/fizz-buzz"
+  },
+  "next": {
+    "title": "Ransom Note",
+    "permalink": "/docs-prep/algorithms/general/ransom-note"
+  }
+}

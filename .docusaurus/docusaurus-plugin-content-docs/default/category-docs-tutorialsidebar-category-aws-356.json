@@ -1,0 +1,11 @@
+{
+  "title": "AWS",
+  "slug": "/category/aws",
+  "permalink": "/docs/category/aws",
+  "navigation": {
+    "next": {
+      "title": "Amplify",
+      "permalink": "/docs/aws/amplify"
+    }
+  }
+}

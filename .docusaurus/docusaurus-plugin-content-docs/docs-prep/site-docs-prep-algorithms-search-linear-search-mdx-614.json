@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/search/linear-search",
+  "id": "algorithms/search/linear-search",
+  "title": "Linear Search O(n)",
+  "description": "What is Linear Search?",
+  "source": "@site/docs-prep/algorithms/search/linear-search.mdx",
+  "sourceDirName": "algorithms/search",
+  "slug": "/algorithms/search/linear-search",
+  "permalink": "/docs-prep/algorithms/search/linear-search",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linear Search O(n)",
+    "metaTitle": "Linear (Simple, Sequential) Search | Search | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Linear (Simple, Sequential) Search is a very basic search algorithm that loops over each item in an array until desired element is found."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Binary Search O(log n)",
+    "permalink": "/docs-prep/algorithms/search/binary-search"
+  },
+  "next": {
+    "title": "Search Algorithms",
+    "permalink": "/docs-prep/algorithms/search/"
+  }
+}

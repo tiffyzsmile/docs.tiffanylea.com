@@ -1,0 +1,27 @@
+{
+  "unversionedId": "behavioral/leveling",
+  "id": "behavioral/leveling",
+  "title": "Leveling",
+  "description": "Behavioral interviews is where interviewers assess the candidate's maturity depending on the stories they tell.",
+  "source": "@site/docs-prep/behavioral/leveling.mdx",
+  "sourceDirName": "behavioral",
+  "slug": "/behavioral/leveling",
+  "permalink": "/docs-prep/behavioral/leveling",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Leveling",
+    "metaTitle": "Leveling | Behavioral | Interview Prep | Tiffany Lea",
+    "metaDescription": "Behavioral Portion tips on how to answer questions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "General Questions",
+    "permalink": "/docs-prep/behavioral/general-questions"
+  },
+  "next": {
+    "title": "Manager Questions",
+    "permalink": "/docs-prep/behavioral/manager-questions"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/performance/performance-images",
+  "id": "front-end/performance/performance-images",
+  "title": "Images",
+  "description": "- use compression/optimization tools to lower file size",
+  "source": "@site/docs-prep/front-end/performance/performance-images.mdx",
+  "sourceDirName": "front-end/performance",
+  "slug": "/front-end/performance/performance-images",
+  "permalink": "/docs-prep/front-end/performance/performance-images",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Images",
+    "metaTitle": "Images | Performance | Front End Engineering | Interview Prep | Tiffany Lea",
+    "metaDescription": "Images"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Performance",
+    "permalink": "/docs-prep/front-end/performance/"
+  },
+  "next": {
+    "title": "System Design",
+    "permalink": "/docs-prep/category/system-design"
+  }
+}

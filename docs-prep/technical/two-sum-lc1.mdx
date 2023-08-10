@@ -1,0 +1,84 @@
+---
+title: 'Two Sum LC1'
+metaTitle: 'Two Sum LC1| Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Two Sum LC1'
+---
+
+
+# Two Sum (Leetcode 1)
+
+- [Leetcode 1](https://leetcode.com/problems/two-sum/)
+
+## Example 1 
+
+[Video Walkthrough](https://www.youtube.com/watch?v=Ivyh3V4QolA)
+
+Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
+
+You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
+
+### Example Inputs & Outputs
+
+```javascript
+twoSum([2,7,11,15],9); // [0,1]
+twoSum([3,2,4],6); // [1,2]
+twoSum([3,3],6); // [0,1]
+```
+
+### Brute Force O(n<sup>2</sup>)
+- loop over each num in nums (num1)
+  - loop over each num in nums (num2)
+    - if num1 + num2 = target
+      - return array of indices
+
+```javascript
+function twoSumBrute(nums, target) {
+  for (let i1 = 0; i1 < nums.length; i1++) {
+    const num1 = nums[i1];
+    for (let i2 = 0; i2 < nums.length; i2++) {
+      const num2 = nums[i2];
+      if (num1 + num2 === target) {
+        return [i1, i2];
+      }
+    }
+  }
+
+  // no numbers sum to target
+  return [];
+}
+
+console.log("Brute:match", twoSumBrute([2, 7, 15, 10, 30], 9)); // [0,1]
+console.log("Brute:no match", twoSumBrute([2, 15, 10, 30], 9)); // []
+```
+
+### Optimized O(n)
+- loop over each num in nums (num1)
+    - find needed number (target - num1)
+    - if needed number is in previous values
+      - return array of indices
+    - else 
+      - add number to previous numbers
+
+
+```javascript
+function twoSumOptimized(nums, target) {
+  const previousValues = {};
+
+  for (let i = 0; i < nums.length; i++) {
+    const currentValue = nums[i];
+    const neededValue = target - currentValue;
+
+    if (previousValues[neededValue] != null) {
+      return [previousValues[neededValue], i];
+    } else {
+      previousValues[currentValue] = i;
+    }
+  }
+
+  // no numbers sum to target
+  return [];
+}
+
+console.log("Opt:match", twoSumOptimized([2, 7, 15, 10, 30], 9)); // [0,1]
+console.log("Opt:no match", twoSumOptimized([2, 15, 10, 30], 9)); // []
+```

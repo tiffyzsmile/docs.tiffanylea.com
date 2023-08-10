@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/coding-spiral-2d-array",
+  "id": "technical/coding-spiral-2d-array",
+  "title": "Spiral 2D Array",
+  "description": "",
+  "source": "@site/docs-prep/technical/coding-spiral-2d-array.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/coding-spiral-2d-array",
+  "permalink": "/docs-prep/technical/coding-spiral-2d-array",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Spiral 2D Array",
+    "metaTitle": "Spiral 2D Array | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Spiral 2D Array coding challenge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Rotate Image in Place",
+    "permalink": "/docs-prep/technical/coding-rotate-image-in-place"
+  },
+  "next": {
+    "title": "Coding",
+    "permalink": "/docs-prep/technical/coding"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "random/dynamic",
+  "id": "random/dynamic",
+  "title": "Dynamic",
+  "description": "To always remember answers to the sub-problems you've already solved.",
+  "source": "@site/docs-prep/random/dynamic.mdx",
+  "sourceDirName": "random",
+  "slug": "/random/dynamic",
+  "permalink": "/docs-prep/random/dynamic",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Dynamic",
+    "metaTitle": "Dynamic | Programming | Interview Prep | Tiffany Lea",
+    "metaDescription": "Dynamic"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Random",
+    "permalink": "/docs-prep/random/"
+  },
+  "next": {
+    "title": "Pointers in C",
+    "permalink": "/docs-prep/random/pointers-in-c"
+  }
+}

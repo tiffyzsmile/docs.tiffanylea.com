@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/concepts/constructor-functions",
+  "id": "javascript/concepts/constructor-functions",
+  "title": "Constructor Functions",
+  "description": "What is a Constructor Function?",
+  "source": "@site/docs-prep/javascript/concepts/constructor-functions.mdx",
+  "sourceDirName": "javascript/concepts",
+  "slug": "/javascript/concepts/constructor-functions",
+  "permalink": "/docs-prep/javascript/concepts/constructor-functions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Constructor Functions",
+    "metaTitle": "Javascript Functions | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Constructor Functions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Concepts",
+    "permalink": "/docs-prep/category/concepts"
+  },
+  "next": {
+    "title": "Currying",
+    "permalink": "/docs-prep/javascript/concepts/currying"
+  }
+}

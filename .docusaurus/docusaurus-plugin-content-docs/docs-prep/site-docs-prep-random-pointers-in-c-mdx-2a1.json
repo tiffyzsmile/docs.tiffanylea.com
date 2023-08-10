@@ -1,0 +1,27 @@
+{
+  "unversionedId": "random/pointers-in-c",
+  "id": "random/pointers-in-c",
+  "title": "Pointers in C",
+  "description": "I feel like I've lost days of my life I'll never get back...",
+  "source": "@site/docs-prep/random/pointers-in-c.mdx",
+  "sourceDirName": "random",
+  "slug": "/random/pointers-in-c",
+  "permalink": "/docs-prep/random/pointers-in-c",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Pointers in C",
+    "metaTitle": "Pointers in C | Random | Interview Prep | Tiffany Lea",
+    "metaDescription": "Pointers in C... ick"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dynamic",
+    "permalink": "/docs-prep/random/dynamic"
+  },
+  "next": {
+    "title": "React",
+    "permalink": "/docs-prep/react/"
+  }
+}

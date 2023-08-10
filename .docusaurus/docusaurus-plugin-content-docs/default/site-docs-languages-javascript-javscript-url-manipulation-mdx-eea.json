@@ -1,0 +1,27 @@
+{
+  "unversionedId": "languages/javascript/javscript-url-manipulation",
+  "id": "languages/javascript/javscript-url-manipulation",
+  "title": "Get URL Tiers",
+  "description": "",
+  "source": "@site/docs/languages/javascript/javscript-url-manipulation.mdx",
+  "sourceDirName": "languages/javascript",
+  "slug": "/languages/javascript/javscript-url-manipulation",
+  "permalink": "/docs/languages/javascript/javscript-url-manipulation",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Javascript URL Manipulation",
+    "menu": "Javascript",
+    "route": "/javascript/javascript-url-manipulation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript",
+    "permalink": "/docs/languages/javascript/"
+  },
+  "next": {
+    "title": "Markdown",
+    "permalink": "/docs/languages/markdown"
+  }
+}

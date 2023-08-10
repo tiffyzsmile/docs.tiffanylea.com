@@ -1,0 +1,15 @@
+{
+  "title": "Resources",
+  "slug": "/category/resources",
+  "permalink": "/docs/category/resources",
+  "navigation": {
+    "previous": {
+      "title": "Router",
+      "permalink": "/docs/network/router"
+    },
+    "next": {
+      "title": "Links",
+      "permalink": "/docs/resources/links"
+    }
+  }
+}

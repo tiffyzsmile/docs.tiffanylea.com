@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/coding-flatten-array",
+  "id": "technical/coding-flatten-array",
+  "title": "Flatten Array",
+  "description": "Recursive Solution",
+  "source": "@site/docs-prep/technical/coding-flatten-array.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/coding-flatten-array",
+  "permalink": "/docs-prep/technical/coding-flatten-array",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Flatten Array",
+    "metaTitle": "Flatten Array | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Flatten Array coding challenge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "First Unique Char in String",
+    "permalink": "/docs-prep/technical/coding-first-unique-char-in-string"
+  },
+  "next": {
+    "title": "Write Reduce Function",
+    "permalink": "/docs-prep/technical/coding-reduce-function"
+  }
+}

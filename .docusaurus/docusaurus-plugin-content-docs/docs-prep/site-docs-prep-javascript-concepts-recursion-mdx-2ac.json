@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/concepts/recursion",
+  "id": "javascript/concepts/recursion",
+  "title": "Recursion",
+  "description": "A function that calls itself.",
+  "source": "@site/docs-prep/javascript/concepts/recursion.mdx",
+  "sourceDirName": "javascript/concepts",
+  "slug": "/javascript/concepts/recursion",
+  "permalink": "/docs-prep/javascript/concepts/recursion",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Recursion",
+    "metaTitle": "Recursion | Programming | Interview Prep | Tiffany Lea",
+    "metaDescription": "Recursion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "This, Call and Apply",
+    "permalink": "/docs-prep/javascript/concepts/javascript-this-call-apply"
+  },
+  "next": {
+    "title": "Javascript Event Loop",
+    "permalink": "/docs-prep/javascript/event-loop"
+  }
+}

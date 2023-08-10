@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/search/binary-search",
+  "id": "algorithms/search/binary-search",
+  "title": "Binary Search O(log n)",
+  "description": "Binary search is the most efficient searching algorithm having a run-time complexity of O(log2 N)",
+  "source": "@site/docs-prep/algorithms/search/binary-search.mdx",
+  "sourceDirName": "algorithms/search",
+  "slug": "/algorithms/search/binary-search",
+  "permalink": "/docs-prep/algorithms/search/binary-search",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Binary Search O(log n)",
+    "metaTitle": "Binary search | Search | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Binary search is the most efficient searching algorithm having a run-time complexity of O(log2 N)"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Search Algorithms",
+    "permalink": "/docs-prep/category/search-algorithms"
+  },
+  "next": {
+    "title": "Linear Search O(n)",
+    "permalink": "/docs-prep/algorithms/search/linear-search"
+  }
+}

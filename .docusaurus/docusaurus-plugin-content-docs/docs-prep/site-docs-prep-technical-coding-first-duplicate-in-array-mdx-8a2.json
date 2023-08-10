@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/coding-first-duplicate-in-array",
+  "id": "technical/coding-first-duplicate-in-array",
+  "title": "First Duplicate in Array",
+  "description": "Given an array a that contains only numbers in the range from 1 to a.length, find the first duplicate number for which the second occurrence has the minimal index.",
+  "source": "@site/docs-prep/technical/coding-first-duplicate-in-array.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/coding-first-duplicate-in-array",
+  "permalink": "/docs-prep/technical/coding-first-duplicate-in-array",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "First Duplicate in Array",
+    "metaTitle": "First Duplicate in Array | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "First Duplicate in Array coding challenge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create Event Emitter",
+    "permalink": "/docs-prep/technical/coding-event-emitter"
+  },
+  "next": {
+    "title": "First Unique Char in String",
+    "permalink": "/docs-prep/technical/coding-first-unique-char-in-string"
+  }
+}

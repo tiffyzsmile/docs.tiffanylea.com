@@ -1,0 +1,403 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "AWS",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Amplify",
+            "href": "/docs/aws/amplify",
+            "docId": "aws/amplify"
+          }
+        ],
+        "href": "/docs/category/aws"
+      },
+      {
+        "type": "category",
+        "label": "Design Systems",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Design Systems",
+            "href": "/docs/designsystems/",
+            "docId": "designsystems/designsystems"
+          },
+          {
+            "type": "link",
+            "label": "Resources",
+            "href": "/docs/designsystems/resources",
+            "docId": "designsystems/resources"
+          },
+          {
+            "type": "link",
+            "label": "Terminology",
+            "href": "/docs/designsystems/terminology",
+            "docId": "designsystems/terminology"
+          },
+          {
+            "type": "link",
+            "label": "UI Component Libraries",
+            "href": "/docs/designsystems/ui-component-libraries",
+            "docId": "designsystems/ui-component-libraries"
+          }
+        ],
+        "href": "/docs/category/design-systems"
+      },
+      {
+        "type": "link",
+        "label": "Docs",
+        "href": "/docs/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "Inspiration",
+        "href": "/docs/inspiration",
+        "docId": "inspiration"
+      },
+      {
+        "type": "category",
+        "label": "Code",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "CSS",
+            "href": "/docs/languages/css",
+            "docId": "languages/css"
+          },
+          {
+            "type": "link",
+            "label": "HTML",
+            "href": "/docs/languages/html",
+            "docId": "languages/html"
+          },
+          {
+            "type": "category",
+            "label": "Javascript",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Javascript Objects",
+                "href": "/docs/languages/javascript/javascript-objects",
+                "docId": "languages/javascript/javascript-objects"
+              },
+              {
+                "type": "link",
+                "label": "Javascript",
+                "href": "/docs/languages/javascript/",
+                "docId": "languages/javascript/javascript"
+              },
+              {
+                "type": "link",
+                "label": "Get URL Tiers",
+                "href": "/docs/languages/javascript/javscript-url-manipulation",
+                "docId": "languages/javascript/javscript-url-manipulation"
+              }
+            ],
+            "href": "/docs/category/javascript"
+          },
+          {
+            "type": "link",
+            "label": "Markdown",
+            "href": "/docs/languages/markdown",
+            "docId": "languages/markdown"
+          },
+          {
+            "type": "link",
+            "label": "TypeScript",
+            "href": "/docs/languages/typescript",
+            "docId": "languages/typescript"
+          }
+        ],
+        "href": "/docs/category/code"
+      },
+      {
+        "type": "category",
+        "label": "Leadership",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Servant Leadership",
+            "href": "/docs/leadership/servant-leadership",
+            "docId": "leadership/servant-leadership"
+          }
+        ],
+        "href": "/docs/category/leadership"
+      },
+      {
+        "type": "category",
+        "label": "Naming Conventions",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Events",
+            "href": "/docs/naming/events",
+            "docId": "naming/events"
+          }
+        ],
+        "href": "/docs/category/naming-conventions"
+      },
+      {
+        "type": "category",
+        "label": "Network",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Router",
+            "href": "/docs/network/router",
+            "docId": "network/router"
+          }
+        ],
+        "href": "/docs/category/network"
+      },
+      {
+        "type": "category",
+        "label": "Resources",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Links",
+            "href": "/docs/resources/links",
+            "docId": "resources/links"
+          }
+        ],
+        "href": "/docs/category/resources"
+      },
+      {
+        "type": "category",
+        "label": "Tools",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Docker",
+            "href": "/docs/tools/docker",
+            "docId": "tools/docker"
+          },
+          {
+            "type": "link",
+            "label": "Eslint",
+            "href": "/docs/tools/eslint",
+            "docId": "tools/eslint"
+          },
+          {
+            "type": "link",
+            "label": "Mermaid",
+            "href": "/docs/tools/mermaid",
+            "docId": "tools/mermaid"
+          },
+          {
+            "type": "link",
+            "label": "Prettier",
+            "href": "/docs/tools/prettier",
+            "docId": "tools/prettier"
+          }
+        ],
+        "href": "/docs/category/tools"
+      },
+      {
+        "type": "category",
+        "label": "Utils",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Process",
+            "href": "/docs/utils/process",
+            "docId": "utils/process"
+          }
+        ],
+        "href": "/docs/category/utils"
+      },
+      {
+        "type": "category",
+        "label": "Version Control",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Github",
+            "href": "/docs/versioncontrol/github",
+            "docId": "versioncontrol/github"
+          }
+        ],
+        "href": "/docs/category/version-control"
+      }
+    ]
+  },
+  "docs": {
+    "aws/amplify": {
+      "id": "aws/amplify",
+      "title": "Amplify",
+      "description": "Tracking",
+      "sidebar": "tutorialSidebar"
+    },
+    "designsystems/designsystems": {
+      "id": "designsystems/designsystems",
+      "title": "Design Systems",
+      "description": "Design Systems I Like",
+      "sidebar": "tutorialSidebar"
+    },
+    "designsystems/resources": {
+      "id": "designsystems/resources",
+      "title": "Resources",
+      "description": "General resources for component library/design systems.",
+      "sidebar": "tutorialSidebar"
+    },
+    "designsystems/terminology": {
+      "id": "designsystems/terminology",
+      "title": "Terminology",
+      "description": "Component library/design system related terminology and resource links.",
+      "sidebar": "tutorialSidebar"
+    },
+    "designsystems/ui-component-libraries": {
+      "id": "designsystems/ui-component-libraries",
+      "title": "UI Component Libraries",
+      "description": "Some reasons to go explore these:",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Docs",
+      "description": "This is a personal quick reference for some of the below and more:",
+      "sidebar": "tutorialSidebar"
+    },
+    "inspiration": {
+      "id": "inspiration",
+      "title": "Inspiration",
+      "description": "CSS",
+      "sidebar": "tutorialSidebar"
+    },
+    "languages/css": {
+      "id": "languages/css",
+      "title": "CSS",
+      "description": "Syntax",
+      "sidebar": "tutorialSidebar"
+    },
+    "languages/html": {
+      "id": "languages/html",
+      "title": "HTML",
+      "description": "Links",
+      "sidebar": "tutorialSidebar"
+    },
+    "languages/javascript/javascript": {
+      "id": "languages/javascript/javascript",
+      "title": "Javascript",
+      "description": "Data types",
+      "sidebar": "tutorialSidebar"
+    },
+    "languages/javascript/javascript-objects": {
+      "id": "languages/javascript/javascript-objects",
+      "title": "Javascript Objects",
+      "description": "Deeply Nested Dynamic Properties",
+      "sidebar": "tutorialSidebar"
+    },
+    "languages/javascript/javscript-url-manipulation": {
+      "id": "languages/javascript/javscript-url-manipulation",
+      "title": "Get URL Tiers",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "languages/markdown": {
+      "id": "languages/markdown",
+      "title": "Markdown",
+      "description": "Resources",
+      "sidebar": "tutorialSidebar"
+    },
+    "languages/typescript": {
+      "id": "languages/typescript",
+      "title": "TypeScript",
+      "description": "// TODO: update this",
+      "sidebar": "tutorialSidebar"
+    },
+    "leadership/servant-leadership": {
+      "id": "leadership/servant-leadership",
+      "title": "Servant Leadership",
+      "description": "Articles",
+      "sidebar": "tutorialSidebar"
+    },
+    "naming/events": {
+      "id": "naming/events",
+      "title": "Events",
+      "description": "Event Handler Functions",
+      "sidebar": "tutorialSidebar"
+    },
+    "network/router": {
+      "id": "network/router",
+      "title": "Router",
+      "description": "Links",
+      "sidebar": "tutorialSidebar"
+    },
+    "resources/links": {
+      "id": "resources/links",
+      "title": "Links",
+      "description": "- [ ] Checkboxes indicate I have not had a chance to visit site",
+      "sidebar": "tutorialSidebar"
+    },
+    "tools/docker": {
+      "id": "tools/docker",
+      "title": "Docker",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "tools/eslint": {
+      "id": "tools/eslint",
+      "title": "Eslint",
+      "description": "Ignoring Files and Folders",
+      "sidebar": "tutorialSidebar"
+    },
+    "tools/mermaid": {
+      "id": "tools/mermaid",
+      "title": "Mermaid",
+      "description": "What is it?",
+      "sidebar": "tutorialSidebar"
+    },
+    "tools/prettier": {
+      "id": "tools/prettier",
+      "title": "Prettier",
+      "description": "Ignore (Files and Folders)",
+      "sidebar": "tutorialSidebar"
+    },
+    "utils/process": {
+      "id": "utils/process",
+      "title": "Process",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "versioncontrol/github": {
+      "id": "versioncontrol/github",
+      "title": "Github",
+      "description": "Profile Readme",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

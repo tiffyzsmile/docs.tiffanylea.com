@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/cache/lru-cache",
+  "id": "algorithms/cache/lru-cache",
+  "title": "LRU Cache",
+  "description": "- LeetCode Interview Questions Discussion",
+  "source": "@site/docs-prep/algorithms/cache/lru-cache.mdx",
+  "sourceDirName": "algorithms/cache",
+  "slug": "/algorithms/cache/lru-cache",
+  "permalink": "/docs-prep/algorithms/cache/lru-cache",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "LRU Cache",
+    "metaTitle": "LRU Cache | Cache Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "LRU Cache algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cache Algorithms",
+    "permalink": "/docs-prep/category/cache-algorithms"
+  },
+  "next": {
+    "title": "General Algorithms",
+    "permalink": "/docs-prep/category/general-algorithms"
+  }
+}

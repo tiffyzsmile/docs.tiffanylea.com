@@ -1,0 +1,15 @@
+{
+  "title": "Algorithm Helpers",
+  "slug": "/category/algorithm-helpers",
+  "permalink": "/docs-prep/category/algorithm-helpers",
+  "navigation": {
+    "previous": {
+      "title": "Reverse Words",
+      "permalink": "/docs-prep/algorithms/general/reverse-words"
+    },
+    "next": {
+      "title": "String Reversal",
+      "permalink": "/docs-prep/algorithms/helpers/string-reversal"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "network/router",
+  "id": "network/router",
+  "title": "Router",
+  "description": "Links",
+  "source": "@site/docs/network/router.mdx",
+  "sourceDirName": "network",
+  "slug": "/network/router",
+  "permalink": "/docs/network/router",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Router",
+    "menu": "Network",
+    "route": "/network/router"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Network",
+    "permalink": "/docs/category/network"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/docs/category/resources"
+  }
+}

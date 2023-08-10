@@ -1,0 +1,15 @@
+{
+  "title": "Design Systems",
+  "slug": "/category/design-systems",
+  "permalink": "/docs/category/design-systems",
+  "navigation": {
+    "previous": {
+      "title": "Amplify",
+      "permalink": "/docs/aws/amplify"
+    },
+    "next": {
+      "title": "Design Systems",
+      "permalink": "/docs/designsystems/"
+    }
+  }
+}

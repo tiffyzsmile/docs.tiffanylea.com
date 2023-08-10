@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/dom",
+  "id": "front-end/dom",
+  "title": "DOM",
+  "description": "The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure where in each node is an object representing a part of the document.",
+  "source": "@site/docs-prep/front-end/dom.mdx",
+  "sourceDirName": "front-end",
+  "slug": "/front-end/dom",
+  "permalink": "/docs-prep/front-end/dom",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "DOM",
+    "metaTitle": "DOM | Front End Engineering | Interview Prep | Tiffany Lea",
+    "metaDescription": "DOM Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Data Retrieval",
+    "permalink": "/docs-prep/front-end/data-retrieval"
+  },
+  "next": {
+    "title": "HTML",
+    "permalink": "/docs-prep/category/html"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/event-loop",
+  "id": "javascript/event-loop",
+  "title": "Javascript Event Loop",
+  "description": "Resources",
+  "source": "@site/docs-prep/javascript/event-loop.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/event-loop",
+  "permalink": "/docs-prep/javascript/event-loop",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Event Loop",
+    "metaTitle": "Event Loop | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Event Loop Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Recursion",
+    "permalink": "/docs-prep/javascript/concepts/recursion"
+  },
+  "next": {
+    "title": "Javascript Arrays",
+    "permalink": "/docs-prep/javascript/javascript-arrays"
+  }
+}

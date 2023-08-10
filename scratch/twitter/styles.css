@@ -1,0 +1,39 @@
+:root {
+  --primary: blue;
+  --secondary: green;
+}
+.page {
+  display: flex;
+  width: 100%;
+}
+
+.panel {
+  flex: 1;
+}
+
+.primaryNav {
+  list-style-type: none;
+}
+
+.primaryNav a {
+  display: flex;
+  padding: 20px;
+}
+
+.primaryNav a:hover {
+  background-color: var(--primary);
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.post {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}

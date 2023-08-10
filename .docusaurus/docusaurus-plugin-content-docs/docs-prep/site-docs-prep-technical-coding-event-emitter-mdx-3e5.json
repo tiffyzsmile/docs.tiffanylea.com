@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/coding-event-emitter",
+  "id": "technical/coding-event-emitter",
+  "title": "Create Event Emitter",
+  "description": "NOTE: just pasted this in... may need to be reviewed.",
+  "source": "@site/docs-prep/technical/coding-event-emitter.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/coding-event-emitter",
+  "permalink": "/docs-prep/technical/coding-event-emitter",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Create Event Emitter",
+    "metaTitle": "Create Event Emitter | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Create Event Emitter coding challenge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Technical",
+    "permalink": "/docs-prep/technical/"
+  },
+  "next": {
+    "title": "First Duplicate in Array",
+    "permalink": "/docs-prep/technical/coding-first-duplicate-in-array"
+  }
+}

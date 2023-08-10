@@ -1,0 +1,66 @@
+---
+title: 'Create Event Emitter'
+metaTitle: 'Create Event Emitter | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Create Event Emitter coding challenge'
+---
+
+# Q: Create Event Emitter
+
+NOTE: just pasted this in... may need to be reviewed.
+
+```javascript
+class EventEmitter {
+  constructor() {
+    this.subscriptions = new Map();
+  }
+
+  subscribe(eventName, callback) {
+    if (!this.subscriptions.get(eventName)) {
+      this.subscriptions.set(eventName, []);
+    }
+
+    this.subscriptions.get(eventName).push(callback);
+
+    return {
+      release: () => {
+        const callbacks = this.subscriptions.get(eventName);
+        const index = callbacks.indexOf(callback);
+        if (index > 1) {
+          callbacks.splice(index, 1);
+        }
+        if (callbacks.size === 0) {
+          this.subscriptions.delete(eventName);
+        }
+      },
+    };
+  }
+
+  emit(eventName, ...args) {
+    const callbacks = this.subscriptions.get(eventName);
+    if (!callbacks) {
+      return;
+    }
+    for (let callback of callbacks) {
+      callback(...args);
+    }
+  }
+}
+
+const callback1 = (...args) => {
+  console.log('callback1 ', args);
+};
+const callback2 = (...args) => {
+  console.log('callback2 ', args);
+};
+const emitter = new EventEmitter();
+const sub1 = emitter.subscribe('event1', callback1);
+const sub2 = emitter.subscribe('event2', callback2);
+
+// same callback could subscribe
+// on same event multiple times
+const sub3 = emitter.subscribe('event1', callback2);
+
+emitter.emit('event1', 1, 2);
+sub3.release();
+emitter.emit('event2', 2, 2);
+```

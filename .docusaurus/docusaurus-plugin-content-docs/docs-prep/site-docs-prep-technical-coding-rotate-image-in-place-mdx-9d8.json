@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/coding-rotate-image-in-place",
+  "id": "technical/coding-rotate-image-in-place",
+  "title": "Rotate Image in Place",
+  "description": "Note: Try to solve this task in-place (with O(1) additional memory), since this is what you'll be asked to do during an interview.",
+  "source": "@site/docs-prep/technical/coding-rotate-image-in-place.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/coding-rotate-image-in-place",
+  "permalink": "/docs-prep/technical/coding-rotate-image-in-place",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Rotate Image in Place",
+    "metaTitle": "Rotate Image in Place | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Rotate Image in Place coding challenge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Write Reduce Function",
+    "permalink": "/docs-prep/technical/coding-reduce-function"
+  },
+  "next": {
+    "title": "Spiral 2D Array",
+    "permalink": "/docs-prep/technical/coding-spiral-2d-array"
+  }
+}

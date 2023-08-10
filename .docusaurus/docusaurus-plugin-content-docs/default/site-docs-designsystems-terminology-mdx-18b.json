@@ -1,0 +1,25 @@
+{
+  "unversionedId": "designsystems/terminology",
+  "id": "designsystems/terminology",
+  "title": "Terminology",
+  "description": "Component library/design system related terminology and resource links.",
+  "source": "@site/docs/designsystems/terminology.mdx",
+  "sourceDirName": "designsystems",
+  "slug": "/designsystems/terminology",
+  "permalink": "/docs/designsystems/terminology",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Terminology"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/docs/designsystems/resources"
+  },
+  "next": {
+    "title": "UI Component Libraries",
+    "permalink": "/docs/designsystems/ui-component-libraries"
+  }
+}

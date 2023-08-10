@@ -1,0 +1,25 @@
+{
+  "unversionedId": "designsystems/resources",
+  "id": "designsystems/resources",
+  "title": "Resources",
+  "description": "General resources for component library/design systems.",
+  "source": "@site/docs/designsystems/resources.mdx",
+  "sourceDirName": "designsystems",
+  "slug": "/designsystems/resources",
+  "permalink": "/docs/designsystems/resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Resources"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Design Systems",
+    "permalink": "/docs/designsystems/"
+  },
+  "next": {
+    "title": "Terminology",
+    "permalink": "/docs/designsystems/terminology"
+  }
+}

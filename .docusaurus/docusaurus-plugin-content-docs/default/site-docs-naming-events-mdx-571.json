@@ -1,0 +1,25 @@
+{
+  "unversionedId": "naming/events",
+  "id": "naming/events",
+  "title": "Events",
+  "description": "Event Handler Functions",
+  "source": "@site/docs/naming/events.mdx",
+  "sourceDirName": "naming",
+  "slug": "/naming/events",
+  "permalink": "/docs/naming/events",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Events"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Naming Conventions",
+    "permalink": "/docs/category/naming-conventions"
+  },
+  "next": {
+    "title": "Network",
+    "permalink": "/docs/category/network"
+  }
+}

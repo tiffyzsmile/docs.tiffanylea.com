@@ -1,0 +1,15 @@
+{
+  "title": "Javascript",
+  "slug": "/category/javascript",
+  "permalink": "/docs/category/javascript",
+  "navigation": {
+    "previous": {
+      "title": "HTML",
+      "permalink": "/docs/languages/html"
+    },
+    "next": {
+      "title": "Javascript Objects",
+      "permalink": "/docs/languages/javascript/javascript-objects"
+    }
+  }
+}

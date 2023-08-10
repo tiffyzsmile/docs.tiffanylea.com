@@ -1,0 +1,64 @@
+---
+title: 'This, Call and Apply'
+metaTitle: 'Javascript This, Call and Apply | Javascript | Interview Prep | Tiffany Lea'
+metaDescription: 'Javascript This, Call and Apply Interview Questions'
+---
+
+# Javascript 'this'
+
+## Q: What is the result of the following code?
+
+```javascript
+var fullname = 'John Doe';
+var obj = {
+  fullname: 'Colin Ihrig',
+  prop: {
+    fullname: 'Aurelio De Rosa',
+    getFullname: function () {
+      return this.fullname;
+    },
+  },
+};
+
+console.log(obj.prop.getFullname()); // $: Aurelio De Rosa
+
+var test = obj.prop.getFullname;
+
+console.log(test()); // $: John Doe
+```
+
+- context of `this` is dependent on how a function is invoked, not how it’s defined
+- first `console.log()`, `getFullname()` is invoked as a function of the `obj.prop` object
+  - thus the context refers to `obj.prop` and the function returns the `obj.prop.fullname`
+- second `getFullname()` is assigned to the test variable
+  - thus the context refers to the global window object and the function returns the `window.fullname`
+
+# Javascript Call and Apply
+
+# What is the difference between .call() and .apply()?
+
+Both `call()` and `apply()` call a function with a given `this` value as the first argument
+
+- The call() method accepts arguments individually
+  - `example.call(newContext, "arg1","arg2");`
+- The apply() method accepts arguments as an array
+  - `example.apply(newContext, ["arg1","arg2"]);`
+
+## call() and apply()
+
+Fix the previous question’s issue so the last console.log() prints Aurelio De Rosa.
+
+```javascript
+//  ...code from above... //
+
+console.log(test.call(obj.prop)); // $: Aurelio De Rosa
+console.log(test.apply(obj.prop)); // $: Aurelio De Rosa
+```
+
+- forcing the context of the function using either call() or apply()
+  - in this case using call() or apply() would produce the same result
+  - main difference is how they accept arguments
+    - call() requires arguments to be specified separately
+      - `example.call(newContext, "arg1","arg2");`
+    - apply() takes arguments as an array
+      - `example.apply(newContext, ["arg1","arg2"]);`

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/data-structures",
+  "id": "data-structures/data-structures",
+  "title": "Data Structures",
+  "description": "Resources",
+  "source": "@site/docs-prep/data-structures/data-structures.mdx",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/",
+  "permalink": "/docs-prep/data-structures/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Data Structures",
+    "metaTitle": "Data Structures | Interview Prep | Tiffany Lea",
+    "metaDescription": "Data structures ramp up for interview prep"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manager Questions",
+    "permalink": "/docs-prep/behavioral/manager-questions"
+  },
+  "next": {
+    "title": "Binary Search Tree",
+    "permalink": "/docs-prep/data-structures/binary-search-tree/"
+  }
+}

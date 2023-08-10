@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/logarithms",
+  "id": "algorithms/logarithms",
+  "title": "Logarithms",
+  "description": "- Answers the question:",
+  "source": "@site/docs-prep/algorithms/logarithms.mdx",
+  "sourceDirName": "algorithms",
+  "slug": "/algorithms/logarithms",
+  "permalink": "/docs-prep/algorithms/logarithms",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Logarithms",
+    "metaTitle": "Logarithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Logarithms Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "String Reversal",
+    "permalink": "/docs-prep/algorithms/helpers/string-reversal"
+  },
+  "next": {
+    "title": "Search Algorithms",
+    "permalink": "/docs-prep/category/search-algorithms"
+  }
+}

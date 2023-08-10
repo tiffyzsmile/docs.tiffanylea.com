@@ -1,0 +1,81 @@
+---
+title: "Semantics"
+metaTitle: "Semantics | HTML | Front End Engineering | Interview Prep | Tiffany Lea"
+metaDescription: "HTML interview questions, cheatsheets and quick reference"
+---
+
+# HTML - Semantics
+
+## Semantic HTML
+
+<img
+  class="imgPadding"
+  src="/files/images/semantic-vs-not.png"
+  alt="Semantic vs not"
+/>
+
+## Benefits of Semantic HTML
+
+- Accessibility
+  - Proper use of HTML semantic tags will allow screen readers to understand content better
+- SEO
+  - Pages with correctly implemented semantic HTML have an advantage in SEO over those that don’t.
+
+## Semantic Structure
+
+- `<header>`
+  - Defines content that should be considered the introductory information of a page or section
+- `<nav>`
+  - Used for navigation links
+  - Can be nested within `<header>` tag
+  - Or secondary `<nav>` tags are also used elsewhere on the page
+- `<main>`
+  - Contains the main content (also called the body) of a page
+  - There should be only one tag per page.
+- `<article>`
+  - Defines content that could stand independently of the page or site it’s on
+  - It does not necessarily mean a “blog post” Think of it more as “an article of clothing”—a self-contained item that can be used in various contexts.
+- `<section>`
+  - Using `<section>` is a way of grouping nearby content of a similar theme
+  - Differs from an article tag in that it isn’t necessarily self-contained, but it forms part of something else
+- `<aside>`
+  - Defines content that’s less important
+  - Often used for sidebars—areas that add complementary but nonessential information
+- `<footer>`
+  - Used at bottom of a page
+  - Usually includes contact, copyright, and some site navigation
+
+## Semantic Text
+
+The semantic HTML tags for text are HTML tags that—besides the formatting—also convey the semantic function of the text they contain.
+
+- `<h1>` (heading)
+  - Top level heading
+  - Usually only one H1 per page
+- `<h2>` to `<h6>` (subheadings)
+  - Subheadings of various levels of importance
+  - There can be multiple headings of the same level on a single page
+- `<p>` (paragraph)
+  - A standalone paragraph of text
+- `<a>` (anchor)
+  - Used to mark up a hyperlink from one page to another
+- `<ol>` (ordered list)
+  - A list of items that are displayed in a particular order, starting with ordinal numbers
+  - One `<li>` (list item) tag contains a single item in the list
+- `<ul>` (unordered list)
+  - A list of items that do not need to be displayed in a particular order, starting with bullet points
+  - One `<li>` (list item) tag contains a single item of the list
+- `<q>` / `<blockquote>`
+  - A quotation of the text
+  - Use `<blockquote>` for long, multi-line quotations
+  - Use `<q>` for shorter, inline quotations
+- `<em>` (emphasis)
+  - Used for text that should be emphasized
+- `<strong>` (strong emphasis)
+  - Used for text that should be strongly emphasized
+- `<code>`
+  - A block of computer code
+
+And many others... `<summary>`, `<time>`, `<address>`, `<video>`, etc. [Check out full list](https://www.w3schools.com/TAGS/default.asp)
+
+Don't Use Semantic HTML Tags for Styling, only use them if the content fits the tags purpose.

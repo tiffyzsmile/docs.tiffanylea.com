@@ -1,0 +1,64 @@
+---
+title: 'Factory Functions'
+metaTitle: 'Factory Functions | Javascript | Interview Prep | Tiffany Lea'
+metaDescription: 'All about Factory Functions'
+---
+
+
+# Factory Functions
+A factory function is a function that creates and returns a new object.
+
+## Example
+
+```javascript
+function createPerson(firstName, lastName) {
+  return {
+    firstName: firstName,
+    lastName: lastName,
+    getFullName() {
+      return firstName + ' ' + lastName;
+    },
+  };
+}
+
+let person1 = createPerson('John', 'Doe');
+let person2 = createPerson('Jane', 'Doe');
+
+console.log(person1.getFullName()); // "John Doe"
+console.log(person2.getFullName()); // "Jane Doe"
+```
+
+When you create an object, the JavaScript engine allocates memory to it. 
+If you create many person objects, the JavaScript engine needs lots of memory spaces to store these objects.
+
+Each person object has a copy of the same `getFullName()` method. It’s not efficient memory management.
+
+To avoid duplicating the same `getFullName()` function in every object, you can use `Object.create()`.
+
+
+## Object.create()
+
+The `Object.create()` method creates a new object using an existing object as the prototype of the new object:
+```javascript
+var personActions = {
+  getFullName() {
+    return this.firstName + ' ' + this.lastName;
+  },
+};
+
+function createPerson(firstName, lastName) {
+  let person = Object.create(personActions);
+  person.firstName = firstName;
+  person.lastName = lastName;
+  return person;
+}
+
+let person1 = createPerson('John', 'Doe');
+let person2 = createPerson('Jane', 'Doe');
+
+console.log(person1.getFullName());
+console.log(person2.getFullName());
+```
+
+**Note:** in practice, you will rarely use the factory functions. Instead, you use classes or constructor/prototype patterns.
+

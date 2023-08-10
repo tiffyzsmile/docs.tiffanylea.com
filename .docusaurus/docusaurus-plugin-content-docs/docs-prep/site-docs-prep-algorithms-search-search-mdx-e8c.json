@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/search/search",
+  "id": "algorithms/search/search",
+  "title": "Search Algorithms",
+  "description": "What are Search Algorithms?",
+  "source": "@site/docs-prep/algorithms/search/search.mdx",
+  "sourceDirName": "algorithms/search",
+  "slug": "/algorithms/search/",
+  "permalink": "/docs-prep/algorithms/search/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Search Algorithms",
+    "metaTitle": "Search Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Search Algorithms Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linear Search O(n)",
+    "permalink": "/docs-prep/algorithms/search/linear-search"
+  },
+  "next": {
+    "title": "Sort Algorithms",
+    "permalink": "/docs-prep/category/sort-algorithms"
+  }
+}

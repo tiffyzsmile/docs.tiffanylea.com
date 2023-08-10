@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/merge-sorted-array-lc88",
+  "id": "technical/merge-sorted-array-lc88",
+  "title": "Merge Sorted Array LC88",
+  "description": "Leetcode 88",
+  "source": "@site/docs-prep/technical/merge-sorted-array-lc88.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/merge-sorted-array-lc88",
+  "permalink": "/docs-prep/technical/merge-sorted-array-lc88",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Merge Sorted Array LC88",
+    "metaTitle": "Merge Sorted Array LC88 | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Merge Sorted Array LC88"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Merge k Sorted Lists",
+    "permalink": "/docs-prep/technical/merge-k-sorted-lists"
+  },
+  "next": {
+    "title": "Merge Two Sorted Lists LC21",
+    "permalink": "/docs-prep/technical/merge-two-sorted-lists-lc21"
+  }
+}

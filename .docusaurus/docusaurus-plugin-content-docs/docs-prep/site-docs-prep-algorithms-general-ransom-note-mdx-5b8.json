@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/general/ransom-note",
+  "id": "algorithms/general/ransom-note",
+  "title": "Ransom Note",
+  "description": "Given an arbitrary ransom note string and another string containing letters (or words) from all the magazines, write a function that will return true if the ransom note can be constructed from the magazines; otherwise, it will return false.",
+  "source": "@site/docs-prep/algorithms/general/ransom-note.mdx",
+  "sourceDirName": "algorithms/general",
+  "slug": "/algorithms/general/ransom-note",
+  "permalink": "/docs-prep/algorithms/general/ransom-note",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Ransom Note",
+    "metaTitle": "Ransom Note | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Ransom Note algorithm"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Is Palindrome",
+    "permalink": "/docs-prep/algorithms/general/is-palindrome"
+  },
+  "next": {
+    "title": "Reverse Array in Place",
+    "permalink": "/docs-prep/algorithms/general/reverse-array-in-place"
+  }
+}

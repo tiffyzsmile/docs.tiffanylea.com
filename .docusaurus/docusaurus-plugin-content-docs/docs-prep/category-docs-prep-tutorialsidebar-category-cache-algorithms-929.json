@@ -1,0 +1,15 @@
+{
+  "title": "Cache Algorithms",
+  "slug": "/category/cache-algorithms",
+  "permalink": "/docs-prep/category/cache-algorithms",
+  "navigation": {
+    "previous": {
+      "title": "Big O Notation",
+      "permalink": "/docs-prep/algorithms/big-o"
+    },
+    "next": {
+      "title": "LRU Cache",
+      "permalink": "/docs-prep/algorithms/cache/lru-cache"
+    }
+  }
+}

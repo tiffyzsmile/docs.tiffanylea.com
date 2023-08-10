@@ -1,0 +1,1060 @@
+{
+  "pluginId": "docs-prep",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Algorithms",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Big O Notation",
+            "href": "/docs-prep/algorithms/big-o",
+            "docId": "algorithms/big-o"
+          },
+          {
+            "type": "category",
+            "label": "Cache Algorithms",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "LRU Cache",
+                "href": "/docs-prep/algorithms/cache/lru-cache",
+                "docId": "algorithms/cache/lru-cache"
+              }
+            ],
+            "href": "/docs-prep/category/cache-algorithms"
+          },
+          {
+            "type": "category",
+            "label": "General Algorithms",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Caesar Cipher",
+                "href": "/docs-prep/algorithms/general/caesar-cipher",
+                "docId": "algorithms/general/caesar-cipher"
+              },
+              {
+                "type": "link",
+                "label": "Fizz Buzz",
+                "href": "/docs-prep/algorithms/general/fizz-buzz",
+                "docId": "algorithms/general/fizz-buzz"
+              },
+              {
+                "type": "link",
+                "label": "Is Palindrome",
+                "href": "/docs-prep/algorithms/general/is-palindrome",
+                "docId": "algorithms/general/is-palindrome"
+              },
+              {
+                "type": "link",
+                "label": "Ransom Note",
+                "href": "/docs-prep/algorithms/general/ransom-note",
+                "docId": "algorithms/general/ransom-note"
+              },
+              {
+                "type": "link",
+                "label": "Reverse Array in Place",
+                "href": "/docs-prep/algorithms/general/reverse-array-in-place",
+                "docId": "algorithms/general/reverse-array-in-place"
+              },
+              {
+                "type": "link",
+                "label": "Reverse Words",
+                "href": "/docs-prep/algorithms/general/reverse-words",
+                "docId": "algorithms/general/reverse-words"
+              }
+            ],
+            "href": "/docs-prep/category/general-algorithms"
+          },
+          {
+            "type": "category",
+            "label": "Algorithm Helpers",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "String Reversal",
+                "href": "/docs-prep/algorithms/helpers/string-reversal",
+                "docId": "algorithms/helpers/string-reversal"
+              }
+            ],
+            "href": "/docs-prep/category/algorithm-helpers"
+          },
+          {
+            "type": "link",
+            "label": "Logarithms",
+            "href": "/docs-prep/algorithms/logarithms",
+            "docId": "algorithms/logarithms"
+          },
+          {
+            "type": "category",
+            "label": "Search Algorithms",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Binary Search O(log n)",
+                "href": "/docs-prep/algorithms/search/binary-search",
+                "docId": "algorithms/search/binary-search"
+              },
+              {
+                "type": "link",
+                "label": "Linear Search O(n)",
+                "href": "/docs-prep/algorithms/search/linear-search",
+                "docId": "algorithms/search/linear-search"
+              },
+              {
+                "type": "link",
+                "label": "Search Algorithms",
+                "href": "/docs-prep/algorithms/search/",
+                "docId": "algorithms/search/search"
+              }
+            ],
+            "href": "/docs-prep/category/search-algorithms"
+          },
+          {
+            "type": "category",
+            "label": "Sort Algorithms",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Bubble Sort O(n^2)",
+                "href": "/docs-prep/algorithms/sort/bubble-sort",
+                "docId": "algorithms/sort/bubble-sort"
+              },
+              {
+                "type": "link",
+                "label": "Insertion Sort O(n^2)",
+                "href": "/docs-prep/algorithms/sort/insertion-sort",
+                "docId": "algorithms/sort/insertion-sort"
+              },
+              {
+                "type": "link",
+                "label": "Merge Sort O(n·log(n))",
+                "href": "/docs-prep/algorithms/sort/merge-sort",
+                "docId": "algorithms/sort/merge-sort"
+              },
+              {
+                "type": "link",
+                "label": "Sort Algorithms",
+                "href": "/docs-prep/algorithms/sort/",
+                "docId": "algorithms/sort/sort"
+              }
+            ],
+            "href": "/docs-prep/category/sort-algorithms"
+          },
+          {
+            "type": "link",
+            "label": "Time and Space Complexity",
+            "href": "/docs-prep/algorithms/time-and-space-complexity",
+            "docId": "algorithms/time-and-space-complexity"
+          }
+        ],
+        "href": "/docs-prep/algorithms/"
+      },
+      {
+        "type": "category",
+        "label": "Behavioral",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Evaluation",
+            "href": "/docs-prep/behavioral/evaluation",
+            "docId": "behavioral/evaluation"
+          },
+          {
+            "type": "link",
+            "label": "General Questions",
+            "href": "/docs-prep/behavioral/general-questions",
+            "docId": "behavioral/general-questions"
+          },
+          {
+            "type": "link",
+            "label": "Leveling",
+            "href": "/docs-prep/behavioral/leveling",
+            "docId": "behavioral/leveling"
+          },
+          {
+            "type": "link",
+            "label": "Manager Questions",
+            "href": "/docs-prep/behavioral/manager-questions",
+            "docId": "behavioral/manager-questions"
+          }
+        ],
+        "href": "/docs-prep/category/behavioral"
+      },
+      {
+        "type": "category",
+        "label": "Data Structures",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Binary Search Tree",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Breadth First Search",
+                "href": "/docs-prep/data-structures/binary-search-tree/breadth-first-search",
+                "docId": "data-structures/binary-search-tree/breadth-first-search"
+              },
+              {
+                "type": "link",
+                "label": "Depth First Search",
+                "href": "/docs-prep/data-structures/binary-search-tree/depth-first-search",
+                "docId": "data-structures/binary-search-tree/depth-first-search"
+              }
+            ],
+            "href": "/docs-prep/data-structures/binary-search-tree/"
+          },
+          {
+            "type": "link",
+            "label": "Hash Table",
+            "href": "/docs-prep/data-structures/hash-table",
+            "docId": "data-structures/hash-table"
+          },
+          {
+            "type": "link",
+            "label": "Linked List",
+            "href": "/docs-prep/data-structures/linked-list",
+            "docId": "data-structures/linked-list"
+          }
+        ],
+        "href": "/docs-prep/data-structures/"
+      },
+      {
+        "type": "category",
+        "label": "Front End",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Browser Storage",
+            "href": "/docs-prep/front-end/browser-storage",
+            "docId": "front-end/browser-storage"
+          },
+          {
+            "type": "link",
+            "label": "CSS",
+            "href": "/docs-prep/front-end/css",
+            "docId": "front-end/css"
+          },
+          {
+            "type": "link",
+            "label": "Data Retrieval",
+            "href": "/docs-prep/front-end/data-retrieval",
+            "docId": "front-end/data-retrieval"
+          },
+          {
+            "type": "link",
+            "label": "DOM",
+            "href": "/docs-prep/front-end/dom",
+            "docId": "front-end/dom"
+          },
+          {
+            "type": "category",
+            "label": "HTML",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Semantics",
+                "href": "/docs-prep/front-end/html/semantics",
+                "docId": "front-end/html/semantics"
+              }
+            ],
+            "href": "/docs-prep/category/html"
+          },
+          {
+            "type": "link",
+            "label": "HTTP",
+            "href": "/docs-prep/front-end/http",
+            "docId": "front-end/http"
+          },
+          {
+            "type": "category",
+            "label": "Performance",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Images",
+                "href": "/docs-prep/front-end/performance/performance-images",
+                "docId": "front-end/performance/performance-images"
+              }
+            ],
+            "href": "/docs-prep/front-end/performance/"
+          },
+          {
+            "type": "category",
+            "label": "System Design",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "RADIO",
+                "href": "/docs-prep/front-end/system-design/radio",
+                "docId": "front-end/system-design/radio"
+              }
+            ],
+            "href": "/docs-prep/category/system-design"
+          }
+        ],
+        "href": "/docs-prep/category/front-end"
+      },
+      {
+        "type": "link",
+        "label": "Interview Prep",
+        "href": "/docs-prep/",
+        "docId": "index"
+      },
+      {
+        "type": "category",
+        "label": "Javascript",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Concepts",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Constructor Functions",
+                "href": "/docs-prep/javascript/concepts/constructor-functions",
+                "docId": "javascript/concepts/constructor-functions"
+              },
+              {
+                "type": "link",
+                "label": "Currying",
+                "href": "/docs-prep/javascript/concepts/currying",
+                "docId": "javascript/concepts/currying"
+              },
+              {
+                "type": "link",
+                "label": "Factory Functions",
+                "href": "/docs-prep/javascript/concepts/factory-functions",
+                "docId": "javascript/concepts/factory-functions"
+              },
+              {
+                "type": "link",
+                "label": "Closures",
+                "href": "/docs-prep/javascript/concepts/javascript-closures",
+                "docId": "javascript/concepts/javascript-closures"
+              },
+              {
+                "type": "link",
+                "label": "Hoisting",
+                "href": "/docs-prep/javascript/concepts/javascript-hoisting",
+                "docId": "javascript/concepts/javascript-hoisting"
+              },
+              {
+                "type": "link",
+                "label": "Scope",
+                "href": "/docs-prep/javascript/concepts/javascript-scope",
+                "docId": "javascript/concepts/javascript-scope"
+              },
+              {
+                "type": "link",
+                "label": "This, Call and Apply",
+                "href": "/docs-prep/javascript/concepts/javascript-this-call-apply",
+                "docId": "javascript/concepts/javascript-this-call-apply"
+              },
+              {
+                "type": "link",
+                "label": "Recursion",
+                "href": "/docs-prep/javascript/concepts/recursion",
+                "docId": "javascript/concepts/recursion"
+              }
+            ],
+            "href": "/docs-prep/category/concepts"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Event Loop",
+            "href": "/docs-prep/javascript/event-loop",
+            "docId": "javascript/event-loop"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Arrays",
+            "href": "/docs-prep/javascript/javascript-arrays",
+            "docId": "javascript/javascript-arrays"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Classes",
+            "href": "/docs-prep/javascript/javascript-classes",
+            "docId": "javascript/javascript-classes"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Data Structures",
+            "href": "/docs-prep/javascript/javascript-data-structures",
+            "docId": "javascript/javascript-data-structures"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Map",
+            "href": "/docs-prep/javascript/javascript-map",
+            "docId": "javascript/javascript-map"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Prototype",
+            "href": "/docs-prep/javascript/javascript-prototype",
+            "docId": "javascript/javascript-prototype"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Questions",
+            "href": "/docs-prep/javascript/javascript-questions",
+            "docId": "javascript/javascript-questions"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Set",
+            "href": "/docs-prep/javascript/javascript-set",
+            "docId": "javascript/javascript-set"
+          },
+          {
+            "type": "link",
+            "label": "Javascript Terms",
+            "href": "/docs-prep/javascript/javascript-terms",
+            "docId": "javascript/javascript-terms"
+          },
+          {
+            "type": "link",
+            "label": "Javascript",
+            "href": "/docs-prep/javascript/",
+            "docId": "javascript/javascript"
+          }
+        ],
+        "href": "/docs-prep/category/javascript"
+      },
+      {
+        "type": "category",
+        "label": "Random",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Dynamic",
+            "href": "/docs-prep/random/dynamic",
+            "docId": "random/dynamic"
+          },
+          {
+            "type": "link",
+            "label": "Pointers in C",
+            "href": "/docs-prep/random/pointers-in-c",
+            "docId": "random/pointers-in-c"
+          }
+        ],
+        "href": "/docs-prep/random/"
+      },
+      {
+        "type": "category",
+        "label": "React",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "React Hooks",
+            "href": "/docs-prep/react/react-hooks",
+            "docId": "react/react-hooks"
+          }
+        ],
+        "href": "/docs-prep/react/"
+      },
+      {
+        "type": "category",
+        "label": "Technical",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Create Event Emitter",
+            "href": "/docs-prep/technical/coding-event-emitter",
+            "docId": "technical/coding-event-emitter"
+          },
+          {
+            "type": "link",
+            "label": "First Duplicate in Array",
+            "href": "/docs-prep/technical/coding-first-duplicate-in-array",
+            "docId": "technical/coding-first-duplicate-in-array"
+          },
+          {
+            "type": "link",
+            "label": "First Unique Char in String",
+            "href": "/docs-prep/technical/coding-first-unique-char-in-string",
+            "docId": "technical/coding-first-unique-char-in-string"
+          },
+          {
+            "type": "link",
+            "label": "Flatten Array",
+            "href": "/docs-prep/technical/coding-flatten-array",
+            "docId": "technical/coding-flatten-array"
+          },
+          {
+            "type": "link",
+            "label": "Write Reduce Function",
+            "href": "/docs-prep/technical/coding-reduce-function",
+            "docId": "technical/coding-reduce-function"
+          },
+          {
+            "type": "link",
+            "label": "Rotate Image in Place",
+            "href": "/docs-prep/technical/coding-rotate-image-in-place",
+            "docId": "technical/coding-rotate-image-in-place"
+          },
+          {
+            "type": "link",
+            "label": "Spiral 2D Array",
+            "href": "/docs-prep/technical/coding-spiral-2d-array",
+            "docId": "technical/coding-spiral-2d-array"
+          },
+          {
+            "type": "link",
+            "label": "Coding",
+            "href": "/docs-prep/technical/coding",
+            "docId": "technical/coding"
+          },
+          {
+            "type": "link",
+            "label": "Kth Largest Element in an Array LC215",
+            "href": "/docs-prep/technical/kth-largest-element-lc215",
+            "docId": "technical/kth-largest-element-lc215"
+          },
+          {
+            "type": "link",
+            "label": "Merge k Sorted Lists",
+            "href": "/docs-prep/technical/merge-k-sorted-lists",
+            "docId": "technical/merge-k-sorted-lists"
+          },
+          {
+            "type": "link",
+            "label": "Merge Sorted Array LC88",
+            "href": "/docs-prep/technical/merge-sorted-array-lc88",
+            "docId": "technical/merge-sorted-array-lc88"
+          },
+          {
+            "type": "link",
+            "label": "Merge Two Sorted Lists LC21",
+            "href": "/docs-prep/technical/merge-two-sorted-lists-lc21",
+            "docId": "technical/merge-two-sorted-lists-lc21"
+          },
+          {
+            "type": "link",
+            "label": "Most common substring",
+            "href": "/docs-prep/technical/most-common-substring",
+            "docId": "technical/most-common-substring"
+          },
+          {
+            "type": "link",
+            "label": "Two Sum LC1",
+            "href": "/docs-prep/technical/two-sum-lc1",
+            "docId": "technical/two-sum-lc1"
+          }
+        ],
+        "href": "/docs-prep/technical/"
+      }
+    ]
+  },
+  "docs": {
+    "algorithms/algorithms": {
+      "id": "algorithms/algorithms",
+      "title": "Algorithms",
+      "description": "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/big-o": {
+      "id": "algorithms/big-o",
+      "title": "Big O Notation",
+      "description": "What is Big O Notation?",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/cache/lru-cache": {
+      "id": "algorithms/cache/lru-cache",
+      "title": "LRU Cache",
+      "description": "- LeetCode Interview Questions Discussion",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/general/caesar-cipher": {
+      "id": "algorithms/general/caesar-cipher",
+      "title": "Caesar Cipher",
+      "description": "Julius Caesar protected his confidential information by encrypting it using a cipher.",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/general/fizz-buzz": {
+      "id": "algorithms/general/fizz-buzz",
+      "title": "Fizz Buzz",
+      "description": "- problem solving abilities",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/general/is-palindrome": {
+      "id": "algorithms/general/is-palindrome",
+      "title": "Is Palindrome",
+      "description": "Given a string, return true if the string is a palindrome or false if it is not.",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/general/ransom-note": {
+      "id": "algorithms/general/ransom-note",
+      "title": "Ransom Note",
+      "description": "Given an arbitrary ransom note string and another string containing letters (or words) from all the magazines, write a function that will return true if the ransom note can be constructed from the magazines; otherwise, it will return false.",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/general/reverse-array-in-place": {
+      "id": "algorithms/general/reverse-array-in-place",
+      "title": "Reverse Array in Place",
+      "description": "<img",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/general/reverse-words": {
+      "id": "algorithms/general/reverse-words",
+      "title": "Reverse Words",
+      "description": "Take in a string as a parameter, reverse every word in that string, and return the new string",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/helpers/string-reversal": {
+      "id": "algorithms/helpers/string-reversal",
+      "title": "String Reversal",
+      "description": "- default methods (split('').reverse().join (''))",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/logarithms": {
+      "id": "algorithms/logarithms",
+      "title": "Logarithms",
+      "description": "- Answers the question:",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/search/binary-search": {
+      "id": "algorithms/search/binary-search",
+      "title": "Binary Search O(log n)",
+      "description": "Binary search is the most efficient searching algorithm having a run-time complexity of O(log2 N)",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/search/linear-search": {
+      "id": "algorithms/search/linear-search",
+      "title": "Linear Search O(n)",
+      "description": "What is Linear Search?",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/search/search": {
+      "id": "algorithms/search/search",
+      "title": "Search Algorithms",
+      "description": "What are Search Algorithms?",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/sort/bubble-sort": {
+      "id": "algorithms/sort/bubble-sort",
+      "title": "Bubble Sort O(n^2)",
+      "description": "\\*Image from Algorithms",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/sort/insertion-sort": {
+      "id": "algorithms/sort/insertion-sort",
+      "title": "Insertion Sort O(n^2)",
+      "description": "Although it is one of the elementary sorting algorithms with O(n2) worst-case time, insertion sort is the algorithm of choice either when the data is nearly sorted (because it is adaptive) or when the problem size is small (because it has low overhead).",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/sort/merge-sort": {
+      "id": "algorithms/sort/merge-sort",
+      "title": "Merge Sort O(n·log(n))",
+      "description": "- Divide input array into subarrays",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/sort/sort": {
+      "id": "algorithms/sort/sort",
+      "title": "Sort Algorithms",
+      "description": "Your browser does not support the video tag.",
+      "sidebar": "tutorialSidebar"
+    },
+    "algorithms/time-and-space-complexity": {
+      "id": "algorithms/time-and-space-complexity",
+      "title": "Time and Space Complexity",
+      "description": "Space complexity is a measure of how efficient your code is in terms of memory used.",
+      "sidebar": "tutorialSidebar"
+    },
+    "behavioral/evaluation": {
+      "id": "behavioral/evaluation",
+      "title": "Evaluation",
+      "description": "Collaboration",
+      "sidebar": "tutorialSidebar"
+    },
+    "behavioral/general-questions": {
+      "id": "behavioral/general-questions",
+      "title": "General Questions",
+      "description": "Coming soon...",
+      "sidebar": "tutorialSidebar"
+    },
+    "behavioral/leveling": {
+      "id": "behavioral/leveling",
+      "title": "Leveling",
+      "description": "Behavioral interviews is where interviewers assess the candidate's maturity depending on the stories they tell.",
+      "sidebar": "tutorialSidebar"
+    },
+    "behavioral/manager-questions": {
+      "id": "behavioral/manager-questions",
+      "title": "Manager Questions",
+      "description": "General",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-structures/binary-search-tree/binary-search-tree": {
+      "id": "data-structures/binary-search-tree/binary-search-tree",
+      "title": "Binary Search Tree",
+      "description": "- Awesome Video",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-structures/binary-search-tree/breadth-first-search": {
+      "id": "data-structures/binary-search-tree/breadth-first-search",
+      "title": "Breadth First Search",
+      "description": "Works by first visiting all nodes in a level once, before proceeding to the next levels.",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-structures/binary-search-tree/depth-first-search": {
+      "id": "data-structures/binary-search-tree/depth-first-search",
+      "title": "Depth First Search",
+      "description": "Works by going \"deeper\" into one part of the graph and visiting all of its nodes all the way to the end.",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-structures/data-structures": {
+      "id": "data-structures/data-structures",
+      "title": "Data Structures",
+      "description": "Resources",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-structures/hash-table": {
+      "id": "data-structures/hash-table",
+      "title": "Hash Table",
+      "description": "Hash tables are used to store data that is in the form of a key associated with a value.",
+      "sidebar": "tutorialSidebar"
+    },
+    "data-structures/linked-list": {
+      "id": "data-structures/linked-list",
+      "title": "Linked List",
+      "description": "List of elements called nodes connected (linked) together in a single file line.",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/browser-storage": {
+      "id": "front-end/browser-storage",
+      "title": "Browser Storage",
+      "description": "IndexDB",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/css": {
+      "id": "front-end/css",
+      "title": "CSS",
+      "description": "Resources",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/data-retrieval": {
+      "id": "front-end/data-retrieval",
+      "title": "Data Retrieval",
+      "description": "Long-Polling vs WebSockets vs Server-Sent Events (SSE)",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/dom": {
+      "id": "front-end/dom",
+      "title": "DOM",
+      "description": "The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure where in each node is an object representing a part of the document.",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/html/semantics": {
+      "id": "front-end/html/semantics",
+      "title": "Semantics",
+      "description": "Semantic HTML",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/http": {
+      "id": "front-end/http",
+      "title": "HTTP",
+      "description": "| Method  | Description                                                                           |",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/performance/performance": {
+      "id": "front-end/performance/performance",
+      "title": "Performance",
+      "description": "- Facebook: good article about 2020 site re-write",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/performance/performance-images": {
+      "id": "front-end/performance/performance-images",
+      "title": "Images",
+      "description": "- use compression/optimization tools to lower file size",
+      "sidebar": "tutorialSidebar"
+    },
+    "front-end/system-design/radio": {
+      "id": "front-end/system-design/radio",
+      "title": "RADIO",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Interview Prep",
+      "description": "- General",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/constructor-functions": {
+      "id": "javascript/concepts/constructor-functions",
+      "title": "Constructor Functions",
+      "description": "What is a Constructor Function?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/currying": {
+      "id": "javascript/concepts/currying",
+      "title": "Currying",
+      "description": "Currying is the technique of converting a function that takes multiple arguments into a nested sequence of functions that each take a single argument.",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/factory-functions": {
+      "id": "javascript/concepts/factory-functions",
+      "title": "Factory Functions",
+      "description": "A factory function is a function that creates and returns a new object.",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/javascript-closures": {
+      "id": "javascript/concepts/javascript-closures",
+      "title": "Closures",
+      "description": "A closure is when an outer function returns an inner function, the inner function is then executed in a different scope, and the inner function continues to maintain access to the outer function's variables, even though the outer function no longer exists.",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/javascript-hoisting": {
+      "id": "javascript/concepts/javascript-hoisting",
+      "title": "Hoisting",
+      "description": "When a Javascript file (or HTML document with Javascript in it) is loaded, function declarations are hoisted to the top of the code by the browser before any code is executed",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/javascript-scope": {
+      "id": "javascript/concepts/javascript-scope",
+      "title": "Scope",
+      "description": "Q: What will be printed on the console?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/javascript-this-call-apply": {
+      "id": "javascript/concepts/javascript-this-call-apply",
+      "title": "This, Call and Apply",
+      "description": "Q: What is the result of the following code?",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/concepts/recursion": {
+      "id": "javascript/concepts/recursion",
+      "title": "Recursion",
+      "description": "A function that calls itself.",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/event-loop": {
+      "id": "javascript/event-loop",
+      "title": "Javascript Event Loop",
+      "description": "Resources",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript": {
+      "id": "javascript/javascript",
+      "title": "Javascript",
+      "description": "- look here",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-arrays": {
+      "id": "javascript/javascript-arrays",
+      "title": "Javascript Arrays",
+      "description": "Image From//www.cronj.com/",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-classes": {
+      "id": "javascript/javascript-classes",
+      "title": "Javascript Classes",
+      "description": "- Hackerrank Tutorial",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-data-structures": {
+      "id": "javascript/javascript-data-structures",
+      "title": "Javascript Data Structures",
+      "description": "Linked List",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-map": {
+      "id": "javascript/javascript-map",
+      "title": "Javascript Map",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-prototype": {
+      "id": "javascript/javascript-prototype",
+      "title": "Javascript Prototype",
+      "description": "Resources",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-questions": {
+      "id": "javascript/javascript-questions",
+      "title": "Javascript Questions",
+      "description": "Remove Duplicates from array without loop",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-set": {
+      "id": "javascript/javascript-set",
+      "title": "Javascript Set",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/javascript-terms": {
+      "id": "javascript/javascript-terms",
+      "title": "Javascript Terms",
+      "description": "Rest parameters ...",
+      "sidebar": "tutorialSidebar"
+    },
+    "random/dynamic": {
+      "id": "random/dynamic",
+      "title": "Dynamic",
+      "description": "To always remember answers to the sub-problems you've already solved.",
+      "sidebar": "tutorialSidebar"
+    },
+    "random/pointers-in-c": {
+      "id": "random/pointers-in-c",
+      "title": "Pointers in C",
+      "description": "I feel like I've lost days of my life I'll never get back...",
+      "sidebar": "tutorialSidebar"
+    },
+    "random/random": {
+      "id": "random/random",
+      "title": "Random",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "react/react": {
+      "id": "react/react",
+      "title": "React",
+      "description": "- The React Cheatsheet for 2020 (+ real-world examples)",
+      "sidebar": "tutorialSidebar"
+    },
+    "react/react-hooks": {
+      "id": "react/react-hooks",
+      "title": "React Hooks",
+      "description": "- code snippets from https://www.snippetsofhooks.dev/",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding": {
+      "id": "technical/coding",
+      "title": "Coding",
+      "description": "House code challenges that may get asked in a technical interview.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding-event-emitter": {
+      "id": "technical/coding-event-emitter",
+      "title": "Create Event Emitter",
+      "description": "NOTE: just pasted this in... may need to be reviewed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding-first-duplicate-in-array": {
+      "id": "technical/coding-first-duplicate-in-array",
+      "title": "First Duplicate in Array",
+      "description": "Given an array a that contains only numbers in the range from 1 to a.length, find the first duplicate number for which the second occurrence has the minimal index.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding-first-unique-char-in-string": {
+      "id": "technical/coding-first-unique-char-in-string",
+      "title": "First Unique Char in String",
+      "description": "Given a string s consisting of small English letters, find and return the first instance of a non-repeating character in it. If there is no such character, return '\\_'.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding-flatten-array": {
+      "id": "technical/coding-flatten-array",
+      "title": "Flatten Array",
+      "description": "Recursive Solution",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding-reduce-function": {
+      "id": "technical/coding-reduce-function",
+      "title": "Write Reduce Function",
+      "description": "The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding-rotate-image-in-place": {
+      "id": "technical/coding-rotate-image-in-place",
+      "title": "Rotate Image in Place",
+      "description": "Note: Try to solve this task in-place (with O(1) additional memory), since this is what you'll be asked to do during an interview.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/coding-spiral-2d-array": {
+      "id": "technical/coding-spiral-2d-array",
+      "title": "Spiral 2D Array",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/kth-largest-element-lc215": {
+      "id": "technical/kth-largest-element-lc215",
+      "title": "Kth Largest Element in an Array LC215",
+      "description": "Leetcode 215",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/merge-k-sorted-lists": {
+      "id": "technical/merge-k-sorted-lists",
+      "title": "Merge k Sorted Lists",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/merge-sorted-array-lc88": {
+      "id": "technical/merge-sorted-array-lc88",
+      "title": "Merge Sorted Array LC88",
+      "description": "Leetcode 88",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/merge-two-sorted-lists-lc21": {
+      "id": "technical/merge-two-sorted-lists-lc21",
+      "title": "Merge Two Sorted Lists LC21",
+      "description": "- Leetcode 21",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/most-common-substring": {
+      "id": "technical/most-common-substring",
+      "title": "Most common substring",
+      "description": "Video walkthrough",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/technical": {
+      "id": "technical/technical",
+      "title": "Technical",
+      "description": "1. Interviewer asks question",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/two-sum-lc1": {
+      "id": "technical/two-sum-lc1",
+      "title": "Two Sum LC1",
+      "description": "- Leetcode 1",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

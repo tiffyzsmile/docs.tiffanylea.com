@@ -1,0 +1,25 @@
+{
+  "unversionedId": "inspiration",
+  "id": "inspiration",
+  "title": "Inspiration",
+  "description": "CSS",
+  "source": "@site/docs/inspiration.mdx",
+  "sourceDirName": ".",
+  "slug": "/inspiration",
+  "permalink": "/docs/inspiration",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Inspiration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docs",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Code",
+    "permalink": "/docs/category/code"
+  }
+}

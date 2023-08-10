@@ -1,0 +1,49 @@
+---
+title: Events
+---
+
+# Naming Conventions: Events
+
+## Event Handler Functions
+
+How to name the function you will pass in somewhere to handle an event.
+
+### Convention
+
+```
+handleEvent
+handleSubjectEvent
+```
+
+### Examples
+
+```
+handleNameChange
+handleChange
+handleFormReset
+handleReset
+```
+
+## Event Handler Props
+
+How to name component props that accept event handlers.
+
+### Convention
+
+```
+onEvent
+onSubjectEvent
+```
+
+### Examples
+
+```
+onNameChange
+onChange
+onFormReset
+onReset
+```
+
+```jsx
+<SomeComponent onNameChange={handleNameChange} onFormReset={handleFormReset} />
+```

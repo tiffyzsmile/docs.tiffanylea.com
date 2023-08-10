@@ -1,0 +1,15 @@
+{
+  "title": "Tools",
+  "slug": "/category/tools",
+  "permalink": "/docs/category/tools",
+  "navigation": {
+    "previous": {
+      "title": "Links",
+      "permalink": "/docs/resources/links"
+    },
+    "next": {
+      "title": "Docker",
+      "permalink": "/docs/tools/docker"
+    }
+  }
+}

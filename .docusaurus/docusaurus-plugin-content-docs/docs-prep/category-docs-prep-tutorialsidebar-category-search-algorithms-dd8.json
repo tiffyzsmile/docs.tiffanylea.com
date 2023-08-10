@@ -1,0 +1,15 @@
+{
+  "title": "Search Algorithms",
+  "slug": "/category/search-algorithms",
+  "permalink": "/docs-prep/category/search-algorithms",
+  "navigation": {
+    "previous": {
+      "title": "Logarithms",
+      "permalink": "/docs-prep/algorithms/logarithms"
+    },
+    "next": {
+      "title": "Binary Search O(log n)",
+      "permalink": "/docs-prep/algorithms/search/binary-search"
+    }
+  }
+}

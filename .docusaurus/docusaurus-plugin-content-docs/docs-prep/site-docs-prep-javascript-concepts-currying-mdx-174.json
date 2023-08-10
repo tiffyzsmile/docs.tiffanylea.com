@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/concepts/currying",
+  "id": "javascript/concepts/currying",
+  "title": "Currying",
+  "description": "Currying is the technique of converting a function that takes multiple arguments into a nested sequence of functions that each take a single argument.",
+  "source": "@site/docs-prep/javascript/concepts/currying.mdx",
+  "sourceDirName": "javascript/concepts",
+  "slug": "/javascript/concepts/currying",
+  "permalink": "/docs-prep/javascript/concepts/currying",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Currying",
+    "metaTitle": "Currying | Programming | Interview Prep | Tiffany Lea",
+    "metaDescription": "Currying"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Constructor Functions",
+    "permalink": "/docs-prep/javascript/concepts/constructor-functions"
+  },
+  "next": {
+    "title": "Factory Functions",
+    "permalink": "/docs-prep/javascript/concepts/factory-functions"
+  }
+}

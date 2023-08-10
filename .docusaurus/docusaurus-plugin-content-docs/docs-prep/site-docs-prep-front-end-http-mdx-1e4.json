@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/http",
+  "id": "front-end/http",
+  "title": "HTTP",
+  "description": "| Method  | Description                                                                           |",
+  "source": "@site/docs-prep/front-end/http.mdx",
+  "sourceDirName": "front-end",
+  "slug": "/front-end/http",
+  "permalink": "/docs-prep/front-end/http",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "HTTP",
+    "metaTitle": "HTTP | Interview Prep | Tiffany Lea",
+    "metaDescription": "CSS interview questions, cheatsheets and quick reference"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Semantics",
+    "permalink": "/docs-prep/front-end/html/semantics"
+  },
+  "next": {
+    "title": "Performance",
+    "permalink": "/docs-prep/front-end/performance/"
+  }
+}

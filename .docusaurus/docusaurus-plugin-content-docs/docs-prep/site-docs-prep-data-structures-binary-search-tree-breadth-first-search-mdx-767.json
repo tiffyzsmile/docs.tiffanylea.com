@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/binary-search-tree/breadth-first-search",
+  "id": "data-structures/binary-search-tree/breadth-first-search",
+  "title": "Breadth First Search",
+  "description": "Works by first visiting all nodes in a level once, before proceeding to the next levels.",
+  "source": "@site/docs-prep/data-structures/binary-search-tree/breadth-first-search.mdx",
+  "sourceDirName": "data-structures/binary-search-tree",
+  "slug": "/data-structures/binary-search-tree/breadth-first-search",
+  "permalink": "/docs-prep/data-structures/binary-search-tree/breadth-first-search",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Breadth First Search",
+    "metaTitle": "Breadth First Search | Binary Search Tree | Data Structures | Interview Prep | Tiffany Lea",
+    "metaDescription": "Breadth First Search"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Binary Search Tree",
+    "permalink": "/docs-prep/data-structures/binary-search-tree/"
+  },
+  "next": {
+    "title": "Depth First Search",
+    "permalink": "/docs-prep/data-structures/binary-search-tree/depth-first-search"
+  }
+}

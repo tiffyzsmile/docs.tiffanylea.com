@@ -1,0 +1,27 @@
+{
+  "unversionedId": "languages/typescript",
+  "id": "languages/typescript",
+  "title": "TypeScript",
+  "description": "// TODO: update this",
+  "source": "@site/docs/languages/typescript.mdx",
+  "sourceDirName": "languages",
+  "slug": "/languages/typescript",
+  "permalink": "/docs/languages/typescript",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "TypeScript",
+    "menu": "Languages",
+    "route": "/languages/typescript"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown",
+    "permalink": "/docs/languages/markdown"
+  },
+  "next": {
+    "title": "Leadership",
+    "permalink": "/docs/category/leadership"
+  }
+}

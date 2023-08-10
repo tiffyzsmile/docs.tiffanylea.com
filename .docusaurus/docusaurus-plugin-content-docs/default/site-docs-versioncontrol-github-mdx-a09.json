@@ -1,0 +1,23 @@
+{
+  "unversionedId": "versioncontrol/github",
+  "id": "versioncontrol/github",
+  "title": "Github",
+  "description": "Profile Readme",
+  "source": "@site/docs/versioncontrol/github.mdx",
+  "sourceDirName": "versioncontrol",
+  "slug": "/versioncontrol/github",
+  "permalink": "/docs/versioncontrol/github",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Github",
+    "menu": "Version Control",
+    "route": "/versioncontrol/github"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Version Control",
+    "permalink": "/docs/category/version-control"
+  }
+}

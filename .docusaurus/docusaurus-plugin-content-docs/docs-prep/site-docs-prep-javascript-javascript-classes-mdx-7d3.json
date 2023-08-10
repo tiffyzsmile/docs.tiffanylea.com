@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/javascript-classes",
+  "id": "javascript/javascript-classes",
+  "title": "Javascript Classes",
+  "description": "- Hackerrank Tutorial",
+  "source": "@site/docs-prep/javascript/javascript-classes.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-classes",
+  "permalink": "/docs-prep/javascript/javascript-classes",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Classes",
+    "metaTitle": "Javascript Classes | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Classes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Arrays",
+    "permalink": "/docs-prep/javascript/javascript-arrays"
+  },
+  "next": {
+    "title": "Javascript Data Structures",
+    "permalink": "/docs-prep/javascript/javascript-data-structures"
+  }
+}

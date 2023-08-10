@@ -1,0 +1,190 @@
+---
+name: Markdown
+menu: Languages
+route: /languages/markdown
+---
+
+# Markdown
+
+## Resources
+
+- [Github Cheatsheet](/files/pdfs/markdown-cheatsheet.pdf)
+- [Table HTML to MD](https://jmalarcon.github.io/markdowntables/)
+
+
+
+## Headings
+
+```
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
+
+## Text Styles
+
+```
+**bold text**
+
+*italicized text*
+
+> blockquote
+
+
+```
+
+## Lists
+
+```
+1. First item
+2. Second item
+3. Third item
+
+- First item
+- Second item
+- Third item
+```
+
+## Code
+
+### Inline Code
+
+```
+`inline code`
+```
+
+### Code Blocks
+
+#### Backticks ```
+
+````
+```
+code block
+```
+
+```js
+var a = 1;
+```
+````
+
+#### Tildes ~~~
+
+```
+~~~
+code block
+~~~
+
+~~~js
+var a = 1;
+~~~
+```
+
+#### Space 4 spaces/1 tab
+
+```
+
+        you can also use tab or 4 space indent
+
+    code block
+
+```
+
+## Horizontal Rule
+
+```
+---
+```
+
+## Links
+
+### Inline Links
+
+```
+[Link Text](https://www.google.com)
+
+[Link with title](https://www.google.com "Google's Homepage")
+
+[Relative link to file](../blob/master/LICENSE)
+```
+
+### Reference Links
+
+Reference can be defined anywhere in the document
+
+```
+[id]: http://example.com/  "Optional Title Here"
+
+This is [an example][id] reference-style link.
+```
+
+## Images
+
+### Inline Images
+
+```
+![Alternative text](/path/to/img.jpg "Optional title")
+```
+
+### Reference Images
+
+```
+[id]: url/to/image  "Optional title"
+![Alternative text][id]
+```
+
+## Table [^1]
+
+```
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
+
+## Footnote [^1]
+
+```
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+```
+
+## Definition List [^1]
+
+```
+term
+: definition
+```
+
+## Strikethrough [^1]
+
+```
+~~The world is flat.~~
+```
+
+## Task List [^1]
+
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+
+## Escaping Characters
+
+### Angle Brackets
+
+```
+`<`
+```
+
+### Backticks
+
+```
+ `` `inline code example` ``
+```
+
+[^1]: Not all Markdown applications support these elements.

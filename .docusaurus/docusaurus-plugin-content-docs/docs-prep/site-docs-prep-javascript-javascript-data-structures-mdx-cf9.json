@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/javascript-data-structures",
+  "id": "javascript/javascript-data-structures",
+  "title": "Javascript Data Structures",
+  "description": "Linked List",
+  "source": "@site/docs-prep/javascript/javascript-data-structures.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-data-structures",
+  "permalink": "/docs-prep/javascript/javascript-data-structures",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Data Structures",
+    "metaTitle": "Javascript Data Structures | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Data Structures"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Classes",
+    "permalink": "/docs-prep/javascript/javascript-classes"
+  },
+  "next": {
+    "title": "Javascript Map",
+    "permalink": "/docs-prep/javascript/javascript-map"
+  }
+}

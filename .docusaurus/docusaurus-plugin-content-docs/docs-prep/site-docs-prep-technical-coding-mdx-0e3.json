@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/coding",
+  "id": "technical/coding",
+  "title": "Coding",
+  "description": "House code challenges that may get asked in a technical interview.",
+  "source": "@site/docs-prep/technical/coding.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/coding",
+  "permalink": "/docs-prep/technical/coding",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Coding",
+    "metaTitle": "Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Technical interview questions and code challenges that may get asked in a technical interview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Spiral 2D Array",
+    "permalink": "/docs-prep/technical/coding-spiral-2d-array"
+  },
+  "next": {
+    "title": "Kth Largest Element in an Array LC215",
+    "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+  }
+}

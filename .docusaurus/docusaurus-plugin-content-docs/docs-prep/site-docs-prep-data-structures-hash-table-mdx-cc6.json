@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/hash-table",
+  "id": "data-structures/hash-table",
+  "title": "Hash Table",
+  "description": "Hash tables are used to store data that is in the form of a key associated with a value.",
+  "source": "@site/docs-prep/data-structures/hash-table.mdx",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/hash-table",
+  "permalink": "/docs-prep/data-structures/hash-table",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Hash Table",
+    "metaTitle": "Hash Table | Data Structures | Interview Prep | Tiffany Lea",
+    "metaDescription": "Hash Table"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Depth First Search",
+    "permalink": "/docs-prep/data-structures/binary-search-tree/depth-first-search"
+  },
+  "next": {
+    "title": "Linked List",
+    "permalink": "/docs-prep/data-structures/linked-list"
+  }
+}

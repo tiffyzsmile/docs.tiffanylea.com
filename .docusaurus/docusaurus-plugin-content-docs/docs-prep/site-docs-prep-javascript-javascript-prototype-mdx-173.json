@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/javascript-prototype",
+  "id": "javascript/javascript-prototype",
+  "title": "Javascript Prototype",
+  "description": "Resources",
+  "source": "@site/docs-prep/javascript/javascript-prototype.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-prototype",
+  "permalink": "/docs-prep/javascript/javascript-prototype",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Prototype",
+    "metaTitle": "Javascript Prototype | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Prototype interview questions, cheatsheets and quick reference"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Map",
+    "permalink": "/docs-prep/javascript/javascript-map"
+  },
+  "next": {
+    "title": "Javascript Questions",
+    "permalink": "/docs-prep/javascript/javascript-questions"
+  }
+}

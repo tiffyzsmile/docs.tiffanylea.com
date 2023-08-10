@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tools/prettier",
+  "id": "tools/prettier",
+  "title": "Prettier",
+  "description": "Ignore (Files and Folders)",
+  "source": "@site/docs/tools/prettier.mdx",
+  "sourceDirName": "tools",
+  "slug": "/tools/prettier",
+  "permalink": "/docs/tools/prettier",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Prettier",
+    "menu": "Tools",
+    "route": "/tools/prettier"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mermaid",
+    "permalink": "/docs/tools/mermaid"
+  },
+  "next": {
+    "title": "Utils",
+    "permalink": "/docs/category/utils"
+  }
+}

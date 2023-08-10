@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/css",
+  "id": "front-end/css",
+  "title": "CSS",
+  "description": "Resources",
+  "source": "@site/docs-prep/front-end/css.mdx",
+  "sourceDirName": "front-end",
+  "slug": "/front-end/css",
+  "permalink": "/docs-prep/front-end/css",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "CSS",
+    "metaTitle": "CSS | Interview Prep | Tiffany Lea",
+    "metaDescription": "CSS interview questions, cheatsheets and quick reference"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Browser Storage",
+    "permalink": "/docs-prep/front-end/browser-storage"
+  },
+  "next": {
+    "title": "Data Retrieval",
+    "permalink": "/docs-prep/front-end/data-retrieval"
+  }
+}

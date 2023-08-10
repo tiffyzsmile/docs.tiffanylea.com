@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/technical",
+  "id": "technical/technical",
+  "title": "Technical",
+  "description": "1. Interviewer asks question",
+  "source": "@site/docs-prep/technical/technical.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/",
+  "permalink": "/docs-prep/technical/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Technical",
+    "metaTitle": "Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Technical interview questions and code challenges that may get asked in a technical interview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React Hooks",
+    "permalink": "/docs-prep/react/react-hooks"
+  },
+  "next": {
+    "title": "Create Event Emitter",
+    "permalink": "/docs-prep/technical/coding-event-emitter"
+  }
+}

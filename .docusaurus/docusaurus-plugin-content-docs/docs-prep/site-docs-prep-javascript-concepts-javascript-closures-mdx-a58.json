@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/concepts/javascript-closures",
+  "id": "javascript/concepts/javascript-closures",
+  "title": "Closures",
+  "description": "A closure is when an outer function returns an inner function, the inner function is then executed in a different scope, and the inner function continues to maintain access to the outer function's variables, even though the outer function no longer exists.",
+  "source": "@site/docs-prep/javascript/concepts/javascript-closures.mdx",
+  "sourceDirName": "javascript/concepts",
+  "slug": "/javascript/concepts/javascript-closures",
+  "permalink": "/docs-prep/javascript/concepts/javascript-closures",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Closures",
+    "metaTitle": "Javascript Closures | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Closures"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Factory Functions",
+    "permalink": "/docs-prep/javascript/concepts/factory-functions"
+  },
+  "next": {
+    "title": "Hoisting",
+    "permalink": "/docs-prep/javascript/concepts/javascript-hoisting"
+  }
+}

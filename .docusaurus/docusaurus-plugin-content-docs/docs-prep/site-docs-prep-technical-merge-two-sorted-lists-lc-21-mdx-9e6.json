@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/merge-two-sorted-lists-lc21",
+  "id": "technical/merge-two-sorted-lists-lc21",
+  "title": "Merge Two Sorted Lists LC21",
+  "description": "- Leetcode 21",
+  "source": "@site/docs-prep/technical/merge-two-sorted-lists-lc21.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/merge-two-sorted-lists-lc21",
+  "permalink": "/docs-prep/technical/merge-two-sorted-lists-lc21",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Merge Two Sorted Lists LC21",
+    "metaTitle": "Merge Two Sorted Lists | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Merge Two Sorted Lists"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Merge Sorted Array LC88",
+    "permalink": "/docs-prep/technical/merge-sorted-array-lc88"
+  },
+  "next": {
+    "title": "Most common substring",
+    "permalink": "/docs-prep/technical/most-common-substring"
+  }
+}

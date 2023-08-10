@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/helpers/string-reversal",
+  "id": "algorithms/helpers/string-reversal",
+  "title": "String Reversal",
+  "description": "- default methods (split('').reverse().join (''))",
+  "source": "@site/docs-prep/algorithms/helpers/string-reversal.mdx",
+  "sourceDirName": "algorithms/helpers",
+  "slug": "/algorithms/helpers/string-reversal",
+  "permalink": "/docs-prep/algorithms/helpers/string-reversal",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "String Reversal",
+    "metaTitle": "String Reversal | Helpers | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Various ways to reverse a string"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algorithm Helpers",
+    "permalink": "/docs-prep/category/algorithm-helpers"
+  },
+  "next": {
+    "title": "Logarithms",
+    "permalink": "/docs-prep/algorithms/logarithms"
+  }
+}

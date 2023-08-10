@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/javascript-terms",
+  "id": "javascript/javascript-terms",
+  "title": "Javascript Terms",
+  "description": "Rest parameters ...",
+  "source": "@site/docs-prep/javascript/javascript-terms.mdx",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/javascript-terms",
+  "permalink": "/docs-prep/javascript/javascript-terms",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Javascript Terms",
+    "metaTitle": "Javascript Terms | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript Terms"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Set",
+    "permalink": "/docs-prep/javascript/javascript-set"
+  },
+  "next": {
+    "title": "Javascript",
+    "permalink": "/docs-prep/javascript/"
+  }
+}

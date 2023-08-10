@@ -1,0 +1,27 @@
+{
+  "unversionedId": "front-end/data-retrieval",
+  "id": "front-end/data-retrieval",
+  "title": "Data Retrieval",
+  "description": "Long-Polling vs WebSockets vs Server-Sent Events (SSE)",
+  "source": "@site/docs-prep/front-end/data-retrieval.mdx",
+  "sourceDirName": "front-end",
+  "slug": "/front-end/data-retrieval",
+  "permalink": "/docs-prep/front-end/data-retrieval",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Data Retrieval",
+    "metaTitle": "Data Retrieval | Front End Engineering | Interview Prep | Tiffany Lea",
+    "metaDescription": "Browser Storage"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS",
+    "permalink": "/docs-prep/front-end/css"
+  },
+  "next": {
+    "title": "DOM",
+    "permalink": "/docs-prep/front-end/dom"
+  }
+}

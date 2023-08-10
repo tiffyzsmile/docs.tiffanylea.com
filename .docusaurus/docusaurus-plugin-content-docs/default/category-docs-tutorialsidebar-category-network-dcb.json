@@ -1,0 +1,15 @@
+{
+  "title": "Network",
+  "slug": "/category/network",
+  "permalink": "/docs/category/network",
+  "navigation": {
+    "previous": {
+      "title": "Events",
+      "permalink": "/docs/naming/events"
+    },
+    "next": {
+      "title": "Router",
+      "permalink": "/docs/network/router"
+    }
+  }
+}

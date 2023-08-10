@@ -1,0 +1,27 @@
+{
+  "unversionedId": "utils/process",
+  "id": "utils/process",
+  "title": "Process",
+  "description": "",
+  "source": "@site/docs/utils/process.mdx",
+  "sourceDirName": "utils",
+  "slug": "/utils/process",
+  "permalink": "/docs/utils/process",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Process",
+    "menu": "Utils",
+    "route": "/utils/process"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Utils",
+    "permalink": "/docs/category/utils"
+  },
+  "next": {
+    "title": "Version Control",
+    "permalink": "/docs/category/version-control"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tools/mermaid",
+  "id": "tools/mermaid",
+  "title": "Mermaid",
+  "description": "What is it?",
+  "source": "@site/docs/tools/mermaid.mdx",
+  "sourceDirName": "tools",
+  "slug": "/tools/mermaid",
+  "permalink": "/docs/tools/mermaid",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Mermaid",
+    "menu": "Tools",
+    "route": "/tools/mermaid"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Eslint",
+    "permalink": "/docs/tools/eslint"
+  },
+  "next": {
+    "title": "Prettier",
+    "permalink": "/docs/tools/prettier"
+  }
+}

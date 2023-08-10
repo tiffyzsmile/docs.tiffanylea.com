@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/time-and-space-complexity",
+  "id": "algorithms/time-and-space-complexity",
+  "title": "Time and Space Complexity",
+  "description": "Space complexity is a measure of how efficient your code is in terms of memory used.",
+  "source": "@site/docs-prep/algorithms/time-and-space-complexity.mdx",
+  "sourceDirName": "algorithms",
+  "slug": "/algorithms/time-and-space-complexity",
+  "permalink": "/docs-prep/algorithms/time-and-space-complexity",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Time and Space Complexity",
+    "metaTitle": "Time and Space Complexity | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Time and Space Complexity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sort Algorithms",
+    "permalink": "/docs-prep/algorithms/sort/"
+  },
+  "next": {
+    "title": "Behavioral",
+    "permalink": "/docs-prep/category/behavioral"
+  }
+}

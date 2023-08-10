@@ -1,0 +1,27 @@
+{
+  "unversionedId": "algorithms/sort/sort",
+  "id": "algorithms/sort/sort",
+  "title": "Sort Algorithms",
+  "description": "Your browser does not support the video tag.",
+  "source": "@site/docs-prep/algorithms/sort/sort.mdx",
+  "sourceDirName": "algorithms/sort",
+  "slug": "/algorithms/sort/",
+  "permalink": "/docs-prep/algorithms/sort/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sort Algorithms",
+    "metaTitle": "Sort Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+    "metaDescription": "Sort Algorithms Overview"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Merge Sort O(n·log(n))",
+    "permalink": "/docs-prep/algorithms/sort/merge-sort"
+  },
+  "next": {
+    "title": "Time and Space Complexity",
+    "permalink": "/docs-prep/algorithms/time-and-space-complexity"
+  }
+}

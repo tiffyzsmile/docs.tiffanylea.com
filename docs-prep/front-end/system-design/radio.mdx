@@ -1,0 +1,269 @@
+---
+title: "RADIO"
+metaTitle: "RADIO | System Design | Front End Engineering | Interview Prep | Tiffany Lea"
+metaDescription: "Browser Storage"
+---
+
+# RADIO
+## Overview
+
+A structured way to approach system design interviews.
+
+- **[Requirements](#requirements)**
+  - Understand the problem thoroughly and determine the scope by asking a number of clarifying questions
+- **[Architecture/High-level DesignArchitecture/High-level Design](#architecture)**
+  - Identify the key components of the product and how they are related to each other
+- **[Data Model](#data-model)**
+  - Describe the various data entities, the fields they contain and which component(s) they belong to
+- **[Interface Definition (API)](#interface-definition)**
+  - Define the interface (API) between components in the product, functionality of each API, their parameters and responses
+- **[Optimizations and Deep Dive](#optimizations)**
+  - Discuss about possible optimization opportunities and specific areas of interest when building the product
+
+
+## Requirements
+### Objective
+Understand the problem thoroughly and determine the scope by asking a number of clarifying questions.
+
+**Duration**: Not more than 15% of the session
+
+### Examples
+#### What are the main use cases we should be focusing on?
+
+Imagine you were asked to "Design Facebook". Facebook is a huge platform, there's news feed, profiles, friends, groups, stories, and more. Which parts of Facebook should you focus on?
+
+#### What are the functional requirements and non-functional requirements?
+- **Functional requirements**
+  - Product cannot function without them
+  - Can a user complete the core flows
+- **Non-functional requirements** 
+  - Requirements that are viewed as improvements to the product
+  - Product will *function* without them
+  - Performance (how fast the page loads)
+  - Scalability (how many items can be present on the page)
+  - User experience, etc.
+
+Take the initiative to list out what you think are the requirements and get feedback and alignment from the interviewer.
+
+#### What are the core features to focus on and which are good-to-have?
+Even after you know the functional requirements, there can still be a ton of small features that make up the large feature. For example, when creating new Facebook posts, what kind of post formats should be supported? Besides the usual text-based posts, should the user be able to upload photos, upload videos, create polls, check in to a location, etc.
+
+You should clarify the core features beforehand and design for them before moving on to the extra features.
+
+#### Other questions:
+- What devices/platforms (desktop/tablet/mobile) need to be supported?
+- Is offline support necessary?
+- Do we need to support internationalization?
+- Who are the main users of the product?
+- What are the performance requirements, if any? (Performance requirements typically fall under non-functional requirements.)
+
+Different problems will require you to ask domain-specific questions.
+
+Write down the agreed requirements, so you can refer to them throughout the interview and ensure that you've covered them.
+
+
+## Architecture
+### Objective
+Identify the key components of the product and how they are related to each other.
+
+**Duration:** Roughly 20% of the session.
+
+- Diagrams are your friends 
+- Each component can be represented using a rectangle
+- High-level design usually looks like a few rectangular boxes 
+  - with arrows between them to demonstrate the flow of data 
+- It is also possible to have components within components
+  - Draw the parent using bigger rectangles so they'll fit
+
+#### Common components/modules:
+
+- **Server**
+  - Treat the server as a black box and assume it exposes some APIs you can call via HTTP/WebSockets
+- **View**
+  - What the user sees
+  - Usually contains smaller subviews within it
+  - Can contain client-side only state
+- **Controller**
+  - Responds to user interactions and processes the data from the store/model in a format the view expects
+  - Not always needed if application is small and not much passing of data between modules
+- **Model/Client Store**
+  - Where the data lives
+
+#### Considerations:
+
+- **Separation of concerns**
+  - Components are meant to be modular and serve to encapsulate a set of functionality and data
+  - Consider the purpose/functionality of each component, what data it should contain and how it can be of service
+- **Where computation should occur**
+  - If some amount of computation is needed (filtering, searching, calculating total)
+    - Should the work be done on the server or the client? 
+    - There are tradeoffs to each approach and the decision is both question-dependent and context-dependent.
+
+**Note:** Not every common component mentioned above will be relevant and needed.
+
+After drawing out the architecture diagram, verbally describe the responsibilities of each component.
+
+### Example
+
+<img
+class="imgPadding"
+src="/files/images/news-feed-architecture.png"
+alt="Semantic vs not"
+style={{width: 500}}
+/>
+
+#### Component Responsibilities
+
+- **Server**
+  - Serves feed data and provides a HTTP API for new feed posts to be created
+- **Controller**
+  - Controls the flow of data within the application and makes network requests to the server
+- **Client Store**
+  - Stores data needed across the whole application
+- **Feed UI**
+  - Contains a list of feed posts and the UI for composing new posts
+- **Feed Post**
+  - Presents the data for a feed post and contains buttons to interact with the post
+- **Post Composer**
+  - UI for users to create new feed posts
+
+
+
+## Data Model
+
+### Objective
+Describe the various data entities, the fields they contain and which component(s) they belong to.
+
+**Duration:** Roughly 10% of the session.
+
+#### Data Types
+
+- **Server-originated Data**
+  - Data that originates from the server
+- **Client-only Data**
+  - Also known as state
+  - Only needs to live on the client 
+  - Data to be persisted
+    - Usually user input such as data entered into form fields
+    - Usually sent to the server and saved into a database for it to be useful
+  - Ephemeral data
+    - Temporary state that lasts for a short time
+    - Form validation state, current tab, whether a section is expanded, etc. 
+    - Usually cleared when the browser tab is closed
+
+When listing the data fields, identify what kind of data that field is, server-originated or client-only.
+
+### Example
+|Source |	Entity |	Belongs To	| Fields|
+| ---- | ---- | ----- | ----------- |
+|Server|	Post|	Feed Post|	id, created_time, content, image, author (a User), reactions|
+|Server|	Feed|	Feed UI	|posts (list of Posts), pagination (pagination metadata)|
+|Server|	User|	Client Store|	id, name, profile_photo_url|
+|User input (client)|	NewPost|	Feed Composer UI|	message, image|
+
+You might want to write these fields near the components which owns them in your architecture diagram.
+
+
+
+## Interface Definition
+### Objective
+Define the interface between components in the product, functionality of the various APIs, their parameters and responses.
+
+**Duration:** Roughly 15% of the session.
+
+| Parts of an API        | 	Server-Client	                      | Client-Client         |
+|------------------------|--------------------------------------|-----------------------|
+| Name and functionality | HTTP path                            | JavaScript function   |
+| Parameters             | HTTP GET query and POST parameters	  | Function parameters   |
+| Return Value	          | HTTP response, typically JSON format | Function return value |
+
+
+### Example
+
+#### Server-Client API Example
+Using the News Feed example yet again, we have a server API that allows the client to fetch the latest feed posts.
+
+| Field        | 	Value                               |
+|--------------|--------------------------------------|
+| HTTP Method  | GET                                  |
+| Path         | /feed                                |
+| Description	 | Fetches the feed results for a user. |
+
+
+##### Parameters
+A feed response is a paginated list so the API expects pagination parameters.
+
+```json
+{
+  "size": 10,
+  "cursor": "=dXNlcjpXMDdRQ1JQQTQ"
+}
+```
+
+#### Response
+
+```json
+{
+  "pagination": {
+    "size": 10,
+    "next_cursor": "=dXNlcjpVMEc5V0ZYTlo"
+  },
+  "results": [
+    {
+      "id": "123",
+      "author": {
+        "id": "456",
+        "name": "John Doe"
+      },
+      "content": "Hello world",
+      "image": "https://www.example.com/feed-images.jpg",
+      "reactions": {
+        "likes": 20,
+        "haha": 15
+      },
+      "created_time": 1620639583
+    }
+    // ... More posts.
+  ]
+}
+```
+
+#### Client-Client API Example
+The client-client API can be written in a similar fashion as the server-client API, main difference being they are JavaScript functions, or events that are being listened to. The most important parts to describe are the functionality of the API, the parameters and the return/response value.
+
+#### API for UI Component System Design
+If you're asked to design a UI component, for the "Interface" section, discuss the customization options for the component, similar to the props for React components.
+
+## Optimizations
+
+### Objective
+Discuss possible optimization opportunities and specific areas of interest when building the product.
+
+**Duration:** Roughly 40% of the session.
+
+#### Tips
+- Focus on the important areas of the product
+  - For e-commerce websites, performance is crucial
+  - For collaborative editors, the complexity is in handling race conditions and concurrent edits
+- Focus on your strengths
+  - Showcase your domain knowledge
+  - Impress the interviewer with your knowledge
+ 
+### Example
+
+- Performance
+- User Experience
+- Network
+- Accessibility (a11y)
+- Multilingual Support
+- Multi-device Support
+- Security
+
+## Summary
+| Step                         | 	Objective                                                                                                                  | 	Recommended Duration |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| Requirements                 | 	Understand the problem thoroughly and determine the scope by asking a number of clarifying questions.	                     | <15%                  |
+| Architecture/High-level      | 	Identify the key components of the product and how they are related to each other.                                         | ~20%                  |
+| Data Model                   | 	Describe the various data entities, the fields they contain and which component(s) they belong to.	                        | ~10%                  |
+| Interface Definition         | 	Define the interface (API) between components in the product, functionality of each APIs, their parameters and responses.	 | ~15%                  |
+| Optimizations and Deep Dive  | 	Discuss about possible optimization opportunities and specific areas of interest when building the product.	               | ~40%                  |

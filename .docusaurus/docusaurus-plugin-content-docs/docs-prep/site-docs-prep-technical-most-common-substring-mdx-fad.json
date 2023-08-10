@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/most-common-substring",
+  "id": "technical/most-common-substring",
+  "title": "Most common substring",
+  "description": "Video walkthrough",
+  "source": "@site/docs-prep/technical/most-common-substring.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/most-common-substring",
+  "permalink": "/docs-prep/technical/most-common-substring",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Most common substring",
+    "metaTitle": "Most common substring | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Most common substring"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Merge Two Sorted Lists LC21",
+    "permalink": "/docs-prep/technical/merge-two-sorted-lists-lc21"
+  },
+  "next": {
+    "title": "Two Sum LC1",
+    "permalink": "/docs-prep/technical/two-sum-lc1"
+  }
+}

@@ -1,0 +1,3861 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/sidebars.js",
+          "contentPath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/docs",
+          "contentPathLocalized": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "aws/amplify",
+              "id": "aws/amplify",
+              "title": "Amplify",
+              "description": "Tracking",
+              "source": "@site/docs/aws/amplify.mdx",
+              "sourceDirName": "aws",
+              "slug": "/aws/amplify",
+              "permalink": "/docs/aws/amplify",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Amplify"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "AWS",
+                "permalink": "/docs/category/aws"
+              },
+              "next": {
+                "title": "Design Systems",
+                "permalink": "/docs/category/design-systems"
+              }
+            },
+            {
+              "unversionedId": "designsystems/designsystems",
+              "id": "designsystems/designsystems",
+              "title": "Design Systems",
+              "description": "Design Systems I Like",
+              "source": "@site/docs/designsystems/designsystems.mdx",
+              "sourceDirName": "designsystems",
+              "slug": "/designsystems/",
+              "permalink": "/docs/designsystems/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Design Systems"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Design Systems",
+                "permalink": "/docs/category/design-systems"
+              },
+              "next": {
+                "title": "Resources",
+                "permalink": "/docs/designsystems/resources"
+              }
+            },
+            {
+              "unversionedId": "designsystems/resources",
+              "id": "designsystems/resources",
+              "title": "Resources",
+              "description": "General resources for component library/design systems.",
+              "source": "@site/docs/designsystems/resources.mdx",
+              "sourceDirName": "designsystems",
+              "slug": "/designsystems/resources",
+              "permalink": "/docs/designsystems/resources",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Resources"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Design Systems",
+                "permalink": "/docs/designsystems/"
+              },
+              "next": {
+                "title": "Terminology",
+                "permalink": "/docs/designsystems/terminology"
+              }
+            },
+            {
+              "unversionedId": "designsystems/terminology",
+              "id": "designsystems/terminology",
+              "title": "Terminology",
+              "description": "Component library/design system related terminology and resource links.",
+              "source": "@site/docs/designsystems/terminology.mdx",
+              "sourceDirName": "designsystems",
+              "slug": "/designsystems/terminology",
+              "permalink": "/docs/designsystems/terminology",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Terminology"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resources",
+                "permalink": "/docs/designsystems/resources"
+              },
+              "next": {
+                "title": "UI Component Libraries",
+                "permalink": "/docs/designsystems/ui-component-libraries"
+              }
+            },
+            {
+              "unversionedId": "designsystems/ui-component-libraries",
+              "id": "designsystems/ui-component-libraries",
+              "title": "UI Component Libraries",
+              "description": "Some reasons to go explore these:",
+              "source": "@site/docs/designsystems/ui-component-libraries.mdx",
+              "sourceDirName": "designsystems",
+              "slug": "/designsystems/ui-component-libraries",
+              "permalink": "/docs/designsystems/ui-component-libraries",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "UI Component Libraries"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Terminology",
+                "permalink": "/docs/designsystems/terminology"
+              },
+              "next": {
+                "title": "Docs",
+                "permalink": "/docs/"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Docs",
+              "description": "This is a personal quick reference for some of the below and more:",
+              "source": "@site/docs/index.mdx",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Docs",
+                "metaTitle": "Docs | Tiffany Lea",
+                "metaDescription": "This is an overview of the purpose of Docs."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "UI Component Libraries",
+                "permalink": "/docs/designsystems/ui-component-libraries"
+              },
+              "next": {
+                "title": "Inspiration",
+                "permalink": "/docs/inspiration"
+              }
+            },
+            {
+              "unversionedId": "inspiration",
+              "id": "inspiration",
+              "title": "Inspiration",
+              "description": "CSS",
+              "source": "@site/docs/inspiration.mdx",
+              "sourceDirName": ".",
+              "slug": "/inspiration",
+              "permalink": "/docs/inspiration",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Inspiration"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docs",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Code",
+                "permalink": "/docs/category/code"
+              }
+            },
+            {
+              "unversionedId": "languages/css",
+              "id": "languages/css",
+              "title": "CSS",
+              "description": "Syntax",
+              "source": "@site/docs/languages/css.mdx",
+              "sourceDirName": "languages",
+              "slug": "/languages/css",
+              "permalink": "/docs/languages/css",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "CSS"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Code",
+                "permalink": "/docs/category/code"
+              },
+              "next": {
+                "title": "HTML",
+                "permalink": "/docs/languages/html"
+              }
+            },
+            {
+              "unversionedId": "languages/html",
+              "id": "languages/html",
+              "title": "HTML",
+              "description": "Links",
+              "source": "@site/docs/languages/html.mdx",
+              "sourceDirName": "languages",
+              "slug": "/languages/html",
+              "permalink": "/docs/languages/html",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "HTML",
+                "menu": "Languages",
+                "route": "/languages/html"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CSS",
+                "permalink": "/docs/languages/css"
+              },
+              "next": {
+                "title": "Javascript",
+                "permalink": "/docs/category/javascript"
+              }
+            },
+            {
+              "unversionedId": "languages/javascript/javascript",
+              "id": "languages/javascript/javascript",
+              "title": "Javascript",
+              "description": "Data types",
+              "source": "@site/docs/languages/javascript/javascript.mdx",
+              "sourceDirName": "languages/javascript",
+              "slug": "/languages/javascript/",
+              "permalink": "/docs/languages/javascript/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Javascript",
+                "menu": "Languages",
+                "route": "/languages/javascript"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Objects",
+                "permalink": "/docs/languages/javascript/javascript-objects"
+              },
+              "next": {
+                "title": "Get URL Tiers",
+                "permalink": "/docs/languages/javascript/javscript-url-manipulation"
+              }
+            },
+            {
+              "unversionedId": "languages/javascript/javascript-objects",
+              "id": "languages/javascript/javascript-objects",
+              "title": "Javascript Objects",
+              "description": "Deeply Nested Dynamic Properties",
+              "source": "@site/docs/languages/javascript/javascript-objects.mdx",
+              "sourceDirName": "languages/javascript",
+              "slug": "/languages/javascript/javascript-objects",
+              "permalink": "/docs/languages/javascript/javascript-objects",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Javascript Objects",
+                "menu": "Javascript",
+                "route": "/javascript/javascript-objects"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript",
+                "permalink": "/docs/category/javascript"
+              },
+              "next": {
+                "title": "Javascript",
+                "permalink": "/docs/languages/javascript/"
+              }
+            },
+            {
+              "unversionedId": "languages/javascript/javscript-url-manipulation",
+              "id": "languages/javascript/javscript-url-manipulation",
+              "title": "Get URL Tiers",
+              "description": "",
+              "source": "@site/docs/languages/javascript/javscript-url-manipulation.mdx",
+              "sourceDirName": "languages/javascript",
+              "slug": "/languages/javascript/javscript-url-manipulation",
+              "permalink": "/docs/languages/javascript/javscript-url-manipulation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Javascript URL Manipulation",
+                "menu": "Javascript",
+                "route": "/javascript/javascript-url-manipulation"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript",
+                "permalink": "/docs/languages/javascript/"
+              },
+              "next": {
+                "title": "Markdown",
+                "permalink": "/docs/languages/markdown"
+              }
+            },
+            {
+              "unversionedId": "languages/markdown",
+              "id": "languages/markdown",
+              "title": "Markdown",
+              "description": "Resources",
+              "source": "@site/docs/languages/markdown.mdx",
+              "sourceDirName": "languages",
+              "slug": "/languages/markdown",
+              "permalink": "/docs/languages/markdown",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Markdown",
+                "menu": "Languages",
+                "route": "/languages/markdown"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get URL Tiers",
+                "permalink": "/docs/languages/javascript/javscript-url-manipulation"
+              },
+              "next": {
+                "title": "TypeScript",
+                "permalink": "/docs/languages/typescript"
+              }
+            },
+            {
+              "unversionedId": "languages/typescript",
+              "id": "languages/typescript",
+              "title": "TypeScript",
+              "description": "// TODO: update this",
+              "source": "@site/docs/languages/typescript.mdx",
+              "sourceDirName": "languages",
+              "slug": "/languages/typescript",
+              "permalink": "/docs/languages/typescript",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "TypeScript",
+                "menu": "Languages",
+                "route": "/languages/typescript"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown",
+                "permalink": "/docs/languages/markdown"
+              },
+              "next": {
+                "title": "Leadership",
+                "permalink": "/docs/category/leadership"
+              }
+            },
+            {
+              "unversionedId": "leadership/servant-leadership",
+              "id": "leadership/servant-leadership",
+              "title": "Servant Leadership",
+              "description": "Articles",
+              "source": "@site/docs/leadership/servant-leadership.mdx",
+              "sourceDirName": "leadership",
+              "slug": "/leadership/servant-leadership",
+              "permalink": "/docs/leadership/servant-leadership",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Servant Leadership",
+                "menu": "Leadership",
+                "route": "/leadership/servant-leadership"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Leadership",
+                "permalink": "/docs/category/leadership"
+              },
+              "next": {
+                "title": "Naming Conventions",
+                "permalink": "/docs/category/naming-conventions"
+              }
+            },
+            {
+              "unversionedId": "naming/events",
+              "id": "naming/events",
+              "title": "Events",
+              "description": "Event Handler Functions",
+              "source": "@site/docs/naming/events.mdx",
+              "sourceDirName": "naming",
+              "slug": "/naming/events",
+              "permalink": "/docs/naming/events",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Events"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Naming Conventions",
+                "permalink": "/docs/category/naming-conventions"
+              },
+              "next": {
+                "title": "Network",
+                "permalink": "/docs/category/network"
+              }
+            },
+            {
+              "unversionedId": "network/router",
+              "id": "network/router",
+              "title": "Router",
+              "description": "Links",
+              "source": "@site/docs/network/router.mdx",
+              "sourceDirName": "network",
+              "slug": "/network/router",
+              "permalink": "/docs/network/router",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Router",
+                "menu": "Network",
+                "route": "/network/router"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Network",
+                "permalink": "/docs/category/network"
+              },
+              "next": {
+                "title": "Resources",
+                "permalink": "/docs/category/resources"
+              }
+            },
+            {
+              "unversionedId": "resources/links",
+              "id": "resources/links",
+              "title": "Links",
+              "description": "- [ ] Checkboxes indicate I have not had a chance to visit site",
+              "source": "@site/docs/resources/links.mdx",
+              "sourceDirName": "resources",
+              "slug": "/resources/links",
+              "permalink": "/docs/resources/links",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Links"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Resources",
+                "permalink": "/docs/category/resources"
+              },
+              "next": {
+                "title": "Tools",
+                "permalink": "/docs/category/tools"
+              }
+            },
+            {
+              "unversionedId": "tools/docker",
+              "id": "tools/docker",
+              "title": "Docker",
+              "description": "Overview",
+              "source": "@site/docs/tools/docker.mdx",
+              "sourceDirName": "tools",
+              "slug": "/tools/docker",
+              "permalink": "/docs/tools/docker",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Docker",
+                "menu": "Tools",
+                "route": "/tools/docker"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tools",
+                "permalink": "/docs/category/tools"
+              },
+              "next": {
+                "title": "Eslint",
+                "permalink": "/docs/tools/eslint"
+              }
+            },
+            {
+              "unversionedId": "tools/eslint",
+              "id": "tools/eslint",
+              "title": "Eslint",
+              "description": "Ignoring Files and Folders",
+              "source": "@site/docs/tools/eslint.mdx",
+              "sourceDirName": "tools",
+              "slug": "/tools/eslint",
+              "permalink": "/docs/tools/eslint",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Eslint",
+                "menu": "Tools",
+                "route": "/tools/eslint"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Docker",
+                "permalink": "/docs/tools/docker"
+              },
+              "next": {
+                "title": "Mermaid",
+                "permalink": "/docs/tools/mermaid"
+              }
+            },
+            {
+              "unversionedId": "tools/mermaid",
+              "id": "tools/mermaid",
+              "title": "Mermaid",
+              "description": "What is it?",
+              "source": "@site/docs/tools/mermaid.mdx",
+              "sourceDirName": "tools",
+              "slug": "/tools/mermaid",
+              "permalink": "/docs/tools/mermaid",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Mermaid",
+                "menu": "Tools",
+                "route": "/tools/mermaid"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Eslint",
+                "permalink": "/docs/tools/eslint"
+              },
+              "next": {
+                "title": "Prettier",
+                "permalink": "/docs/tools/prettier"
+              }
+            },
+            {
+              "unversionedId": "tools/prettier",
+              "id": "tools/prettier",
+              "title": "Prettier",
+              "description": "Ignore (Files and Folders)",
+              "source": "@site/docs/tools/prettier.mdx",
+              "sourceDirName": "tools",
+              "slug": "/tools/prettier",
+              "permalink": "/docs/tools/prettier",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Prettier",
+                "menu": "Tools",
+                "route": "/tools/prettier"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Mermaid",
+                "permalink": "/docs/tools/mermaid"
+              },
+              "next": {
+                "title": "Utils",
+                "permalink": "/docs/category/utils"
+              }
+            },
+            {
+              "unversionedId": "utils/process",
+              "id": "utils/process",
+              "title": "Process",
+              "description": "",
+              "source": "@site/docs/utils/process.mdx",
+              "sourceDirName": "utils",
+              "slug": "/utils/process",
+              "permalink": "/docs/utils/process",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Process",
+                "menu": "Utils",
+                "route": "/utils/process"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Utils",
+                "permalink": "/docs/category/utils"
+              },
+              "next": {
+                "title": "Version Control",
+                "permalink": "/docs/category/version-control"
+              }
+            },
+            {
+              "unversionedId": "versioncontrol/github",
+              "id": "versioncontrol/github",
+              "title": "Github",
+              "description": "Profile Readme",
+              "source": "@site/docs/versioncontrol/github.mdx",
+              "sourceDirName": "versioncontrol",
+              "slug": "/versioncontrol/github",
+              "permalink": "/docs/versioncontrol/github",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Github",
+                "menu": "Version Control",
+                "route": "/versioncontrol/github"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Version Control",
+                "permalink": "/docs/category/version-control"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "AWS",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "aws/amplify"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/aws",
+                  "permalink": "/docs/category/aws"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Design Systems",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "designsystems/designsystems"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "designsystems/resources"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "designsystems/terminology"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "designsystems/ui-component-libraries"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/design-systems",
+                  "permalink": "/docs/category/design-systems"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "doc",
+                "id": "inspiration"
+              },
+              {
+                "type": "category",
+                "label": "Code",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "languages/css"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "languages/html"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Javascript",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "languages/javascript/javascript-objects"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "languages/javascript/javascript"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "languages/javascript/javscript-url-manipulation"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/javascript",
+                      "permalink": "/docs/category/javascript"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "languages/markdown"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "languages/typescript"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/code",
+                  "permalink": "/docs/category/code"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Leadership",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "leadership/servant-leadership"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/leadership",
+                  "permalink": "/docs/category/leadership"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Naming Conventions",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "naming/events"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/naming-conventions",
+                  "permalink": "/docs/category/naming-conventions"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Network",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "network/router"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/network",
+                  "permalink": "/docs/category/network"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Resources",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "resources/links"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/resources",
+                  "permalink": "/docs/category/resources"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Tools",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tools/docker"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tools/eslint"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tools/mermaid"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tools/prettier"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/tools",
+                  "permalink": "/docs/category/tools"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Utils",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "utils/process"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/utils",
+                  "permalink": "/docs/category/utils"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Version Control",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "versioncontrol/github"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/version-control",
+                  "permalink": "/docs/category/version-control"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "docs-prep": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs-prep",
+          "tagsPath": "/docs-prep/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/sidebars.js",
+          "contentPath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/docs-prep",
+          "contentPathLocalized": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/i18n/en/docusaurus-plugin-content-docs-docs-prep/current",
+          "docs": [
+            {
+              "unversionedId": "algorithms/algorithms",
+              "id": "algorithms/algorithms",
+              "title": "Algorithms",
+              "description": "A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+              "source": "@site/docs-prep/algorithms/algorithms.mdx",
+              "sourceDirName": "algorithms",
+              "slug": "/algorithms/",
+              "permalink": "/docs-prep/algorithms/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Algorithms",
+                "metaTitle": "Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Algorithm Vocabulary and Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Big O Notation",
+                "permalink": "/docs-prep/algorithms/big-o"
+              }
+            },
+            {
+              "unversionedId": "algorithms/big-o",
+              "id": "algorithms/big-o",
+              "title": "Big O Notation",
+              "description": "What is Big O Notation?",
+              "source": "@site/docs-prep/algorithms/big-o.mdx",
+              "sourceDirName": "algorithms",
+              "slug": "/algorithms/big-o",
+              "permalink": "/docs-prep/algorithms/big-o",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Big O Notation",
+                "metaTitle": "Big O Notation | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Big O Notation"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Algorithms",
+                "permalink": "/docs-prep/algorithms/"
+              },
+              "next": {
+                "title": "Cache Algorithms",
+                "permalink": "/docs-prep/category/cache-algorithms"
+              }
+            },
+            {
+              "unversionedId": "algorithms/cache/lru-cache",
+              "id": "algorithms/cache/lru-cache",
+              "title": "LRU Cache",
+              "description": "- LeetCode Interview Questions Discussion",
+              "source": "@site/docs-prep/algorithms/cache/lru-cache.mdx",
+              "sourceDirName": "algorithms/cache",
+              "slug": "/algorithms/cache/lru-cache",
+              "permalink": "/docs-prep/algorithms/cache/lru-cache",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "LRU Cache",
+                "metaTitle": "LRU Cache | Cache Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "LRU Cache algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cache Algorithms",
+                "permalink": "/docs-prep/category/cache-algorithms"
+              },
+              "next": {
+                "title": "General Algorithms",
+                "permalink": "/docs-prep/category/general-algorithms"
+              }
+            },
+            {
+              "unversionedId": "algorithms/general/caesar-cipher",
+              "id": "algorithms/general/caesar-cipher",
+              "title": "Caesar Cipher",
+              "description": "Julius Caesar protected his confidential information by encrypting it using a cipher.",
+              "source": "@site/docs-prep/algorithms/general/caesar-cipher.mdx",
+              "sourceDirName": "algorithms/general",
+              "slug": "/algorithms/general/caesar-cipher",
+              "permalink": "/docs-prep/algorithms/general/caesar-cipher",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Caesar Cipher",
+                "metaTitle": "Caesar Cipher | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Caesar Cipher algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "General Algorithms",
+                "permalink": "/docs-prep/category/general-algorithms"
+              },
+              "next": {
+                "title": "Fizz Buzz",
+                "permalink": "/docs-prep/algorithms/general/fizz-buzz"
+              }
+            },
+            {
+              "unversionedId": "algorithms/general/fizz-buzz",
+              "id": "algorithms/general/fizz-buzz",
+              "title": "Fizz Buzz",
+              "description": "- problem solving abilities",
+              "source": "@site/docs-prep/algorithms/general/fizz-buzz.mdx",
+              "sourceDirName": "algorithms/general",
+              "slug": "/algorithms/general/fizz-buzz",
+              "permalink": "/docs-prep/algorithms/general/fizz-buzz",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Fizz Buzz",
+                "metaTitle": "Fizz Buzz | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Fizz Buzz algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Caesar Cipher",
+                "permalink": "/docs-prep/algorithms/general/caesar-cipher"
+              },
+              "next": {
+                "title": "Is Palindrome",
+                "permalink": "/docs-prep/algorithms/general/is-palindrome"
+              }
+            },
+            {
+              "unversionedId": "algorithms/general/is-palindrome",
+              "id": "algorithms/general/is-palindrome",
+              "title": "Is Palindrome",
+              "description": "Given a string, return true if the string is a palindrome or false if it is not.",
+              "source": "@site/docs-prep/algorithms/general/is-palindrome.mdx",
+              "sourceDirName": "algorithms/general",
+              "slug": "/algorithms/general/is-palindrome",
+              "permalink": "/docs-prep/algorithms/general/is-palindrome",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Is Palindrome",
+                "metaTitle": "Ransom Note | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Ransom Note algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Fizz Buzz",
+                "permalink": "/docs-prep/algorithms/general/fizz-buzz"
+              },
+              "next": {
+                "title": "Ransom Note",
+                "permalink": "/docs-prep/algorithms/general/ransom-note"
+              }
+            },
+            {
+              "unversionedId": "algorithms/general/ransom-note",
+              "id": "algorithms/general/ransom-note",
+              "title": "Ransom Note",
+              "description": "Given an arbitrary ransom note string and another string containing letters (or words) from all the magazines, write a function that will return true if the ransom note can be constructed from the magazines; otherwise, it will return false.",
+              "source": "@site/docs-prep/algorithms/general/ransom-note.mdx",
+              "sourceDirName": "algorithms/general",
+              "slug": "/algorithms/general/ransom-note",
+              "permalink": "/docs-prep/algorithms/general/ransom-note",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Ransom Note",
+                "metaTitle": "Ransom Note | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Ransom Note algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Is Palindrome",
+                "permalink": "/docs-prep/algorithms/general/is-palindrome"
+              },
+              "next": {
+                "title": "Reverse Array in Place",
+                "permalink": "/docs-prep/algorithms/general/reverse-array-in-place"
+              }
+            },
+            {
+              "unversionedId": "algorithms/general/reverse-array-in-place",
+              "id": "algorithms/general/reverse-array-in-place",
+              "title": "Reverse Array in Place",
+              "description": "<img",
+              "source": "@site/docs-prep/algorithms/general/reverse-array-in-place.mdx",
+              "sourceDirName": "algorithms/general",
+              "slug": "/algorithms/general/reverse-array-in-place",
+              "permalink": "/docs-prep/algorithms/general/reverse-array-in-place",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Reverse Array in Place",
+                "metaTitle": "Reverse Array in Place | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Reverse Array in Place algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ransom Note",
+                "permalink": "/docs-prep/algorithms/general/ransom-note"
+              },
+              "next": {
+                "title": "Reverse Words",
+                "permalink": "/docs-prep/algorithms/general/reverse-words"
+              }
+            },
+            {
+              "unversionedId": "algorithms/general/reverse-words",
+              "id": "algorithms/general/reverse-words",
+              "title": "Reverse Words",
+              "description": "Take in a string as a parameter, reverse every word in that string, and return the new string",
+              "source": "@site/docs-prep/algorithms/general/reverse-words.mdx",
+              "sourceDirName": "algorithms/general",
+              "slug": "/algorithms/general/reverse-words",
+              "permalink": "/docs-prep/algorithms/general/reverse-words",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Reverse Words",
+                "metaTitle": "Reverse Words | General Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Reverse Words algorithm"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Reverse Array in Place",
+                "permalink": "/docs-prep/algorithms/general/reverse-array-in-place"
+              },
+              "next": {
+                "title": "Algorithm Helpers",
+                "permalink": "/docs-prep/category/algorithm-helpers"
+              }
+            },
+            {
+              "unversionedId": "algorithms/helpers/string-reversal",
+              "id": "algorithms/helpers/string-reversal",
+              "title": "String Reversal",
+              "description": "- default methods (split('').reverse().join (''))",
+              "source": "@site/docs-prep/algorithms/helpers/string-reversal.mdx",
+              "sourceDirName": "algorithms/helpers",
+              "slug": "/algorithms/helpers/string-reversal",
+              "permalink": "/docs-prep/algorithms/helpers/string-reversal",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "String Reversal",
+                "metaTitle": "String Reversal | Helpers | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Various ways to reverse a string"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Algorithm Helpers",
+                "permalink": "/docs-prep/category/algorithm-helpers"
+              },
+              "next": {
+                "title": "Logarithms",
+                "permalink": "/docs-prep/algorithms/logarithms"
+              }
+            },
+            {
+              "unversionedId": "algorithms/logarithms",
+              "id": "algorithms/logarithms",
+              "title": "Logarithms",
+              "description": "- Answers the question:",
+              "source": "@site/docs-prep/algorithms/logarithms.mdx",
+              "sourceDirName": "algorithms",
+              "slug": "/algorithms/logarithms",
+              "permalink": "/docs-prep/algorithms/logarithms",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Logarithms",
+                "metaTitle": "Logarithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Logarithms Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "String Reversal",
+                "permalink": "/docs-prep/algorithms/helpers/string-reversal"
+              },
+              "next": {
+                "title": "Search Algorithms",
+                "permalink": "/docs-prep/category/search-algorithms"
+              }
+            },
+            {
+              "unversionedId": "algorithms/search/binary-search",
+              "id": "algorithms/search/binary-search",
+              "title": "Binary Search O(log n)",
+              "description": "Binary search is the most efficient searching algorithm having a run-time complexity of O(log2 N)",
+              "source": "@site/docs-prep/algorithms/search/binary-search.mdx",
+              "sourceDirName": "algorithms/search",
+              "slug": "/algorithms/search/binary-search",
+              "permalink": "/docs-prep/algorithms/search/binary-search",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Binary Search O(log n)",
+                "metaTitle": "Binary search | Search | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Binary search is the most efficient searching algorithm having a run-time complexity of O(log2 N)"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Search Algorithms",
+                "permalink": "/docs-prep/category/search-algorithms"
+              },
+              "next": {
+                "title": "Linear Search O(n)",
+                "permalink": "/docs-prep/algorithms/search/linear-search"
+              }
+            },
+            {
+              "unversionedId": "algorithms/search/linear-search",
+              "id": "algorithms/search/linear-search",
+              "title": "Linear Search O(n)",
+              "description": "What is Linear Search?",
+              "source": "@site/docs-prep/algorithms/search/linear-search.mdx",
+              "sourceDirName": "algorithms/search",
+              "slug": "/algorithms/search/linear-search",
+              "permalink": "/docs-prep/algorithms/search/linear-search",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Linear Search O(n)",
+                "metaTitle": "Linear (Simple, Sequential) Search | Search | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Linear (Simple, Sequential) Search is a very basic search algorithm that loops over each item in an array until desired element is found."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Binary Search O(log n)",
+                "permalink": "/docs-prep/algorithms/search/binary-search"
+              },
+              "next": {
+                "title": "Search Algorithms",
+                "permalink": "/docs-prep/algorithms/search/"
+              }
+            },
+            {
+              "unversionedId": "algorithms/search/search",
+              "id": "algorithms/search/search",
+              "title": "Search Algorithms",
+              "description": "What are Search Algorithms?",
+              "source": "@site/docs-prep/algorithms/search/search.mdx",
+              "sourceDirName": "algorithms/search",
+              "slug": "/algorithms/search/",
+              "permalink": "/docs-prep/algorithms/search/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Search Algorithms",
+                "metaTitle": "Search Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Search Algorithms Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Linear Search O(n)",
+                "permalink": "/docs-prep/algorithms/search/linear-search"
+              },
+              "next": {
+                "title": "Sort Algorithms",
+                "permalink": "/docs-prep/category/sort-algorithms"
+              }
+            },
+            {
+              "unversionedId": "algorithms/sort/bubble-sort",
+              "id": "algorithms/sort/bubble-sort",
+              "title": "Bubble Sort O(n^2)",
+              "description": "\\*Image from Algorithms",
+              "source": "@site/docs-prep/algorithms/sort/bubble-sort.mdx",
+              "sourceDirName": "algorithms/sort",
+              "slug": "/algorithms/sort/bubble-sort",
+              "permalink": "/docs-prep/algorithms/sort/bubble-sort",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Bubble Sort O(n^2)",
+                "metaTitle": "Bubble Sort O(n^2) | Sort | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Bubble Sort O(n^2)"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sort Algorithms",
+                "permalink": "/docs-prep/category/sort-algorithms"
+              },
+              "next": {
+                "title": "Insertion Sort O(n^2)",
+                "permalink": "/docs-prep/algorithms/sort/insertion-sort"
+              }
+            },
+            {
+              "unversionedId": "algorithms/sort/insertion-sort",
+              "id": "algorithms/sort/insertion-sort",
+              "title": "Insertion Sort O(n^2)",
+              "description": "Although it is one of the elementary sorting algorithms with O(n2) worst-case time, insertion sort is the algorithm of choice either when the data is nearly sorted (because it is adaptive) or when the problem size is small (because it has low overhead).",
+              "source": "@site/docs-prep/algorithms/sort/insertion-sort.mdx",
+              "sourceDirName": "algorithms/sort",
+              "slug": "/algorithms/sort/insertion-sort",
+              "permalink": "/docs-prep/algorithms/sort/insertion-sort",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Insertion Sort O(n^2)",
+                "metaTitle": "Insertion Sort O(n^2) | Sort | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Insertion Sort O(n^2)"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bubble Sort O(n^2)",
+                "permalink": "/docs-prep/algorithms/sort/bubble-sort"
+              },
+              "next": {
+                "title": "Merge Sort O(n·log(n))",
+                "permalink": "/docs-prep/algorithms/sort/merge-sort"
+              }
+            },
+            {
+              "unversionedId": "algorithms/sort/merge-sort",
+              "id": "algorithms/sort/merge-sort",
+              "title": "Merge Sort O(n·log(n))",
+              "description": "- Divide input array into subarrays",
+              "source": "@site/docs-prep/algorithms/sort/merge-sort.mdx",
+              "sourceDirName": "algorithms/sort",
+              "slug": "/algorithms/sort/merge-sort",
+              "permalink": "/docs-prep/algorithms/sort/merge-sort",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Merge Sort O(n·log(n))",
+                "metaTitle": "Merge Sort O(n·log(n)) | Sort | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Merge Sort O(n·log(n))"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Insertion Sort O(n^2)",
+                "permalink": "/docs-prep/algorithms/sort/insertion-sort"
+              },
+              "next": {
+                "title": "Sort Algorithms",
+                "permalink": "/docs-prep/algorithms/sort/"
+              }
+            },
+            {
+              "unversionedId": "algorithms/sort/sort",
+              "id": "algorithms/sort/sort",
+              "title": "Sort Algorithms",
+              "description": "Your browser does not support the video tag.",
+              "source": "@site/docs-prep/algorithms/sort/sort.mdx",
+              "sourceDirName": "algorithms/sort",
+              "slug": "/algorithms/sort/",
+              "permalink": "/docs-prep/algorithms/sort/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Sort Algorithms",
+                "metaTitle": "Sort Algorithms | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Sort Algorithms Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Merge Sort O(n·log(n))",
+                "permalink": "/docs-prep/algorithms/sort/merge-sort"
+              },
+              "next": {
+                "title": "Time and Space Complexity",
+                "permalink": "/docs-prep/algorithms/time-and-space-complexity"
+              }
+            },
+            {
+              "unversionedId": "algorithms/time-and-space-complexity",
+              "id": "algorithms/time-and-space-complexity",
+              "title": "Time and Space Complexity",
+              "description": "Space complexity is a measure of how efficient your code is in terms of memory used.",
+              "source": "@site/docs-prep/algorithms/time-and-space-complexity.mdx",
+              "sourceDirName": "algorithms",
+              "slug": "/algorithms/time-and-space-complexity",
+              "permalink": "/docs-prep/algorithms/time-and-space-complexity",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Time and Space Complexity",
+                "metaTitle": "Time and Space Complexity | Algorithms | Interview Prep | Tiffany Lea",
+                "metaDescription": "Time and Space Complexity"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Sort Algorithms",
+                "permalink": "/docs-prep/algorithms/sort/"
+              },
+              "next": {
+                "title": "Behavioral",
+                "permalink": "/docs-prep/category/behavioral"
+              }
+            },
+            {
+              "unversionedId": "behavioral/evaluation",
+              "id": "behavioral/evaluation",
+              "title": "Evaluation",
+              "description": "Collaboration",
+              "source": "@site/docs-prep/behavioral/evaluation.mdx",
+              "sourceDirName": "behavioral",
+              "slug": "/behavioral/evaluation",
+              "permalink": "/docs-prep/behavioral/evaluation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Evaluation",
+                "metaTitle": "Evaluation | Behavioral | Interview Prep | Tiffany Lea",
+                "metaDescription": "Behavioral Portion tips on how to answer questions"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Behavioral",
+                "permalink": "/docs-prep/category/behavioral"
+              },
+              "next": {
+                "title": "General Questions",
+                "permalink": "/docs-prep/behavioral/general-questions"
+              }
+            },
+            {
+              "unversionedId": "behavioral/general-questions",
+              "id": "behavioral/general-questions",
+              "title": "General Questions",
+              "description": "Coming soon...",
+              "source": "@site/docs-prep/behavioral/general-questions.mdx",
+              "sourceDirName": "behavioral",
+              "slug": "/behavioral/general-questions",
+              "permalink": "/docs-prep/behavioral/general-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "General Questions",
+                "metaTitle": "General Questions | Behavioral | Interview Prep | Tiffany Lea",
+                "metaDescription": "General Questions of the Behavioral Portion of interviews"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Evaluation",
+                "permalink": "/docs-prep/behavioral/evaluation"
+              },
+              "next": {
+                "title": "Leveling",
+                "permalink": "/docs-prep/behavioral/leveling"
+              }
+            },
+            {
+              "unversionedId": "behavioral/leveling",
+              "id": "behavioral/leveling",
+              "title": "Leveling",
+              "description": "Behavioral interviews is where interviewers assess the candidate's maturity depending on the stories they tell.",
+              "source": "@site/docs-prep/behavioral/leveling.mdx",
+              "sourceDirName": "behavioral",
+              "slug": "/behavioral/leveling",
+              "permalink": "/docs-prep/behavioral/leveling",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Leveling",
+                "metaTitle": "Leveling | Behavioral | Interview Prep | Tiffany Lea",
+                "metaDescription": "Behavioral Portion tips on how to answer questions"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "General Questions",
+                "permalink": "/docs-prep/behavioral/general-questions"
+              },
+              "next": {
+                "title": "Manager Questions",
+                "permalink": "/docs-prep/behavioral/manager-questions"
+              }
+            },
+            {
+              "unversionedId": "behavioral/manager-questions",
+              "id": "behavioral/manager-questions",
+              "title": "Manager Questions",
+              "description": "General",
+              "source": "@site/docs-prep/behavioral/manager-questions.mdx",
+              "sourceDirName": "behavioral",
+              "slug": "/behavioral/manager-questions",
+              "permalink": "/docs-prep/behavioral/manager-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Manager Questions",
+                "metaTitle": "Manager Questions | Behavioral | Interview Prep | Tiffany Lea",
+                "metaDescription": "Manager Questions of the Behavioral Portion of interviews"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Leveling",
+                "permalink": "/docs-prep/behavioral/leveling"
+              },
+              "next": {
+                "title": "Data Structures",
+                "permalink": "/docs-prep/data-structures/"
+              }
+            },
+            {
+              "unversionedId": "data-structures/binary-search-tree/binary-search-tree",
+              "id": "data-structures/binary-search-tree/binary-search-tree",
+              "title": "Binary Search Tree",
+              "description": "- Awesome Video",
+              "source": "@site/docs-prep/data-structures/binary-search-tree/binary-search-tree.mdx",
+              "sourceDirName": "data-structures/binary-search-tree",
+              "slug": "/data-structures/binary-search-tree/",
+              "permalink": "/docs-prep/data-structures/binary-search-tree/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Binary Search Tree",
+                "metaTitle": "Binary Search Tree | Data Structures | Interview Prep | Tiffany Lea",
+                "metaDescription": "Binary Search Tree"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data Structures",
+                "permalink": "/docs-prep/data-structures/"
+              },
+              "next": {
+                "title": "Breadth First Search",
+                "permalink": "/docs-prep/data-structures/binary-search-tree/breadth-first-search"
+              }
+            },
+            {
+              "unversionedId": "data-structures/binary-search-tree/breadth-first-search",
+              "id": "data-structures/binary-search-tree/breadth-first-search",
+              "title": "Breadth First Search",
+              "description": "Works by first visiting all nodes in a level once, before proceeding to the next levels.",
+              "source": "@site/docs-prep/data-structures/binary-search-tree/breadth-first-search.mdx",
+              "sourceDirName": "data-structures/binary-search-tree",
+              "slug": "/data-structures/binary-search-tree/breadth-first-search",
+              "permalink": "/docs-prep/data-structures/binary-search-tree/breadth-first-search",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Breadth First Search",
+                "metaTitle": "Breadth First Search | Binary Search Tree | Data Structures | Interview Prep | Tiffany Lea",
+                "metaDescription": "Breadth First Search"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Binary Search Tree",
+                "permalink": "/docs-prep/data-structures/binary-search-tree/"
+              },
+              "next": {
+                "title": "Depth First Search",
+                "permalink": "/docs-prep/data-structures/binary-search-tree/depth-first-search"
+              }
+            },
+            {
+              "unversionedId": "data-structures/binary-search-tree/depth-first-search",
+              "id": "data-structures/binary-search-tree/depth-first-search",
+              "title": "Depth First Search",
+              "description": "Works by going \"deeper\" into one part of the graph and visiting all of its nodes all the way to the end.",
+              "source": "@site/docs-prep/data-structures/binary-search-tree/depth-first-search.mdx",
+              "sourceDirName": "data-structures/binary-search-tree",
+              "slug": "/data-structures/binary-search-tree/depth-first-search",
+              "permalink": "/docs-prep/data-structures/binary-search-tree/depth-first-search",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Depth First Search",
+                "metaTitle": "Depth First Search | Binary Search Tree | Data Structures | Interview Prep | Tiffany Lea",
+                "metaDescription": "Depth First Search"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Breadth First Search",
+                "permalink": "/docs-prep/data-structures/binary-search-tree/breadth-first-search"
+              },
+              "next": {
+                "title": "Hash Table",
+                "permalink": "/docs-prep/data-structures/hash-table"
+              }
+            },
+            {
+              "unversionedId": "data-structures/data-structures",
+              "id": "data-structures/data-structures",
+              "title": "Data Structures",
+              "description": "Resources",
+              "source": "@site/docs-prep/data-structures/data-structures.mdx",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/",
+              "permalink": "/docs-prep/data-structures/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Data Structures",
+                "metaTitle": "Data Structures | Interview Prep | Tiffany Lea",
+                "metaDescription": "Data structures ramp up for interview prep"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Manager Questions",
+                "permalink": "/docs-prep/behavioral/manager-questions"
+              },
+              "next": {
+                "title": "Binary Search Tree",
+                "permalink": "/docs-prep/data-structures/binary-search-tree/"
+              }
+            },
+            {
+              "unversionedId": "data-structures/hash-table",
+              "id": "data-structures/hash-table",
+              "title": "Hash Table",
+              "description": "Hash tables are used to store data that is in the form of a key associated with a value.",
+              "source": "@site/docs-prep/data-structures/hash-table.mdx",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/hash-table",
+              "permalink": "/docs-prep/data-structures/hash-table",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Hash Table",
+                "metaTitle": "Hash Table | Data Structures | Interview Prep | Tiffany Lea",
+                "metaDescription": "Hash Table"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Depth First Search",
+                "permalink": "/docs-prep/data-structures/binary-search-tree/depth-first-search"
+              },
+              "next": {
+                "title": "Linked List",
+                "permalink": "/docs-prep/data-structures/linked-list"
+              }
+            },
+            {
+              "unversionedId": "data-structures/linked-list",
+              "id": "data-structures/linked-list",
+              "title": "Linked List",
+              "description": "List of elements called nodes connected (linked) together in a single file line.",
+              "source": "@site/docs-prep/data-structures/linked-list.mdx",
+              "sourceDirName": "data-structures",
+              "slug": "/data-structures/linked-list",
+              "permalink": "/docs-prep/data-structures/linked-list",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Linked List",
+                "metaTitle": "Linked List | Data Structures | Interview Prep | Tiffany Lea",
+                "metaDescription": "Linked List"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hash Table",
+                "permalink": "/docs-prep/data-structures/hash-table"
+              },
+              "next": {
+                "title": "Front End",
+                "permalink": "/docs-prep/category/front-end"
+              }
+            },
+            {
+              "unversionedId": "front-end/browser-storage",
+              "id": "front-end/browser-storage",
+              "title": "Browser Storage",
+              "description": "IndexDB",
+              "source": "@site/docs-prep/front-end/browser-storage.mdx",
+              "sourceDirName": "front-end",
+              "slug": "/front-end/browser-storage",
+              "permalink": "/docs-prep/front-end/browser-storage",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Browser Storage",
+                "metaTitle": "Browser Storage | Front End Engineering | Interview Prep | Tiffany Lea",
+                "metaDescription": "Browser Storage"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Front End",
+                "permalink": "/docs-prep/category/front-end"
+              },
+              "next": {
+                "title": "CSS",
+                "permalink": "/docs-prep/front-end/css"
+              }
+            },
+            {
+              "unversionedId": "front-end/css",
+              "id": "front-end/css",
+              "title": "CSS",
+              "description": "Resources",
+              "source": "@site/docs-prep/front-end/css.mdx",
+              "sourceDirName": "front-end",
+              "slug": "/front-end/css",
+              "permalink": "/docs-prep/front-end/css",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "CSS",
+                "metaTitle": "CSS | Interview Prep | Tiffany Lea",
+                "metaDescription": "CSS interview questions, cheatsheets and quick reference"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Browser Storage",
+                "permalink": "/docs-prep/front-end/browser-storage"
+              },
+              "next": {
+                "title": "Data Retrieval",
+                "permalink": "/docs-prep/front-end/data-retrieval"
+              }
+            },
+            {
+              "unversionedId": "front-end/data-retrieval",
+              "id": "front-end/data-retrieval",
+              "title": "Data Retrieval",
+              "description": "Long-Polling vs WebSockets vs Server-Sent Events (SSE)",
+              "source": "@site/docs-prep/front-end/data-retrieval.mdx",
+              "sourceDirName": "front-end",
+              "slug": "/front-end/data-retrieval",
+              "permalink": "/docs-prep/front-end/data-retrieval",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Data Retrieval",
+                "metaTitle": "Data Retrieval | Front End Engineering | Interview Prep | Tiffany Lea",
+                "metaDescription": "Browser Storage"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CSS",
+                "permalink": "/docs-prep/front-end/css"
+              },
+              "next": {
+                "title": "DOM",
+                "permalink": "/docs-prep/front-end/dom"
+              }
+            },
+            {
+              "unversionedId": "front-end/dom",
+              "id": "front-end/dom",
+              "title": "DOM",
+              "description": "The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure where in each node is an object representing a part of the document.",
+              "source": "@site/docs-prep/front-end/dom.mdx",
+              "sourceDirName": "front-end",
+              "slug": "/front-end/dom",
+              "permalink": "/docs-prep/front-end/dom",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "DOM",
+                "metaTitle": "DOM | Front End Engineering | Interview Prep | Tiffany Lea",
+                "metaDescription": "DOM Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Data Retrieval",
+                "permalink": "/docs-prep/front-end/data-retrieval"
+              },
+              "next": {
+                "title": "HTML",
+                "permalink": "/docs-prep/category/html"
+              }
+            },
+            {
+              "unversionedId": "front-end/html/semantics",
+              "id": "front-end/html/semantics",
+              "title": "Semantics",
+              "description": "Semantic HTML",
+              "source": "@site/docs-prep/front-end/html/semantics.mdx",
+              "sourceDirName": "front-end/html",
+              "slug": "/front-end/html/semantics",
+              "permalink": "/docs-prep/front-end/html/semantics",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Semantics",
+                "metaTitle": "Semantics | HTML | Front End Engineering | Interview Prep | Tiffany Lea",
+                "metaDescription": "HTML interview questions, cheatsheets and quick reference"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "HTML",
+                "permalink": "/docs-prep/category/html"
+              },
+              "next": {
+                "title": "HTTP",
+                "permalink": "/docs-prep/front-end/http"
+              }
+            },
+            {
+              "unversionedId": "front-end/http",
+              "id": "front-end/http",
+              "title": "HTTP",
+              "description": "| Method  | Description                                                                           |",
+              "source": "@site/docs-prep/front-end/http.mdx",
+              "sourceDirName": "front-end",
+              "slug": "/front-end/http",
+              "permalink": "/docs-prep/front-end/http",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "HTTP",
+                "metaTitle": "HTTP | Interview Prep | Tiffany Lea",
+                "metaDescription": "CSS interview questions, cheatsheets and quick reference"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Semantics",
+                "permalink": "/docs-prep/front-end/html/semantics"
+              },
+              "next": {
+                "title": "Performance",
+                "permalink": "/docs-prep/front-end/performance/"
+              }
+            },
+            {
+              "unversionedId": "front-end/performance/performance",
+              "id": "front-end/performance/performance",
+              "title": "Performance",
+              "description": "- Facebook: good article about 2020 site re-write",
+              "source": "@site/docs-prep/front-end/performance/performance.mdx",
+              "sourceDirName": "front-end/performance",
+              "slug": "/front-end/performance/",
+              "permalink": "/docs-prep/front-end/performance/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Performance",
+                "metaTitle": "Performance | Front End Engineering | Interview Prep | Tiffany Lea",
+                "metaDescription": "Performance"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "HTTP",
+                "permalink": "/docs-prep/front-end/http"
+              },
+              "next": {
+                "title": "Images",
+                "permalink": "/docs-prep/front-end/performance/performance-images"
+              }
+            },
+            {
+              "unversionedId": "front-end/performance/performance-images",
+              "id": "front-end/performance/performance-images",
+              "title": "Images",
+              "description": "- use compression/optimization tools to lower file size",
+              "source": "@site/docs-prep/front-end/performance/performance-images.mdx",
+              "sourceDirName": "front-end/performance",
+              "slug": "/front-end/performance/performance-images",
+              "permalink": "/docs-prep/front-end/performance/performance-images",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Images",
+                "metaTitle": "Images | Performance | Front End Engineering | Interview Prep | Tiffany Lea",
+                "metaDescription": "Images"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Performance",
+                "permalink": "/docs-prep/front-end/performance/"
+              },
+              "next": {
+                "title": "System Design",
+                "permalink": "/docs-prep/category/system-design"
+              }
+            },
+            {
+              "unversionedId": "front-end/system-design/radio",
+              "id": "front-end/system-design/radio",
+              "title": "RADIO",
+              "description": "Overview",
+              "source": "@site/docs-prep/front-end/system-design/radio.mdx",
+              "sourceDirName": "front-end/system-design",
+              "slug": "/front-end/system-design/radio",
+              "permalink": "/docs-prep/front-end/system-design/radio",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "RADIO",
+                "metaTitle": "RADIO | System Design | Front End Engineering | Interview Prep | Tiffany Lea",
+                "metaDescription": "Browser Storage"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "System Design",
+                "permalink": "/docs-prep/category/system-design"
+              },
+              "next": {
+                "title": "Interview Prep",
+                "permalink": "/docs-prep/"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "Interview Prep",
+              "description": "- General",
+              "source": "@site/docs-prep/index.mdx",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs-prep/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Interview Prep",
+                "metaTitle": "Interview Prep | Tiffany Lea",
+                "metaDescription": "This is an overview of the purpose of this site."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "RADIO",
+                "permalink": "/docs-prep/front-end/system-design/radio"
+              },
+              "next": {
+                "title": "Javascript",
+                "permalink": "/docs-prep/category/javascript"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/constructor-functions",
+              "id": "javascript/concepts/constructor-functions",
+              "title": "Constructor Functions",
+              "description": "What is a Constructor Function?",
+              "source": "@site/docs-prep/javascript/concepts/constructor-functions.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/constructor-functions",
+              "permalink": "/docs-prep/javascript/concepts/constructor-functions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Constructor Functions",
+                "metaTitle": "Javascript Functions | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Constructor Functions"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Concepts",
+                "permalink": "/docs-prep/category/concepts"
+              },
+              "next": {
+                "title": "Currying",
+                "permalink": "/docs-prep/javascript/concepts/currying"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/currying",
+              "id": "javascript/concepts/currying",
+              "title": "Currying",
+              "description": "Currying is the technique of converting a function that takes multiple arguments into a nested sequence of functions that each take a single argument.",
+              "source": "@site/docs-prep/javascript/concepts/currying.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/currying",
+              "permalink": "/docs-prep/javascript/concepts/currying",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Currying",
+                "metaTitle": "Currying | Programming | Interview Prep | Tiffany Lea",
+                "metaDescription": "Currying"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Constructor Functions",
+                "permalink": "/docs-prep/javascript/concepts/constructor-functions"
+              },
+              "next": {
+                "title": "Factory Functions",
+                "permalink": "/docs-prep/javascript/concepts/factory-functions"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/factory-functions",
+              "id": "javascript/concepts/factory-functions",
+              "title": "Factory Functions",
+              "description": "A factory function is a function that creates and returns a new object.",
+              "source": "@site/docs-prep/javascript/concepts/factory-functions.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/factory-functions",
+              "permalink": "/docs-prep/javascript/concepts/factory-functions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Factory Functions",
+                "metaTitle": "Factory Functions | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "All about Factory Functions"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Currying",
+                "permalink": "/docs-prep/javascript/concepts/currying"
+              },
+              "next": {
+                "title": "Closures",
+                "permalink": "/docs-prep/javascript/concepts/javascript-closures"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/javascript-closures",
+              "id": "javascript/concepts/javascript-closures",
+              "title": "Closures",
+              "description": "A closure is when an outer function returns an inner function, the inner function is then executed in a different scope, and the inner function continues to maintain access to the outer function's variables, even though the outer function no longer exists.",
+              "source": "@site/docs-prep/javascript/concepts/javascript-closures.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/javascript-closures",
+              "permalink": "/docs-prep/javascript/concepts/javascript-closures",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Closures",
+                "metaTitle": "Javascript Closures | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Closures"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Factory Functions",
+                "permalink": "/docs-prep/javascript/concepts/factory-functions"
+              },
+              "next": {
+                "title": "Hoisting",
+                "permalink": "/docs-prep/javascript/concepts/javascript-hoisting"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/javascript-hoisting",
+              "id": "javascript/concepts/javascript-hoisting",
+              "title": "Hoisting",
+              "description": "When a Javascript file (or HTML document with Javascript in it) is loaded, function declarations are hoisted to the top of the code by the browser before any code is executed",
+              "source": "@site/docs-prep/javascript/concepts/javascript-hoisting.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/javascript-hoisting",
+              "permalink": "/docs-prep/javascript/concepts/javascript-hoisting",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Hoisting",
+                "metaTitle": "Javascript Hoisting | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Hoisting"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Closures",
+                "permalink": "/docs-prep/javascript/concepts/javascript-closures"
+              },
+              "next": {
+                "title": "Scope",
+                "permalink": "/docs-prep/javascript/concepts/javascript-scope"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/javascript-scope",
+              "id": "javascript/concepts/javascript-scope",
+              "title": "Scope",
+              "description": "Q: What will be printed on the console?",
+              "source": "@site/docs-prep/javascript/concepts/javascript-scope.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/javascript-scope",
+              "permalink": "/docs-prep/javascript/concepts/javascript-scope",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Scope",
+                "metaTitle": "Javascript Scope | Javascript | Questions | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Scope interview questions"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Hoisting",
+                "permalink": "/docs-prep/javascript/concepts/javascript-hoisting"
+              },
+              "next": {
+                "title": "This, Call and Apply",
+                "permalink": "/docs-prep/javascript/concepts/javascript-this-call-apply"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/javascript-this-call-apply",
+              "id": "javascript/concepts/javascript-this-call-apply",
+              "title": "This, Call and Apply",
+              "description": "Q: What is the result of the following code?",
+              "source": "@site/docs-prep/javascript/concepts/javascript-this-call-apply.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/javascript-this-call-apply",
+              "permalink": "/docs-prep/javascript/concepts/javascript-this-call-apply",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "This, Call and Apply",
+                "metaTitle": "Javascript This, Call and Apply | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript This, Call and Apply Interview Questions"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Scope",
+                "permalink": "/docs-prep/javascript/concepts/javascript-scope"
+              },
+              "next": {
+                "title": "Recursion",
+                "permalink": "/docs-prep/javascript/concepts/recursion"
+              }
+            },
+            {
+              "unversionedId": "javascript/concepts/recursion",
+              "id": "javascript/concepts/recursion",
+              "title": "Recursion",
+              "description": "A function that calls itself.",
+              "source": "@site/docs-prep/javascript/concepts/recursion.mdx",
+              "sourceDirName": "javascript/concepts",
+              "slug": "/javascript/concepts/recursion",
+              "permalink": "/docs-prep/javascript/concepts/recursion",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Recursion",
+                "metaTitle": "Recursion | Programming | Interview Prep | Tiffany Lea",
+                "metaDescription": "Recursion"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "This, Call and Apply",
+                "permalink": "/docs-prep/javascript/concepts/javascript-this-call-apply"
+              },
+              "next": {
+                "title": "Javascript Event Loop",
+                "permalink": "/docs-prep/javascript/event-loop"
+              }
+            },
+            {
+              "unversionedId": "javascript/event-loop",
+              "id": "javascript/event-loop",
+              "title": "Javascript Event Loop",
+              "description": "Resources",
+              "source": "@site/docs-prep/javascript/event-loop.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/event-loop",
+              "permalink": "/docs-prep/javascript/event-loop",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Event Loop",
+                "metaTitle": "Event Loop | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Event Loop Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Recursion",
+                "permalink": "/docs-prep/javascript/concepts/recursion"
+              },
+              "next": {
+                "title": "Javascript Arrays",
+                "permalink": "/docs-prep/javascript/javascript-arrays"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript",
+              "id": "javascript/javascript",
+              "title": "Javascript",
+              "description": "- look here",
+              "source": "@site/docs-prep/javascript/javascript.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/",
+              "permalink": "/docs-prep/javascript/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript",
+                "metaTitle": "Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript interview questions, cheatsheets and quick reference"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Terms",
+                "permalink": "/docs-prep/javascript/javascript-terms"
+              },
+              "next": {
+                "title": "Random",
+                "permalink": "/docs-prep/random/"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-arrays",
+              "id": "javascript/javascript-arrays",
+              "title": "Javascript Arrays",
+              "description": "Image From//www.cronj.com/",
+              "source": "@site/docs-prep/javascript/javascript-arrays.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-arrays",
+              "permalink": "/docs-prep/javascript/javascript-arrays",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Arrays",
+                "metaTitle": "Javascript Arrays | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Arrays"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Event Loop",
+                "permalink": "/docs-prep/javascript/event-loop"
+              },
+              "next": {
+                "title": "Javascript Classes",
+                "permalink": "/docs-prep/javascript/javascript-classes"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-classes",
+              "id": "javascript/javascript-classes",
+              "title": "Javascript Classes",
+              "description": "- Hackerrank Tutorial",
+              "source": "@site/docs-prep/javascript/javascript-classes.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-classes",
+              "permalink": "/docs-prep/javascript/javascript-classes",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Classes",
+                "metaTitle": "Javascript Classes | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Classes"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Arrays",
+                "permalink": "/docs-prep/javascript/javascript-arrays"
+              },
+              "next": {
+                "title": "Javascript Data Structures",
+                "permalink": "/docs-prep/javascript/javascript-data-structures"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-data-structures",
+              "id": "javascript/javascript-data-structures",
+              "title": "Javascript Data Structures",
+              "description": "Linked List",
+              "source": "@site/docs-prep/javascript/javascript-data-structures.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-data-structures",
+              "permalink": "/docs-prep/javascript/javascript-data-structures",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Data Structures",
+                "metaTitle": "Javascript Data Structures | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Data Structures"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Classes",
+                "permalink": "/docs-prep/javascript/javascript-classes"
+              },
+              "next": {
+                "title": "Javascript Map",
+                "permalink": "/docs-prep/javascript/javascript-map"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-map",
+              "id": "javascript/javascript-map",
+              "title": "Javascript Map",
+              "description": "",
+              "source": "@site/docs-prep/javascript/javascript-map.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-map",
+              "permalink": "/docs-prep/javascript/javascript-map",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Map",
+                "metaTitle": "Javascript Map | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Map"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Data Structures",
+                "permalink": "/docs-prep/javascript/javascript-data-structures"
+              },
+              "next": {
+                "title": "Javascript Prototype",
+                "permalink": "/docs-prep/javascript/javascript-prototype"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-prototype",
+              "id": "javascript/javascript-prototype",
+              "title": "Javascript Prototype",
+              "description": "Resources",
+              "source": "@site/docs-prep/javascript/javascript-prototype.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-prototype",
+              "permalink": "/docs-prep/javascript/javascript-prototype",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Prototype",
+                "metaTitle": "Javascript Prototype | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Prototype interview questions, cheatsheets and quick reference"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Map",
+                "permalink": "/docs-prep/javascript/javascript-map"
+              },
+              "next": {
+                "title": "Javascript Questions",
+                "permalink": "/docs-prep/javascript/javascript-questions"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-questions",
+              "id": "javascript/javascript-questions",
+              "title": "Javascript Questions",
+              "description": "Remove Duplicates from array without loop",
+              "source": "@site/docs-prep/javascript/javascript-questions.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-questions",
+              "permalink": "/docs-prep/javascript/javascript-questions",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Questions",
+                "metaTitle": "Javascript Questions | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Interview Questions"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Prototype",
+                "permalink": "/docs-prep/javascript/javascript-prototype"
+              },
+              "next": {
+                "title": "Javascript Set",
+                "permalink": "/docs-prep/javascript/javascript-set"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-set",
+              "id": "javascript/javascript-set",
+              "title": "Javascript Set",
+              "description": "",
+              "source": "@site/docs-prep/javascript/javascript-set.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-set",
+              "permalink": "/docs-prep/javascript/javascript-set",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Set",
+                "metaTitle": "Javascript Set | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Set"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Questions",
+                "permalink": "/docs-prep/javascript/javascript-questions"
+              },
+              "next": {
+                "title": "Javascript Terms",
+                "permalink": "/docs-prep/javascript/javascript-terms"
+              }
+            },
+            {
+              "unversionedId": "javascript/javascript-terms",
+              "id": "javascript/javascript-terms",
+              "title": "Javascript Terms",
+              "description": "Rest parameters ...",
+              "source": "@site/docs-prep/javascript/javascript-terms.mdx",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/javascript-terms",
+              "permalink": "/docs-prep/javascript/javascript-terms",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Javascript Terms",
+                "metaTitle": "Javascript Terms | Javascript | Interview Prep | Tiffany Lea",
+                "metaDescription": "Javascript Terms"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Set",
+                "permalink": "/docs-prep/javascript/javascript-set"
+              },
+              "next": {
+                "title": "Javascript",
+                "permalink": "/docs-prep/javascript/"
+              }
+            },
+            {
+              "unversionedId": "random/dynamic",
+              "id": "random/dynamic",
+              "title": "Dynamic",
+              "description": "To always remember answers to the sub-problems you've already solved.",
+              "source": "@site/docs-prep/random/dynamic.mdx",
+              "sourceDirName": "random",
+              "slug": "/random/dynamic",
+              "permalink": "/docs-prep/random/dynamic",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Dynamic",
+                "metaTitle": "Dynamic | Programming | Interview Prep | Tiffany Lea",
+                "metaDescription": "Dynamic"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Random",
+                "permalink": "/docs-prep/random/"
+              },
+              "next": {
+                "title": "Pointers in C",
+                "permalink": "/docs-prep/random/pointers-in-c"
+              }
+            },
+            {
+              "unversionedId": "random/pointers-in-c",
+              "id": "random/pointers-in-c",
+              "title": "Pointers in C",
+              "description": "I feel like I've lost days of my life I'll never get back...",
+              "source": "@site/docs-prep/random/pointers-in-c.mdx",
+              "sourceDirName": "random",
+              "slug": "/random/pointers-in-c",
+              "permalink": "/docs-prep/random/pointers-in-c",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Pointers in C",
+                "metaTitle": "Pointers in C | Random | Interview Prep | Tiffany Lea",
+                "metaDescription": "Pointers in C... ick"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Dynamic",
+                "permalink": "/docs-prep/random/dynamic"
+              },
+              "next": {
+                "title": "React",
+                "permalink": "/docs-prep/react/"
+              }
+            },
+            {
+              "unversionedId": "random/random",
+              "id": "random/random",
+              "title": "Random",
+              "description": "",
+              "source": "@site/docs-prep/random/random.mdx",
+              "sourceDirName": "random",
+              "slug": "/random/",
+              "permalink": "/docs-prep/random/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Random",
+                "metaTitle": "Random | Interview Prep | Tiffany Lea",
+                "metaDescription": "Random Interview Prep stuff that doesn't really have a home... Pointers in C..."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript",
+                "permalink": "/docs-prep/javascript/"
+              },
+              "next": {
+                "title": "Dynamic",
+                "permalink": "/docs-prep/random/dynamic"
+              }
+            },
+            {
+              "unversionedId": "react/react",
+              "id": "react/react",
+              "title": "React",
+              "description": "- The React Cheatsheet for 2020 (+ real-world examples)",
+              "source": "@site/docs-prep/react/react.mdx",
+              "sourceDirName": "react",
+              "slug": "/react/",
+              "permalink": "/docs-prep/react/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "React",
+                "metaTitle": "React | Interview Prep | Tiffany Lea",
+                "metaDescription": "React interview prep questions, cheatsheets and quick reference"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Pointers in C",
+                "permalink": "/docs-prep/random/pointers-in-c"
+              },
+              "next": {
+                "title": "React Hooks",
+                "permalink": "/docs-prep/react/react-hooks"
+              }
+            },
+            {
+              "unversionedId": "react/react-hooks",
+              "id": "react/react-hooks",
+              "title": "React Hooks",
+              "description": "- code snippets from https://www.snippetsofhooks.dev/",
+              "source": "@site/docs-prep/react/react-hooks.mdx",
+              "sourceDirName": "react",
+              "slug": "/react/react-hooks",
+              "permalink": "/docs-prep/react/react-hooks",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "React Hooks",
+                "metaTitle": "React Hooks | React | Interview Prep | Tiffany Lea",
+                "metaDescription": "React Hooks Overview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React",
+                "permalink": "/docs-prep/react/"
+              },
+              "next": {
+                "title": "Technical",
+                "permalink": "/docs-prep/technical/"
+              }
+            },
+            {
+              "unversionedId": "technical/coding",
+              "id": "technical/coding",
+              "title": "Coding",
+              "description": "House code challenges that may get asked in a technical interview.",
+              "source": "@site/docs-prep/technical/coding.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding",
+              "permalink": "/docs-prep/technical/coding",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Coding",
+                "metaTitle": "Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Technical interview questions and code challenges that may get asked in a technical interview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Spiral 2D Array",
+                "permalink": "/docs-prep/technical/coding-spiral-2d-array"
+              },
+              "next": {
+                "title": "Kth Largest Element in an Array LC215",
+                "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+              }
+            },
+            {
+              "unversionedId": "technical/coding-event-emitter",
+              "id": "technical/coding-event-emitter",
+              "title": "Create Event Emitter",
+              "description": "NOTE: just pasted this in... may need to be reviewed.",
+              "source": "@site/docs-prep/technical/coding-event-emitter.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding-event-emitter",
+              "permalink": "/docs-prep/technical/coding-event-emitter",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Create Event Emitter",
+                "metaTitle": "Create Event Emitter | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Create Event Emitter coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Technical",
+                "permalink": "/docs-prep/technical/"
+              },
+              "next": {
+                "title": "First Duplicate in Array",
+                "permalink": "/docs-prep/technical/coding-first-duplicate-in-array"
+              }
+            },
+            {
+              "unversionedId": "technical/coding-first-duplicate-in-array",
+              "id": "technical/coding-first-duplicate-in-array",
+              "title": "First Duplicate in Array",
+              "description": "Given an array a that contains only numbers in the range from 1 to a.length, find the first duplicate number for which the second occurrence has the minimal index.",
+              "source": "@site/docs-prep/technical/coding-first-duplicate-in-array.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding-first-duplicate-in-array",
+              "permalink": "/docs-prep/technical/coding-first-duplicate-in-array",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "First Duplicate in Array",
+                "metaTitle": "First Duplicate in Array | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "First Duplicate in Array coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Create Event Emitter",
+                "permalink": "/docs-prep/technical/coding-event-emitter"
+              },
+              "next": {
+                "title": "First Unique Char in String",
+                "permalink": "/docs-prep/technical/coding-first-unique-char-in-string"
+              }
+            },
+            {
+              "unversionedId": "technical/coding-first-unique-char-in-string",
+              "id": "technical/coding-first-unique-char-in-string",
+              "title": "First Unique Char in String",
+              "description": "Given a string s consisting of small English letters, find and return the first instance of a non-repeating character in it. If there is no such character, return '\\_'.",
+              "source": "@site/docs-prep/technical/coding-first-unique-char-in-string.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding-first-unique-char-in-string",
+              "permalink": "/docs-prep/technical/coding-first-unique-char-in-string",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "First Unique Char in String",
+                "metaTitle": "First Unique Char in String | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "First Unique Char in String coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "First Duplicate in Array",
+                "permalink": "/docs-prep/technical/coding-first-duplicate-in-array"
+              },
+              "next": {
+                "title": "Flatten Array",
+                "permalink": "/docs-prep/technical/coding-flatten-array"
+              }
+            },
+            {
+              "unversionedId": "technical/coding-flatten-array",
+              "id": "technical/coding-flatten-array",
+              "title": "Flatten Array",
+              "description": "Recursive Solution",
+              "source": "@site/docs-prep/technical/coding-flatten-array.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding-flatten-array",
+              "permalink": "/docs-prep/technical/coding-flatten-array",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Flatten Array",
+                "metaTitle": "Flatten Array | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Flatten Array coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "First Unique Char in String",
+                "permalink": "/docs-prep/technical/coding-first-unique-char-in-string"
+              },
+              "next": {
+                "title": "Write Reduce Function",
+                "permalink": "/docs-prep/technical/coding-reduce-function"
+              }
+            },
+            {
+              "unversionedId": "technical/coding-reduce-function",
+              "id": "technical/coding-reduce-function",
+              "title": "Write Reduce Function",
+              "description": "The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in single output value.",
+              "source": "@site/docs-prep/technical/coding-reduce-function.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding-reduce-function",
+              "permalink": "/docs-prep/technical/coding-reduce-function",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Write Reduce Function",
+                "metaTitle": "Write Reduce Function | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Write Reduce Function coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Flatten Array",
+                "permalink": "/docs-prep/technical/coding-flatten-array"
+              },
+              "next": {
+                "title": "Rotate Image in Place",
+                "permalink": "/docs-prep/technical/coding-rotate-image-in-place"
+              }
+            },
+            {
+              "unversionedId": "technical/coding-rotate-image-in-place",
+              "id": "technical/coding-rotate-image-in-place",
+              "title": "Rotate Image in Place",
+              "description": "Note: Try to solve this task in-place (with O(1) additional memory), since this is what you'll be asked to do during an interview.",
+              "source": "@site/docs-prep/technical/coding-rotate-image-in-place.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding-rotate-image-in-place",
+              "permalink": "/docs-prep/technical/coding-rotate-image-in-place",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Rotate Image in Place",
+                "metaTitle": "Rotate Image in Place | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Rotate Image in Place coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Write Reduce Function",
+                "permalink": "/docs-prep/technical/coding-reduce-function"
+              },
+              "next": {
+                "title": "Spiral 2D Array",
+                "permalink": "/docs-prep/technical/coding-spiral-2d-array"
+              }
+            },
+            {
+              "unversionedId": "technical/coding-spiral-2d-array",
+              "id": "technical/coding-spiral-2d-array",
+              "title": "Spiral 2D Array",
+              "description": "",
+              "source": "@site/docs-prep/technical/coding-spiral-2d-array.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/coding-spiral-2d-array",
+              "permalink": "/docs-prep/technical/coding-spiral-2d-array",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Spiral 2D Array",
+                "metaTitle": "Spiral 2D Array | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Spiral 2D Array coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Rotate Image in Place",
+                "permalink": "/docs-prep/technical/coding-rotate-image-in-place"
+              },
+              "next": {
+                "title": "Coding",
+                "permalink": "/docs-prep/technical/coding"
+              }
+            },
+            {
+              "unversionedId": "technical/kth-largest-element-lc215",
+              "id": "technical/kth-largest-element-lc215",
+              "title": "Kth Largest Element in an Array LC215",
+              "description": "Leetcode 215",
+              "source": "@site/docs-prep/technical/kth-largest-element-lc215.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/kth-largest-element-lc215",
+              "permalink": "/docs-prep/technical/kth-largest-element-lc215",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Kth Largest Element in an Array LC215",
+                "metaTitle": "Kth Largest Element in an Array LC215| Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Two Sum LC1"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Coding",
+                "permalink": "/docs-prep/technical/coding"
+              },
+              "next": {
+                "title": "Merge k Sorted Lists",
+                "permalink": "/docs-prep/technical/merge-k-sorted-lists"
+              }
+            },
+            {
+              "unversionedId": "technical/merge-k-sorted-lists",
+              "id": "technical/merge-k-sorted-lists",
+              "title": "Merge k Sorted Lists",
+              "description": "",
+              "source": "@site/docs-prep/technical/merge-k-sorted-lists.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/merge-k-sorted-lists",
+              "permalink": "/docs-prep/technical/merge-k-sorted-lists",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Merge k Sorted Lists",
+                "metaTitle": "Merge k Sorted Lists | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Merge k Sorted Lists"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Kth Largest Element in an Array LC215",
+                "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+              },
+              "next": {
+                "title": "Merge Sorted Array LC88",
+                "permalink": "/docs-prep/technical/merge-sorted-array-lc88"
+              }
+            },
+            {
+              "unversionedId": "technical/merge-sorted-array-lc88",
+              "id": "technical/merge-sorted-array-lc88",
+              "title": "Merge Sorted Array LC88",
+              "description": "Leetcode 88",
+              "source": "@site/docs-prep/technical/merge-sorted-array-lc88.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/merge-sorted-array-lc88",
+              "permalink": "/docs-prep/technical/merge-sorted-array-lc88",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Merge Sorted Array LC88",
+                "metaTitle": "Merge Sorted Array LC88 | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Merge Sorted Array LC88"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Merge k Sorted Lists",
+                "permalink": "/docs-prep/technical/merge-k-sorted-lists"
+              },
+              "next": {
+                "title": "Merge Two Sorted Lists LC21",
+                "permalink": "/docs-prep/technical/merge-two-sorted-lists-lc21"
+              }
+            },
+            {
+              "unversionedId": "technical/merge-two-sorted-lists-lc21",
+              "id": "technical/merge-two-sorted-lists-lc21",
+              "title": "Merge Two Sorted Lists LC21",
+              "description": "- Leetcode 21",
+              "source": "@site/docs-prep/technical/merge-two-sorted-lists-lc21.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/merge-two-sorted-lists-lc21",
+              "permalink": "/docs-prep/technical/merge-two-sorted-lists-lc21",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Merge Two Sorted Lists LC21",
+                "metaTitle": "Merge Two Sorted Lists | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Merge Two Sorted Lists"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Merge Sorted Array LC88",
+                "permalink": "/docs-prep/technical/merge-sorted-array-lc88"
+              },
+              "next": {
+                "title": "Most common substring",
+                "permalink": "/docs-prep/technical/most-common-substring"
+              }
+            },
+            {
+              "unversionedId": "technical/most-common-substring",
+              "id": "technical/most-common-substring",
+              "title": "Most common substring",
+              "description": "Video walkthrough",
+              "source": "@site/docs-prep/technical/most-common-substring.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/most-common-substring",
+              "permalink": "/docs-prep/technical/most-common-substring",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Most common substring",
+                "metaTitle": "Most common substring | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Most common substring"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Merge Two Sorted Lists LC21",
+                "permalink": "/docs-prep/technical/merge-two-sorted-lists-lc21"
+              },
+              "next": {
+                "title": "Two Sum LC1",
+                "permalink": "/docs-prep/technical/two-sum-lc1"
+              }
+            },
+            {
+              "unversionedId": "technical/technical",
+              "id": "technical/technical",
+              "title": "Technical",
+              "description": "1. Interviewer asks question",
+              "source": "@site/docs-prep/technical/technical.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/",
+              "permalink": "/docs-prep/technical/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Technical",
+                "metaTitle": "Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Technical interview questions and code challenges that may get asked in a technical interview"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "React Hooks",
+                "permalink": "/docs-prep/react/react-hooks"
+              },
+              "next": {
+                "title": "Create Event Emitter",
+                "permalink": "/docs-prep/technical/coding-event-emitter"
+              }
+            },
+            {
+              "unversionedId": "technical/two-sum-lc1",
+              "id": "technical/two-sum-lc1",
+              "title": "Two Sum LC1",
+              "description": "- Leetcode 1",
+              "source": "@site/docs-prep/technical/two-sum-lc1.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/two-sum-lc1",
+              "permalink": "/docs-prep/technical/two-sum-lc1",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Two Sum LC1",
+                "metaTitle": "Two Sum LC1| Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Two Sum LC1"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Most common substring",
+                "permalink": "/docs-prep/technical/most-common-substring"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Algorithms",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "algorithms/big-o"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Cache Algorithms",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "algorithms/cache/lru-cache"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/cache-algorithms",
+                      "permalink": "/docs-prep/category/cache-algorithms"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "General Algorithms",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "algorithms/general/caesar-cipher"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/general/fizz-buzz"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/general/is-palindrome"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/general/ransom-note"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/general/reverse-array-in-place"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/general/reverse-words"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/general-algorithms",
+                      "permalink": "/docs-prep/category/general-algorithms"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Algorithm Helpers",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "algorithms/helpers/string-reversal"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/algorithm-helpers",
+                      "permalink": "/docs-prep/category/algorithm-helpers"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "algorithms/logarithms"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Search Algorithms",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "algorithms/search/binary-search"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/search/linear-search"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/search/search"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/search-algorithms",
+                      "permalink": "/docs-prep/category/search-algorithms"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Sort Algorithms",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "algorithms/sort/bubble-sort"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/sort/insertion-sort"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/sort/merge-sort"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "algorithms/sort/sort"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/sort-algorithms",
+                      "permalink": "/docs-prep/category/sort-algorithms"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "algorithms/time-and-space-complexity"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "algorithms/algorithms"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Behavioral",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "behavioral/evaluation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "behavioral/general-questions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "behavioral/leveling"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "behavioral/manager-questions"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/behavioral",
+                  "permalink": "/docs-prep/category/behavioral"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Data Structures",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Binary Search Tree",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "data-structures/binary-search-tree/breadth-first-search"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "data-structures/binary-search-tree/depth-first-search"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "data-structures/binary-search-tree/binary-search-tree"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/hash-table"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "data-structures/linked-list"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "data-structures/data-structures"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Front End",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "front-end/browser-storage"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end/css"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end/data-retrieval"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end/dom"
+                  },
+                  {
+                    "type": "category",
+                    "label": "HTML",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "front-end/html/semantics"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/html",
+                      "permalink": "/docs-prep/category/html"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end/http"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Performance",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "front-end/performance/performance-images"
+                      }
+                    ],
+                    "link": {
+                      "type": "doc",
+                      "id": "front-end/performance/performance"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "System Design",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "front-end/system-design/radio"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/system-design",
+                      "permalink": "/docs-prep/category/system-design"
+                    }
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/front-end",
+                  "permalink": "/docs-prep/category/front-end"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "category",
+                "label": "Javascript",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Concepts",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/constructor-functions"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/currying"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/factory-functions"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/javascript-closures"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/javascript-hoisting"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/javascript-scope"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/javascript-this-call-apply"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "javascript/concepts/recursion"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/concepts",
+                      "permalink": "/docs-prep/category/concepts"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/event-loop"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-arrays"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-classes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-data-structures"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-map"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-prototype"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-questions"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-set"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript-terms"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "javascript/javascript"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/javascript",
+                  "permalink": "/docs-prep/category/javascript"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Random",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "random/dynamic"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "random/pointers-in-c"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "random/random"
+                }
+              },
+              {
+                "type": "category",
+                "label": "React",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "react/react-hooks"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "react/react"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Technical",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "technical/coding-event-emitter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/coding-first-duplicate-in-array"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/coding-first-unique-char-in-string"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/coding-flatten-array"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/coding-reduce-function"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/coding-rotate-image-in-place"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/coding-spiral-2d-array"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/coding"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/kth-largest-element-lc215"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/merge-k-sorted-lists"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/merge-sorted-array-lc88"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/merge-two-sorted-lists-lc21"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/most-common-substring"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/two-sum-lc1"
+                  }
+                ],
+                "link": {
+                  "type": "doc",
+                  "id": "technical/technical"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "source": "@site/blog/2021-08-26-welcome/index.md",
+            "title": "Welcome",
+            "description": "Docusaurus blogging features are powered by the blog plugin.",
+            "date": "2021-08-26T00:00:00.000Z",
+            "formattedDate": "August 26, 2021",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.405,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome",
+              "title": "Welcome",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "nextItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            }
+          },
+          "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+        },
+        {
+          "id": "mdx-blog-post",
+          "metadata": {
+            "permalink": "/blog/mdx-blog-post",
+            "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
+            "title": "MDX Blog Post",
+            "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
+            "date": "2021-08-01T00:00:00.000Z",
+            "formattedDate": "August 1, 2021",
+            "tags": [
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              }
+            ],
+            "frontMatter": {
+              "slug": "mdx-blog-post",
+              "title": "MDX Blog Post",
+              "authors": [
+                "slorber"
+              ],
+              "tags": [
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert(\"button clicked!\")}>Click me!</button>\n```\n\n<button onClick={() => alert(\"button clicked!\")}>Click me!</button>\n\n:::"
+        },
+        {
+          "id": "long-blog-post",
+          "metadata": {
+            "permalink": "/blog/long-blog-post",
+            "source": "@site/blog/2019-05-29-long-blog-post.md",
+            "title": "Long Blog Post",
+            "description": "This is the summary of a very long blog post,",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 2.05,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Endilie Yacop Sucipto",
+                "title": "Maintainer of Docusaurus",
+                "url": "https://github.com/endiliey",
+                "imageURL": "https://github.com/endiliey.png",
+                "key": "endi"
+              }
+            ],
+            "frontMatter": {
+              "slug": "long-blog-post",
+              "title": "Long Blog Post",
+              "authors": "endi",
+              "tags": [
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "MDX Blog Post",
+              "permalink": "/blog/mdx-blog-post"
+            },
+            "nextItem": {
+              "title": "First Blog Post",
+              "permalink": "/blog/first-blog-post"
+            }
+          },
+          "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "First Blog Post",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "First Blog Post",
+              "authors": {
+                "name": "Gao Wei",
+                "title": "Docusaurus Core Team",
+                "url": "https://github.com/wgao19",
+                "image_url": "https://github.com/wgao19.png",
+                "imageURL": "https://github.com/wgao19.png"
+              },
+              "tags": [
+                "hola",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Long Blog Post",
+              "permalink": "/blog/long-blog-post"
+            }
+          },
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 4,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/facebook": {
+          "label": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook",
+          "pages": [
+            {
+              "items": [
+                "welcome"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/facebook",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome",
+            "long-blog-post"
+          ],
+          "permalink": "/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "long-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 4,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hola": {
+          "label": "hola",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/hola",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hola",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "javascript/concepts/javascript-this-call-apply",
+  "id": "javascript/concepts/javascript-this-call-apply",
+  "title": "This, Call and Apply",
+  "description": "Q: What is the result of the following code?",
+  "source": "@site/docs-prep/javascript/concepts/javascript-this-call-apply.mdx",
+  "sourceDirName": "javascript/concepts",
+  "slug": "/javascript/concepts/javascript-this-call-apply",
+  "permalink": "/docs-prep/javascript/concepts/javascript-this-call-apply",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "This, Call and Apply",
+    "metaTitle": "Javascript This, Call and Apply | Javascript | Interview Prep | Tiffany Lea",
+    "metaDescription": "Javascript This, Call and Apply Interview Questions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scope",
+    "permalink": "/docs-prep/javascript/concepts/javascript-scope"
+  },
+  "next": {
+    "title": "Recursion",
+    "permalink": "/docs-prep/javascript/concepts/recursion"
+  }
+}

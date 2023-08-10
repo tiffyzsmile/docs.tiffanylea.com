@@ -1,0 +1,15 @@
+{
+  "title": "Concepts",
+  "slug": "/category/concepts",
+  "permalink": "/docs-prep/category/concepts",
+  "navigation": {
+    "previous": {
+      "title": "Javascript",
+      "permalink": "/docs-prep/category/javascript"
+    },
+    "next": {
+      "title": "Constructor Functions",
+      "permalink": "/docs-prep/javascript/concepts/constructor-functions"
+    }
+  }
+}

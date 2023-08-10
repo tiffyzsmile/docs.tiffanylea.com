@@ -1,0 +1,27 @@
+{
+  "unversionedId": "data-structures/linked-list",
+  "id": "data-structures/linked-list",
+  "title": "Linked List",
+  "description": "List of elements called nodes connected (linked) together in a single file line.",
+  "source": "@site/docs-prep/data-structures/linked-list.mdx",
+  "sourceDirName": "data-structures",
+  "slug": "/data-structures/linked-list",
+  "permalink": "/docs-prep/data-structures/linked-list",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Linked List",
+    "metaTitle": "Linked List | Data Structures | Interview Prep | Tiffany Lea",
+    "metaDescription": "Linked List"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hash Table",
+    "permalink": "/docs-prep/data-structures/hash-table"
+  },
+  "next": {
+    "title": "Front End",
+    "permalink": "/docs-prep/category/front-end"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "System Design",
+  "slug": "/category/system-design",
+  "permalink": "/docs-prep/category/system-design",
+  "navigation": {
+    "previous": {
+      "title": "Images",
+      "permalink": "/docs-prep/front-end/performance/performance-images"
+    },
+    "next": {
+      "title": "RADIO",
+      "permalink": "/docs-prep/front-end/system-design/radio"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+---
+title: "Browser Storage"
+metaTitle: "Browser Storage | Front End Engineering | Interview Prep | Tiffany Lea"
+metaDescription: "Browser Storage"
+---
+
+# Browser Storage
+
+## IndexDB
+
+IndexDB is ideal for handling large datasets and offline web applications, offering advanced querying and long-term persistence.
+
+```javascript
+const request = window.indexedDB.open("dbName", version);
+
+const transaction = db.transaction(["objStoreName"], "readwrite");
+const objextStore = transaction.objectStore("objStoreName");
+const request = objextStore.add({ key: "value" });
+
+request.onsuccess = (event) => {
+  // data saved succesfully
+};
+
+request.onerror = (event) => {
+  // error occured while saving data
+};
+```
+
+### Key Features
+
+- **Asynchronous API** Doesn't block main thread
+- **Key-Value Storage** Fast retrieval and indexing
+- **Indexed Queries** Improving search performance
+- **Transactions** Blocking and uninterrupted (?)
+- **Object Stores** Data can be separated into different object stores
+- **Persistence** Long-term, surviving browser restarts and system crashes
+
+### Use Cases
+
+- **Offline Web Applications**
+- **Caching**
+- **Data-Intensive Applications**
+
+### Advantages Over Others
+
+- **High storage capacity** Megabytes to gigabytes
+- **Complex data queries** Advanced queries using indexes, enhancing performance
+- **Durability** Data persists on browser close, or system crash
+- **Scalability** Scales well with large datasets
+
+## Local Storage
+
+Local Storage is a simple key-value storage option for smaller-scale data with cross-browser compatibility.
+
+```javascript
+let person = {
+  name: "John",
+  age: 22,
+};
+
+localStorage.setItem("profile", person);
+console.log(localStorage.getItem("profile"));
+```
+
+### Key Features
+
+- **Easy-to-use API** setItem() and getItem()
+- **Synchronous Operations** Operates synchronously, blocking the main thread during read and write
+- **String-Based Storage** Requiring serialisation and deserialization of objects
+- **Limited Storage Capacity** Typically 5-10MB of data storage
+
+### Use Cases
+
+- **User Preferences and Settings** Such as theme or language
+- **Form Data Persistence** Prevents data loss in page refresh or browser close
+- **Simple Data Caching** Small and frequently accessed data
+
+### Advantages
+
+- **Simplicity** Straightforward API for storing and retrieving data
+- **Cross-Browser Compatibility** Wide support across modern browsers
+- **Persistence** Data persists after browser or system restarts
+- **Lightweight** Ideal for small data with no complex querying or indexing
+
+## Session Storage
+
+Session Storage is suitable for temporary data storage during browsing and clearing data when the tab or browser is closed.
+
+```javascript
+const person = { name: "John Snow", knows: "nothing" };
+
+sessionStorage.setItem("scores", JSON.stringify(person));
+
+/** Gone as soon as tab is closed */
+```
+
+### Key Features
+
+- **Same API as Local Storage**
+- **Tab-Specific Storage** (cleared when the tab is closed)
+- **Size Limitations** Typically around 5-10MB
+
+### Use Cases
+
+- **Shopping Carts**
+- **Multi-Step Forms**
+- **Transient Application State** Active tabs or selected options
+
+### Advantages
+
+- **Isolation** Tab-specific storage, enhancing privacy and security
+- **Transience** Clears when the user closes the tab or browser, enhancing privacy and security
+- **Lightweight** Ideal for small data that does not require long-term persistence

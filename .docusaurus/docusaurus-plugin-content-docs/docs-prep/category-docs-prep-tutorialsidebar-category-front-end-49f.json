@@ -1,0 +1,15 @@
+{
+  "title": "Front End",
+  "slug": "/category/front-end",
+  "permalink": "/docs-prep/category/front-end",
+  "navigation": {
+    "previous": {
+      "title": "Linked List",
+      "permalink": "/docs-prep/data-structures/linked-list"
+    },
+    "next": {
+      "title": "Browser Storage",
+      "permalink": "/docs-prep/front-end/browser-storage"
+    }
+  }
+}
