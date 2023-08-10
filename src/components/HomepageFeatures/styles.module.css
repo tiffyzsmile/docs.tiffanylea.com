@@ -9,3 +9,8 @@
   height: 200px;
   width: 200px;
 }
+
+.noLinkStyle {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
