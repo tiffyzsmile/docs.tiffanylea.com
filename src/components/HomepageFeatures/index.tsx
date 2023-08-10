@@ -4,24 +4,24 @@ import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<"svg">>;
+  image: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: "Docs",
-    image: require("@site/static/files/images/book-1.png").default,
+    image: "/files/images/book-1.png",
     description: <>Personal KB Docs.</>,
   },
   {
     title: "Code",
-    image: require("@site/static/files/images/book-2.png").default,
+    image: "/files/images/book-2.png",
     description: <>Common code snippets.</>,
   },
   {
     title: "Interview Prep",
-    image: require("@site/static/files/images/book-3.png").default,
+    image: "/files/images/book-3.png",
     description: <>Prep for interviews.</>,
   },
 ];
