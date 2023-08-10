@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'bf1'),
+    component: ComponentCreator('/docs', '677'),
     routes: [
       {
         path: '/docs/',
@@ -180,6 +180,48 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/code/css',
+        component: ComponentCreator('/docs/code/css', '223'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/code/html',
+        component: ComponentCreator('/docs/code/html', '159'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/code/javascript/',
+        component: ComponentCreator('/docs/code/javascript/', 'c0d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/code/javascript/javascript-objects',
+        component: ComponentCreator('/docs/code/javascript/javascript-objects', '9eb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/code/javascript/javscript-url-manipulation',
+        component: ComponentCreator('/docs/code/javascript/javscript-url-manipulation', '2a8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/code/markdown',
+        component: ComponentCreator('/docs/code/markdown', 'b9d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/code/typescript',
+        component: ComponentCreator('/docs/code/typescript', '357'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/designsystems/',
         component: ComponentCreator('/docs/designsystems/', '205'),
         exact: true,
@@ -206,48 +248,6 @@ export default [
       {
         path: '/docs/inspiration',
         component: ComponentCreator('/docs/inspiration', '575'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/languages/css',
-        component: ComponentCreator('/docs/languages/css', '09f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/languages/html',
-        component: ComponentCreator('/docs/languages/html', '3ab'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/languages/javascript/',
-        component: ComponentCreator('/docs/languages/javascript/', '4fa'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/languages/javascript/javascript-objects',
-        component: ComponentCreator('/docs/languages/javascript/javascript-objects', 'ac8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/languages/javascript/javscript-url-manipulation',
-        component: ComponentCreator('/docs/languages/javascript/javscript-url-manipulation', 'b4f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/languages/markdown',
-        component: ComponentCreator('/docs/languages/markdown', '822'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/languages/typescript',
-        component: ComponentCreator('/docs/languages/typescript', '6d8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -26,6 +26,66 @@
       },
       {
         "type": "category",
+        "label": "Code",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "CSS",
+            "href": "/docs/code/css",
+            "docId": "code/css"
+          },
+          {
+            "type": "link",
+            "label": "HTML",
+            "href": "/docs/code/html",
+            "docId": "code/html"
+          },
+          {
+            "type": "category",
+            "label": "Javascript",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Javascript Objects",
+                "href": "/docs/code/javascript/javascript-objects",
+                "docId": "code/javascript/javascript-objects"
+              },
+              {
+                "type": "link",
+                "label": "Javascript",
+                "href": "/docs/code/javascript/",
+                "docId": "code/javascript/javascript"
+              },
+              {
+                "type": "link",
+                "label": "Get URL Tiers",
+                "href": "/docs/code/javascript/javscript-url-manipulation",
+                "docId": "code/javascript/javscript-url-manipulation"
+              }
+            ],
+            "href": "/docs/category/javascript"
+          },
+          {
+            "type": "link",
+            "label": "Markdown",
+            "href": "/docs/code/markdown",
+            "docId": "code/markdown"
+          },
+          {
+            "type": "link",
+            "label": "TypeScript",
+            "href": "/docs/code/typescript",
+            "docId": "code/typescript"
+          }
+        ],
+        "href": "/docs/category/code"
+      },
+      {
+        "type": "category",
         "label": "Design Systems",
         "collapsible": true,
         "collapsed": true,
@@ -68,66 +128,6 @@
         "label": "Inspiration",
         "href": "/docs/inspiration",
         "docId": "inspiration"
-      },
-      {
-        "type": "category",
-        "label": "Code",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "CSS",
-            "href": "/docs/languages/css",
-            "docId": "languages/css"
-          },
-          {
-            "type": "link",
-            "label": "HTML",
-            "href": "/docs/languages/html",
-            "docId": "languages/html"
-          },
-          {
-            "type": "category",
-            "label": "Javascript",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Javascript Objects",
-                "href": "/docs/languages/javascript/javascript-objects",
-                "docId": "languages/javascript/javascript-objects"
-              },
-              {
-                "type": "link",
-                "label": "Javascript",
-                "href": "/docs/languages/javascript/",
-                "docId": "languages/javascript/javascript"
-              },
-              {
-                "type": "link",
-                "label": "Get URL Tiers",
-                "href": "/docs/languages/javascript/javscript-url-manipulation",
-                "docId": "languages/javascript/javscript-url-manipulation"
-              }
-            ],
-            "href": "/docs/category/javascript"
-          },
-          {
-            "type": "link",
-            "label": "Markdown",
-            "href": "/docs/languages/markdown",
-            "docId": "languages/markdown"
-          },
-          {
-            "type": "link",
-            "label": "TypeScript",
-            "href": "/docs/languages/typescript",
-            "docId": "languages/typescript"
-          }
-        ],
-        "href": "/docs/category/code"
       },
       {
         "type": "category",
@@ -261,6 +261,48 @@
       "description": "Tracking",
       "sidebar": "tutorialSidebar"
     },
+    "code/css": {
+      "id": "code/css",
+      "title": "CSS",
+      "description": "Syntax",
+      "sidebar": "tutorialSidebar"
+    },
+    "code/html": {
+      "id": "code/html",
+      "title": "HTML",
+      "description": "Links",
+      "sidebar": "tutorialSidebar"
+    },
+    "code/javascript/javascript": {
+      "id": "code/javascript/javascript",
+      "title": "Javascript",
+      "description": "Data types",
+      "sidebar": "tutorialSidebar"
+    },
+    "code/javascript/javascript-objects": {
+      "id": "code/javascript/javascript-objects",
+      "title": "Javascript Objects",
+      "description": "Deeply Nested Dynamic Properties",
+      "sidebar": "tutorialSidebar"
+    },
+    "code/javascript/javscript-url-manipulation": {
+      "id": "code/javascript/javscript-url-manipulation",
+      "title": "Get URL Tiers",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "code/markdown": {
+      "id": "code/markdown",
+      "title": "Markdown",
+      "description": "Resources",
+      "sidebar": "tutorialSidebar"
+    },
+    "code/typescript": {
+      "id": "code/typescript",
+      "title": "TypeScript",
+      "description": "// TODO: update this",
+      "sidebar": "tutorialSidebar"
+    },
     "designsystems/designsystems": {
       "id": "designsystems/designsystems",
       "title": "Design Systems",
@@ -295,48 +337,6 @@
       "id": "inspiration",
       "title": "Inspiration",
       "description": "CSS",
-      "sidebar": "tutorialSidebar"
-    },
-    "languages/css": {
-      "id": "languages/css",
-      "title": "CSS",
-      "description": "Syntax",
-      "sidebar": "tutorialSidebar"
-    },
-    "languages/html": {
-      "id": "languages/html",
-      "title": "HTML",
-      "description": "Links",
-      "sidebar": "tutorialSidebar"
-    },
-    "languages/javascript/javascript": {
-      "id": "languages/javascript/javascript",
-      "title": "Javascript",
-      "description": "Data types",
-      "sidebar": "tutorialSidebar"
-    },
-    "languages/javascript/javascript-objects": {
-      "id": "languages/javascript/javascript-objects",
-      "title": "Javascript Objects",
-      "description": "Deeply Nested Dynamic Properties",
-      "sidebar": "tutorialSidebar"
-    },
-    "languages/javascript/javscript-url-manipulation": {
-      "id": "languages/javascript/javscript-url-manipulation",
-      "title": "Get URL Tiers",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "languages/markdown": {
-      "id": "languages/markdown",
-      "title": "Markdown",
-      "description": "Resources",
-      "sidebar": "tutorialSidebar"
-    },
-    "languages/typescript": {
-      "id": "languages/typescript",
-      "title": "TypeScript",
-      "description": "// TODO: update this",
       "sidebar": "tutorialSidebar"
     },
     "leadership/servant-leadership": {

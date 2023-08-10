@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-bf1": {
+  "/docs-677": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-47-c-9b8"
@@ -245,6 +245,34 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-version-control-5-d-1-0bd"
   },
+  "/docs/code/css-223": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-cssfa-0-df7"
+  },
+  "/docs/code/html-159": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-html-5-f-6-e5f"
+  },
+  "/docs/code/javascript/-c0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-javascript-866-f47"
+  },
+  "/docs/code/javascript/javascript-objects-9eb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-javascript-javascript-objectsbe-8-bb1"
+  },
+  "/docs/code/javascript/javscript-url-manipulation-2a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-javascript-javscript-url-manipulation-93-f-081"
+  },
+  "/docs/code/markdown-b9d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-markdown-59-f-91d"
+  },
+  "/docs/code/typescript-357": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-code-typescript-862-b72"
+  },
   "/docs/designsystems/-205": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-designsystems-ff-3-296"
@@ -264,34 +292,6 @@
   "/docs/inspiration-575": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-inspirationf-5-a-3f1"
-  },
-  "/docs/languages/css-09f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-languages-css-7-a-8-544"
-  },
-  "/docs/languages/html-3ab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-languages-html-8-bd-a51"
-  },
-  "/docs/languages/javascript/-4fa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-languages-javascript-ba-6-8ae"
-  },
-  "/docs/languages/javascript/javascript-objects-ac8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-languages-javascript-javascript-objects-4-bf-da7"
-  },
-  "/docs/languages/javascript/javscript-url-manipulation-b4f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-languages-javascript-javscript-url-manipulationeea-6aa"
-  },
-  "/docs/languages/markdown-822": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-languages-markdown-044-ff9"
-  },
-  "/docs/languages/typescript-6d8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-languages-typescript-450-f89"
   },
   "/docs/leadership/servant-leadership-2c4": {
     "__comp": "__comp---theme-doc-item-178-a40",

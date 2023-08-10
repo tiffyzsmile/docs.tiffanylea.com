@@ -16,6 +16,41 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "code/css",
+              "path": "/docs/code/css",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/html",
+              "path": "/docs/code/html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/javascript/javascript",
+              "path": "/docs/code/javascript/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/javascript/javascript-objects",
+              "path": "/docs/code/javascript/javascript-objects",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/javascript/javscript-url-manipulation",
+              "path": "/docs/code/javascript/javscript-url-manipulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/markdown",
+              "path": "/docs/code/markdown",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/typescript",
+              "path": "/docs/code/typescript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "designsystems/designsystems",
               "path": "/docs/designsystems/",
               "sidebar": "tutorialSidebar"
@@ -43,41 +78,6 @@
             {
               "id": "inspiration",
               "path": "/docs/inspiration",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "languages/css",
-              "path": "/docs/languages/css",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "languages/html",
-              "path": "/docs/languages/html",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "languages/javascript/javascript",
-              "path": "/docs/languages/javascript/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "languages/javascript/javascript-objects",
-              "path": "/docs/languages/javascript/javascript-objects",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "languages/javascript/javscript-url-manipulation",
-              "path": "/docs/languages/javascript/javscript-url-manipulation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "languages/markdown",
-              "path": "/docs/languages/markdown",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "languages/typescript",
-              "path": "/docs/languages/typescript",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -136,11 +136,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/design-systems",
-              "path": "/docs/category/design-systems",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/code",
               "path": "/docs/category/code",
               "sidebar": "tutorialSidebar"
@@ -148,6 +143,11 @@
             {
               "id": "/category/javascript",
               "path": "/docs/category/javascript",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/design-systems",
+              "path": "/docs/category/design-systems",
               "sidebar": "tutorialSidebar"
             },
             {

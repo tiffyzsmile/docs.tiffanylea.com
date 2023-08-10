@@ -1,0 +1,27 @@
+{
+  "unversionedId": "code/typescript",
+  "id": "code/typescript",
+  "title": "TypeScript",
+  "description": "// TODO: update this",
+  "source": "@site/docs/code/typescript.mdx",
+  "sourceDirName": "code",
+  "slug": "/code/typescript",
+  "permalink": "/docs/code/typescript",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "TypeScript",
+    "menu": "Languages",
+    "route": "/languages/typescript"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown",
+    "permalink": "/docs/code/markdown"
+  },
+  "next": {
+    "title": "Design Systems",
+    "permalink": "/docs/category/design-systems"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "code/html",
+  "id": "code/html",
+  "title": "HTML",
+  "description": "Links",
+  "source": "@site/docs/code/html.mdx",
+  "sourceDirName": "code",
+  "slug": "/code/html",
+  "permalink": "/docs/code/html",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "HTML",
+    "menu": "Languages",
+    "route": "/languages/html"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CSS",
+    "permalink": "/docs/code/css"
+  },
+  "next": {
+    "title": "Javascript",
+    "permalink": "/docs/category/javascript"
+  }
+}

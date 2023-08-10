@@ -38,6 +38,191 @@
                 "permalink": "/docs/category/aws"
               },
               "next": {
+                "title": "Code",
+                "permalink": "/docs/category/code"
+              }
+            },
+            {
+              "unversionedId": "code/css",
+              "id": "code/css",
+              "title": "CSS",
+              "description": "Syntax",
+              "source": "@site/docs/code/css.mdx",
+              "sourceDirName": "code",
+              "slug": "/code/css",
+              "permalink": "/docs/code/css",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "CSS"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Code",
+                "permalink": "/docs/category/code"
+              },
+              "next": {
+                "title": "HTML",
+                "permalink": "/docs/code/html"
+              }
+            },
+            {
+              "unversionedId": "code/html",
+              "id": "code/html",
+              "title": "HTML",
+              "description": "Links",
+              "source": "@site/docs/code/html.mdx",
+              "sourceDirName": "code",
+              "slug": "/code/html",
+              "permalink": "/docs/code/html",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "HTML",
+                "menu": "Languages",
+                "route": "/languages/html"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CSS",
+                "permalink": "/docs/code/css"
+              },
+              "next": {
+                "title": "Javascript",
+                "permalink": "/docs/category/javascript"
+              }
+            },
+            {
+              "unversionedId": "code/javascript/javascript",
+              "id": "code/javascript/javascript",
+              "title": "Javascript",
+              "description": "Data types",
+              "source": "@site/docs/code/javascript/javascript.mdx",
+              "sourceDirName": "code/javascript",
+              "slug": "/code/javascript/",
+              "permalink": "/docs/code/javascript/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Javascript",
+                "menu": "Languages",
+                "route": "/languages/javascript"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript Objects",
+                "permalink": "/docs/code/javascript/javascript-objects"
+              },
+              "next": {
+                "title": "Get URL Tiers",
+                "permalink": "/docs/code/javascript/javscript-url-manipulation"
+              }
+            },
+            {
+              "unversionedId": "code/javascript/javascript-objects",
+              "id": "code/javascript/javascript-objects",
+              "title": "Javascript Objects",
+              "description": "Deeply Nested Dynamic Properties",
+              "source": "@site/docs/code/javascript/javascript-objects.mdx",
+              "sourceDirName": "code/javascript",
+              "slug": "/code/javascript/javascript-objects",
+              "permalink": "/docs/code/javascript/javascript-objects",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Javascript Objects",
+                "menu": "Javascript",
+                "route": "/javascript/javascript-objects"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript",
+                "permalink": "/docs/category/javascript"
+              },
+              "next": {
+                "title": "Javascript",
+                "permalink": "/docs/code/javascript/"
+              }
+            },
+            {
+              "unversionedId": "code/javascript/javscript-url-manipulation",
+              "id": "code/javascript/javscript-url-manipulation",
+              "title": "Get URL Tiers",
+              "description": "",
+              "source": "@site/docs/code/javascript/javscript-url-manipulation.mdx",
+              "sourceDirName": "code/javascript",
+              "slug": "/code/javascript/javscript-url-manipulation",
+              "permalink": "/docs/code/javascript/javscript-url-manipulation",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "Javascript URL Manipulation",
+                "menu": "Javascript",
+                "route": "/javascript/javascript-url-manipulation"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Javascript",
+                "permalink": "/docs/code/javascript/"
+              },
+              "next": {
+                "title": "Markdown",
+                "permalink": "/docs/code/markdown"
+              }
+            },
+            {
+              "unversionedId": "code/markdown",
+              "id": "code/markdown",
+              "title": "Markdown",
+              "description": "Resources",
+              "source": "@site/docs/code/markdown.mdx",
+              "sourceDirName": "code",
+              "slug": "/code/markdown",
+              "permalink": "/docs/code/markdown",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Markdown"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Get URL Tiers",
+                "permalink": "/docs/code/javascript/javscript-url-manipulation"
+              },
+              "next": {
+                "title": "TypeScript",
+                "permalink": "/docs/code/typescript"
+              }
+            },
+            {
+              "unversionedId": "code/typescript",
+              "id": "code/typescript",
+              "title": "TypeScript",
+              "description": "// TODO: update this",
+              "source": "@site/docs/code/typescript.mdx",
+              "sourceDirName": "code",
+              "slug": "/code/typescript",
+              "permalink": "/docs/code/typescript",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "name": "TypeScript",
+                "menu": "Languages",
+                "route": "/languages/typescript"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Markdown",
+                "permalink": "/docs/code/markdown"
+              },
+              "next": {
                 "title": "Design Systems",
                 "permalink": "/docs/category/design-systems"
               }
@@ -188,193 +373,6 @@
               "previous": {
                 "title": "Docs",
                 "permalink": "/docs/"
-              },
-              "next": {
-                "title": "Code",
-                "permalink": "/docs/category/code"
-              }
-            },
-            {
-              "unversionedId": "languages/css",
-              "id": "languages/css",
-              "title": "CSS",
-              "description": "Syntax",
-              "source": "@site/docs/languages/css.mdx",
-              "sourceDirName": "languages",
-              "slug": "/languages/css",
-              "permalink": "/docs/languages/css",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "title": "CSS"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Code",
-                "permalink": "/docs/category/code"
-              },
-              "next": {
-                "title": "HTML",
-                "permalink": "/docs/languages/html"
-              }
-            },
-            {
-              "unversionedId": "languages/html",
-              "id": "languages/html",
-              "title": "HTML",
-              "description": "Links",
-              "source": "@site/docs/languages/html.mdx",
-              "sourceDirName": "languages",
-              "slug": "/languages/html",
-              "permalink": "/docs/languages/html",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "name": "HTML",
-                "menu": "Languages",
-                "route": "/languages/html"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "CSS",
-                "permalink": "/docs/languages/css"
-              },
-              "next": {
-                "title": "Javascript",
-                "permalink": "/docs/category/javascript"
-              }
-            },
-            {
-              "unversionedId": "languages/javascript/javascript",
-              "id": "languages/javascript/javascript",
-              "title": "Javascript",
-              "description": "Data types",
-              "source": "@site/docs/languages/javascript/javascript.mdx",
-              "sourceDirName": "languages/javascript",
-              "slug": "/languages/javascript/",
-              "permalink": "/docs/languages/javascript/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "name": "Javascript",
-                "menu": "Languages",
-                "route": "/languages/javascript"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Javascript Objects",
-                "permalink": "/docs/languages/javascript/javascript-objects"
-              },
-              "next": {
-                "title": "Get URL Tiers",
-                "permalink": "/docs/languages/javascript/javscript-url-manipulation"
-              }
-            },
-            {
-              "unversionedId": "languages/javascript/javascript-objects",
-              "id": "languages/javascript/javascript-objects",
-              "title": "Javascript Objects",
-              "description": "Deeply Nested Dynamic Properties",
-              "source": "@site/docs/languages/javascript/javascript-objects.mdx",
-              "sourceDirName": "languages/javascript",
-              "slug": "/languages/javascript/javascript-objects",
-              "permalink": "/docs/languages/javascript/javascript-objects",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "name": "Javascript Objects",
-                "menu": "Javascript",
-                "route": "/javascript/javascript-objects"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Javascript",
-                "permalink": "/docs/category/javascript"
-              },
-              "next": {
-                "title": "Javascript",
-                "permalink": "/docs/languages/javascript/"
-              }
-            },
-            {
-              "unversionedId": "languages/javascript/javscript-url-manipulation",
-              "id": "languages/javascript/javscript-url-manipulation",
-              "title": "Get URL Tiers",
-              "description": "",
-              "source": "@site/docs/languages/javascript/javscript-url-manipulation.mdx",
-              "sourceDirName": "languages/javascript",
-              "slug": "/languages/javascript/javscript-url-manipulation",
-              "permalink": "/docs/languages/javascript/javscript-url-manipulation",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "name": "Javascript URL Manipulation",
-                "menu": "Javascript",
-                "route": "/javascript/javascript-url-manipulation"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Javascript",
-                "permalink": "/docs/languages/javascript/"
-              },
-              "next": {
-                "title": "Markdown",
-                "permalink": "/docs/languages/markdown"
-              }
-            },
-            {
-              "unversionedId": "languages/markdown",
-              "id": "languages/markdown",
-              "title": "Markdown",
-              "description": "Resources",
-              "source": "@site/docs/languages/markdown.mdx",
-              "sourceDirName": "languages",
-              "slug": "/languages/markdown",
-              "permalink": "/docs/languages/markdown",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "name": "Markdown",
-                "menu": "Languages",
-                "route": "/languages/markdown"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Get URL Tiers",
-                "permalink": "/docs/languages/javascript/javscript-url-manipulation"
-              },
-              "next": {
-                "title": "TypeScript",
-                "permalink": "/docs/languages/typescript"
-              }
-            },
-            {
-              "unversionedId": "languages/typescript",
-              "id": "languages/typescript",
-              "title": "TypeScript",
-              "description": "// TODO: update this",
-              "source": "@site/docs/languages/typescript.mdx",
-              "sourceDirName": "languages",
-              "slug": "/languages/typescript",
-              "permalink": "/docs/languages/typescript",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "name": "TypeScript",
-                "menu": "Languages",
-                "route": "/languages/typescript"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown",
-                "permalink": "/docs/languages/markdown"
               },
               "next": {
                 "title": "Leadership",
@@ -666,6 +664,60 @@
               },
               {
                 "type": "category",
+                "label": "Code",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "code/css"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "code/html"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Javascript",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "code/javascript/javascript-objects"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "code/javascript/javascript"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "code/javascript/javscript-url-manipulation"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/javascript",
+                      "permalink": "/docs/category/javascript"
+                    }
+                  },
+                  {
+                    "type": "doc",
+                    "id": "code/markdown"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "code/typescript"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/code",
+                  "permalink": "/docs/category/code"
+                }
+              },
+              {
+                "type": "category",
                 "label": "Design Systems",
                 "collapsible": true,
                 "collapsed": true,
@@ -700,60 +752,6 @@
               {
                 "type": "doc",
                 "id": "inspiration"
-              },
-              {
-                "type": "category",
-                "label": "Code",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "languages/css"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "languages/html"
-                  },
-                  {
-                    "type": "category",
-                    "label": "Javascript",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "languages/javascript/javascript-objects"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "languages/javascript/javascript"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "languages/javascript/javscript-url-manipulation"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/javascript",
-                      "permalink": "/docs/category/javascript"
-                    }
-                  },
-                  {
-                    "type": "doc",
-                    "id": "languages/markdown"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "languages/typescript"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/code",
-                  "permalink": "/docs/category/code"
-                }
               },
               {
                 "type": "category",

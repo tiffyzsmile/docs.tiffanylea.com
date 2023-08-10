@@ -4,12 +4,12 @@
   "permalink": "/docs/category/code",
   "navigation": {
     "previous": {
-      "title": "Inspiration",
-      "permalink": "/docs/inspiration"
+      "title": "Amplify",
+      "permalink": "/docs/aws/amplify"
     },
     "next": {
       "title": "CSS",
-      "permalink": "/docs/languages/css"
+      "permalink": "/docs/code/css"
     }
   }
 }

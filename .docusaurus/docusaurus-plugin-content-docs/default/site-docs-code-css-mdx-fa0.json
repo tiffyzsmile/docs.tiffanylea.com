@@ -1,0 +1,25 @@
+{
+  "unversionedId": "code/css",
+  "id": "code/css",
+  "title": "CSS",
+  "description": "Syntax",
+  "source": "@site/docs/code/css.mdx",
+  "sourceDirName": "code",
+  "slug": "/code/css",
+  "permalink": "/docs/code/css",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "CSS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code",
+    "permalink": "/docs/category/code"
+  },
+  "next": {
+    "title": "HTML",
+    "permalink": "/docs/code/html"
+  }
+}

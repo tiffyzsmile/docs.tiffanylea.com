@@ -1,0 +1,25 @@
+{
+  "unversionedId": "code/markdown",
+  "id": "code/markdown",
+  "title": "Markdown",
+  "description": "Resources",
+  "source": "@site/docs/code/markdown.mdx",
+  "sourceDirName": "code",
+  "slug": "/code/markdown",
+  "permalink": "/docs/code/markdown",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Markdown"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Get URL Tiers",
+    "permalink": "/docs/code/javascript/javscript-url-manipulation"
+  },
+  "next": {
+    "title": "TypeScript",
+    "permalink": "/docs/code/typescript"
+  }
+}

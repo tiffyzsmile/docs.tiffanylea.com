@@ -4,8 +4,8 @@
   "permalink": "/docs/category/design-systems",
   "navigation": {
     "previous": {
-      "title": "Amplify",
-      "permalink": "/docs/aws/amplify"
+      "title": "TypeScript",
+      "permalink": "/docs/code/typescript"
     },
     "next": {
       "title": "Design Systems",

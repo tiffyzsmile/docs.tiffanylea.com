@@ -1,0 +1,27 @@
+{
+  "unversionedId": "code/javascript/javascript",
+  "id": "code/javascript/javascript",
+  "title": "Javascript",
+  "description": "Data types",
+  "source": "@site/docs/code/javascript/javascript.mdx",
+  "sourceDirName": "code/javascript",
+  "slug": "/code/javascript/",
+  "permalink": "/docs/code/javascript/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Javascript",
+    "menu": "Languages",
+    "route": "/languages/javascript"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript Objects",
+    "permalink": "/docs/code/javascript/javascript-objects"
+  },
+  "next": {
+    "title": "Get URL Tiers",
+    "permalink": "/docs/code/javascript/javscript-url-manipulation"
+  }
+}

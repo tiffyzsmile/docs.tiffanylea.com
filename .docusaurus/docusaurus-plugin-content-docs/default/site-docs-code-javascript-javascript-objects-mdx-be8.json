@@ -1,0 +1,27 @@
+{
+  "unversionedId": "code/javascript/javascript-objects",
+  "id": "code/javascript/javascript-objects",
+  "title": "Javascript Objects",
+  "description": "Deeply Nested Dynamic Properties",
+  "source": "@site/docs/code/javascript/javascript-objects.mdx",
+  "sourceDirName": "code/javascript",
+  "slug": "/code/javascript/javascript-objects",
+  "permalink": "/docs/code/javascript/javascript-objects",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Javascript Objects",
+    "menu": "Javascript",
+    "route": "/javascript/javascript-objects"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Javascript",
+    "permalink": "/docs/category/javascript"
+  },
+  "next": {
+    "title": "Javascript",
+    "permalink": "/docs/code/javascript/"
+  }
+}

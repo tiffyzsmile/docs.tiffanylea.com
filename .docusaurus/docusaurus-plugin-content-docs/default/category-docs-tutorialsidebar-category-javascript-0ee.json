@@ -5,11 +5,11 @@
   "navigation": {
     "previous": {
       "title": "HTML",
-      "permalink": "/docs/languages/html"
+      "permalink": "/docs/code/html"
     },
     "next": {
       "title": "Javascript Objects",
-      "permalink": "/docs/languages/javascript/javascript-objects"
+      "permalink": "/docs/code/javascript/javascript-objects"
     }
   }
 }
