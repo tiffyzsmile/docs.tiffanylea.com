@@ -1,0 +1,104 @@
+---
+title: 'Word Search LC79'
+metaTitle: 'Word Search LC79 | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Word Search LC79'
+---
+
+# Word Search (Leetcode 79)
+
+
+- [Leetcode 79](https://leetcode.com/problems/word-search/)
+- [Explanatory Video](https://www.youtube.com/watch?v=SoUeDrzL6q4)
+
+Given an m x n grid of characters board and a string word, return true if word exists in the grid.
+
+The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
+
+
+## Examples
+
+- Example 1
+  - Input:
+    - board = `[["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]`
+    - word = `"ABCCED"`
+  - Output: `true`
+- Example 2
+    - Input:
+        - board = `[["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]`
+        - word = `"SEE"`
+    - Output: `true`
+- Example 3
+    - Input:
+        - board = `[["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]]`
+        - word = `"ABCB"`
+    - Output: `false`
+
+
+## Solution 
+
+```javascript
+/**
+ * @param {character[][]} board
+ * @param {string} word
+ * @return {boolean}
+ */
+
+const board = [
+        ["a", "b", "c", "e"],
+        ["s", "f", "c", "s"],
+        ["a", "d", "e", "e"]
+    ];
+
+const wordSearch = (board, word) => {
+    const numOfRows = board.length;
+    const numOfCols = board[0].length;
+
+    const depthFirstSearch = (rowIdx, colIdx, len) => {
+        // if len is length of word we have found the entire word
+        if (len === word.length) {
+            return true;
+        }
+
+        if (
+            rowIdx < 0 || // trying to go up in top most row
+            rowIdx >= numOfRows ||  // trying to go down in last row
+            colIdx < 0 || // trying to go left in left most column
+            colIdx >= numOfCols || // trying to go right on right most column
+            board[rowIdx][colIdx] != word[len] // letter does not match
+        ) {
+            return false;
+        }
+
+        // if we got here there was a match... set item as visited
+        board[rowIdx][colIdx] = "*";
+
+        // then continue to check in each direction
+        const rtn =
+            depthFirstSearch(rowIdx + 1, colIdx, len + 1) || // down
+            depthFirstSearch(rowIdx - 1, colIdx, len + 1) || // up
+            depthFirstSearch(rowIdx, colIdx + 1, len + 1) || // right
+            depthFirstSearch(rowIdx, colIdx - 1, len + 1);   // left
+
+        // this sets the value of visited back to original
+        board[rowIdx][colIdx] = word[len];
+
+        return rtn;
+    };
+
+    let result = false;
+    for (let rowIdx = 0; rowIdx < numOfRows; rowIdx++) {
+        for (let colIdx = 0; colIdx < numOfCols; colIdx++) {
+            result = depthFirstSearch(rowIdx, colIdx, 0);
+            if (result) return true;
+        }
+    }
+
+    return false;
+};
+
+console.log("abf", wordSearch(board, "abf")); // "abf" true
+console.log("abv", wordSearch(board, "abv")); // "abv" false
+```
+
+Big O -> O(m*n*len) 

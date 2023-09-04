@@ -327,7 +327,7 @@ export default [
   },
   {
     path: '/docs-prep',
-    component: ComponentCreator('/docs-prep', '58e'),
+    component: ComponentCreator('/docs-prep', '7b7'),
     routes: [
       {
         path: '/docs-prep/',
@@ -792,12 +792,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs-prep/technical/coding-first-unique-char-in-string',
-        component: ComponentCreator('/docs-prep/technical/coding-first-unique-char-in-string', 'c2e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs-prep/technical/coding-flatten-array',
         component: ComponentCreator('/docs-prep/technical/coding-flatten-array', '4a0'),
         exact: true,
@@ -818,6 +812,18 @@ export default [
       {
         path: '/docs-prep/technical/coding-spiral-2d-array',
         component: ComponentCreator('/docs-prep/technical/coding-spiral-2d-array', 'bb6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs-prep/technical/count-unique-words-in-array',
+        component: ComponentCreator('/docs-prep/technical/count-unique-words-in-array', 'd84'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs-prep/technical/first-unique-character-in-string-lc387',
+        component: ComponentCreator('/docs-prep/technical/first-unique-character-in-string-lc387', 'c30'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -854,6 +860,12 @@ export default [
       {
         path: '/docs-prep/technical/two-sum-lc1',
         component: ComponentCreator('/docs-prep/technical/two-sum-lc1', '6fa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs-prep/technical/word-search-lc79',
+        component: ComponentCreator('/docs-prep/technical/word-search-lc79', 'c8f'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/first-unique-character-in-string-lc387",
+  "id": "technical/first-unique-character-in-string-lc387",
+  "title": "First Unique Character in a String LC387",
+  "description": "Leetcode 387",
+  "source": "@site/docs-prep/technical/first-unique-character-in-string-lc387.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/first-unique-character-in-string-lc387",
+  "permalink": "/docs-prep/technical/first-unique-character-in-string-lc387",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "First Unique Character in a String LC387",
+    "metaTitle": "First Unique Character in a String LC387 | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "First Unique Char in String coding challenge"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Count unique words in array",
+    "permalink": "/docs-prep/technical/count-unique-words-in-array"
+  },
+  "next": {
+    "title": "Kth Largest Element in an Array LC215",
+    "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+  }
+}

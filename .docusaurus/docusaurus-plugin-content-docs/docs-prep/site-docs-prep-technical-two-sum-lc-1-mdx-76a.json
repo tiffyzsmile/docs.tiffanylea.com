@@ -19,5 +19,9 @@
   "previous": {
     "title": "Most common substring",
     "permalink": "/docs-prep/technical/most-common-substring"
+  },
+  "next": {
+    "title": "Word Search LC79",
+    "permalink": "/docs-prep/technical/word-search-lc79"
   }
 }

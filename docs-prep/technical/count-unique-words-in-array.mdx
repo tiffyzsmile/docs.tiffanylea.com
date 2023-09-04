@@ -1,0 +1,40 @@
+---
+title: 'Count unique words in array'
+metaTitle: 'Count unique words in array | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Count unique words in array'
+---
+
+# Q: Count unique words in array
+
+## Solution 1
+```javascript
+const input = ["you", "me", "them", "them", "me", "them"];
+
+const getUniqueWordsInArray = (inputArray) => {
+    return [...new Set(inputArray)].length;
+};
+
+getUniqueWordsInArray(input); // 3
+```
+
+Big O -> 1(n) -> O(n)
+
+## Solution 2
+
+```javascript
+const input = ["you", "me", "them", "them", "me", "them"];
+
+const getUniqueWordsInArray = (inputArray) => {
+    const resultsMap = {};
+
+    inputArray.forEach((word) => {
+        resultsMap[word] = true;
+    });
+
+    return Object.keys(resultsMap).length;
+};
+
+getUniqueWordsInArray(input); //3
+```
+
+Big O -> 2(n) -> O(n)

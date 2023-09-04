@@ -2627,7 +2627,7 @@
               "unversionedId": "technical/coding",
               "id": "technical/coding",
               "title": "Coding",
-              "description": "House code challenges that may get asked in a technical interview.",
+              "description": "- split(\"\") function needs \"\"",
               "source": "@site/docs-prep/technical/coding.mdx",
               "sourceDirName": "technical",
               "slug": "/technical/coding",
@@ -2646,8 +2646,8 @@
                 "permalink": "/docs-prep/technical/coding-spiral-2d-array"
               },
               "next": {
-                "title": "Kth Largest Element in an Array LC215",
-                "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+                "title": "Count unique words in array",
+                "permalink": "/docs-prep/technical/count-unique-words-in-array"
               }
             },
             {
@@ -2700,33 +2700,6 @@
                 "permalink": "/docs-prep/technical/coding-event-emitter"
               },
               "next": {
-                "title": "First Unique Char in String",
-                "permalink": "/docs-prep/technical/coding-first-unique-char-in-string"
-              }
-            },
-            {
-              "unversionedId": "technical/coding-first-unique-char-in-string",
-              "id": "technical/coding-first-unique-char-in-string",
-              "title": "First Unique Char in String",
-              "description": "Given a string s consisting of small English letters, find and return the first instance of a non-repeating character in it. If there is no such character, return '\\_'.",
-              "source": "@site/docs-prep/technical/coding-first-unique-char-in-string.mdx",
-              "sourceDirName": "technical",
-              "slug": "/technical/coding-first-unique-char-in-string",
-              "permalink": "/docs-prep/technical/coding-first-unique-char-in-string",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {
-                "title": "First Unique Char in String",
-                "metaTitle": "First Unique Char in String | Coding | Technical | Interview Prep | Tiffany Lea",
-                "metaDescription": "First Unique Char in String coding challenge"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "First Duplicate in Array",
-                "permalink": "/docs-prep/technical/coding-first-duplicate-in-array"
-              },
-              "next": {
                 "title": "Flatten Array",
                 "permalink": "/docs-prep/technical/coding-flatten-array"
               }
@@ -2750,8 +2723,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "First Unique Char in String",
-                "permalink": "/docs-prep/technical/coding-first-unique-char-in-string"
+                "title": "First Duplicate in Array",
+                "permalink": "/docs-prep/technical/coding-first-duplicate-in-array"
               },
               "next": {
                 "title": "Write Reduce Function",
@@ -2840,6 +2813,60 @@
               }
             },
             {
+              "unversionedId": "technical/count-unique-words-in-array",
+              "id": "technical/count-unique-words-in-array",
+              "title": "Count unique words in array",
+              "description": "Solution 1",
+              "source": "@site/docs-prep/technical/count-unique-words-in-array.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/count-unique-words-in-array",
+              "permalink": "/docs-prep/technical/count-unique-words-in-array",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Count unique words in array",
+                "metaTitle": "Count unique words in array | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Count unique words in array"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Coding",
+                "permalink": "/docs-prep/technical/coding"
+              },
+              "next": {
+                "title": "First Unique Character in a String LC387",
+                "permalink": "/docs-prep/technical/first-unique-character-in-string-lc387"
+              }
+            },
+            {
+              "unversionedId": "technical/first-unique-character-in-string-lc387",
+              "id": "technical/first-unique-character-in-string-lc387",
+              "title": "First Unique Character in a String LC387",
+              "description": "Leetcode 387",
+              "source": "@site/docs-prep/technical/first-unique-character-in-string-lc387.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/first-unique-character-in-string-lc387",
+              "permalink": "/docs-prep/technical/first-unique-character-in-string-lc387",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "First Unique Character in a String LC387",
+                "metaTitle": "First Unique Character in a String LC387 | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "First Unique Char in String coding challenge"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Count unique words in array",
+                "permalink": "/docs-prep/technical/count-unique-words-in-array"
+              },
+              "next": {
+                "title": "Kth Largest Element in an Array LC215",
+                "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+              }
+            },
+            {
               "unversionedId": "technical/kth-largest-element-lc215",
               "id": "technical/kth-largest-element-lc215",
               "title": "Kth Largest Element in an Array LC215",
@@ -2858,8 +2885,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Coding",
-                "permalink": "/docs-prep/technical/coding"
+                "title": "First Unique Character in a String LC387",
+                "permalink": "/docs-prep/technical/first-unique-character-in-string-lc387"
               },
               "next": {
                 "title": "Merge k Sorted Lists",
@@ -3022,6 +3049,33 @@
               "previous": {
                 "title": "Most common substring",
                 "permalink": "/docs-prep/technical/most-common-substring"
+              },
+              "next": {
+                "title": "Word Search LC79",
+                "permalink": "/docs-prep/technical/word-search-lc79"
+              }
+            },
+            {
+              "unversionedId": "technical/word-search-lc79",
+              "id": "technical/word-search-lc79",
+              "title": "Word Search LC79",
+              "description": "- Leetcode 79",
+              "source": "@site/docs-prep/technical/word-search-lc79.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/word-search-lc79",
+              "permalink": "/docs-prep/technical/word-search-lc79",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Word Search LC79",
+                "metaTitle": "Word Search LC79 | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Word Search LC79"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Two Sum LC1",
+                "permalink": "/docs-prep/technical/two-sum-lc1"
               }
             }
           ],
@@ -3483,10 +3537,6 @@
                   },
                   {
                     "type": "doc",
-                    "id": "technical/coding-first-unique-char-in-string"
-                  },
-                  {
-                    "type": "doc",
                     "id": "technical/coding-flatten-array"
                   },
                   {
@@ -3504,6 +3554,14 @@
                   {
                     "type": "doc",
                     "id": "technical/coding"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/count-unique-words-in-array"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/first-unique-character-in-string-lc387"
                   },
                   {
                     "type": "doc",
@@ -3528,6 +3586,10 @@
                   {
                     "type": "doc",
                     "id": "technical/two-sum-lc1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/word-search-lc79"
                   }
                 ],
                 "link": {

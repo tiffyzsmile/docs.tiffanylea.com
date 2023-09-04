@@ -564,11 +564,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical/coding-first-unique-char-in-string",
-              "path": "/docs-prep/technical/coding-first-unique-char-in-string",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "technical/coding-flatten-array",
               "path": "/docs-prep/technical/coding-flatten-array",
               "sidebar": "tutorialSidebar"
@@ -586,6 +581,16 @@
             {
               "id": "technical/coding-spiral-2d-array",
               "path": "/docs-prep/technical/coding-spiral-2d-array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/count-unique-words-in-array",
+              "path": "/docs-prep/technical/count-unique-words-in-array",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/first-unique-character-in-string-lc387",
+              "path": "/docs-prep/technical/first-unique-character-in-string-lc387",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -621,6 +626,11 @@
             {
               "id": "technical/two-sum-lc1",
               "path": "/docs-prep/technical/two-sum-lc1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/word-search-lc79",
+              "path": "/docs-prep/technical/word-search-lc79",
               "sidebar": "tutorialSidebar"
             },
             {

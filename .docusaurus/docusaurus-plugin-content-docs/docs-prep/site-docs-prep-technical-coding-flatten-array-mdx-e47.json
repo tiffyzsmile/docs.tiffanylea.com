@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "First Unique Char in String",
-    "permalink": "/docs-prep/technical/coding-first-unique-char-in-string"
+    "title": "First Duplicate in Array",
+    "permalink": "/docs-prep/technical/coding-first-duplicate-in-array"
   },
   "next": {
     "title": "Write Reduce Function",

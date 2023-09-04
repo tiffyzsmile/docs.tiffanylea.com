@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/count-unique-words-in-array",
+  "id": "technical/count-unique-words-in-array",
+  "title": "Count unique words in array",
+  "description": "Solution 1",
+  "source": "@site/docs-prep/technical/count-unique-words-in-array.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/count-unique-words-in-array",
+  "permalink": "/docs-prep/technical/count-unique-words-in-array",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Count unique words in array",
+    "metaTitle": "Count unique words in array | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Count unique words in array"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs-prep/technical/coding"
+  },
+  "next": {
+    "title": "First Unique Character in a String LC387",
+    "permalink": "/docs-prep/technical/first-unique-character-in-string-lc387"
+  }
+}

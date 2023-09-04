@@ -2,7 +2,7 @@
   "unversionedId": "technical/coding",
   "id": "technical/coding",
   "title": "Coding",
-  "description": "House code challenges that may get asked in a technical interview.",
+  "description": "- split(\"\") function needs \"\"",
   "source": "@site/docs-prep/technical/coding.mdx",
   "sourceDirName": "technical",
   "slug": "/technical/coding",
@@ -21,7 +21,7 @@
     "permalink": "/docs-prep/technical/coding-spiral-2d-array"
   },
   "next": {
-    "title": "Kth Largest Element in an Array LC215",
-    "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+    "title": "Count unique words in array",
+    "permalink": "/docs-prep/technical/count-unique-words-in-array"
   }
 }

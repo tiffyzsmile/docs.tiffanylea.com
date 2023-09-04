@@ -518,12 +518,6 @@
           },
           {
             "type": "link",
-            "label": "First Unique Char in String",
-            "href": "/docs-prep/technical/coding-first-unique-char-in-string",
-            "docId": "technical/coding-first-unique-char-in-string"
-          },
-          {
-            "type": "link",
             "label": "Flatten Array",
             "href": "/docs-prep/technical/coding-flatten-array",
             "docId": "technical/coding-flatten-array"
@@ -551,6 +545,18 @@
             "label": "Coding",
             "href": "/docs-prep/technical/coding",
             "docId": "technical/coding"
+          },
+          {
+            "type": "link",
+            "label": "Count unique words in array",
+            "href": "/docs-prep/technical/count-unique-words-in-array",
+            "docId": "technical/count-unique-words-in-array"
+          },
+          {
+            "type": "link",
+            "label": "First Unique Character in a String LC387",
+            "href": "/docs-prep/technical/first-unique-character-in-string-lc387",
+            "docId": "technical/first-unique-character-in-string-lc387"
           },
           {
             "type": "link",
@@ -587,6 +593,12 @@
             "label": "Two Sum LC1",
             "href": "/docs-prep/technical/two-sum-lc1",
             "docId": "technical/two-sum-lc1"
+          },
+          {
+            "type": "link",
+            "label": "Word Search LC79",
+            "href": "/docs-prep/technical/word-search-lc79",
+            "docId": "technical/word-search-lc79"
           }
         ],
         "href": "/docs-prep/technical/"
@@ -969,7 +981,7 @@
     "technical/coding": {
       "id": "technical/coding",
       "title": "Coding",
-      "description": "House code challenges that may get asked in a technical interview.",
+      "description": "- split(\"\") function needs \"\"",
       "sidebar": "tutorialSidebar"
     },
     "technical/coding-event-emitter": {
@@ -982,12 +994,6 @@
       "id": "technical/coding-first-duplicate-in-array",
       "title": "First Duplicate in Array",
       "description": "Given an array a that contains only numbers in the range from 1 to a.length, find the first duplicate number for which the second occurrence has the minimal index.",
-      "sidebar": "tutorialSidebar"
-    },
-    "technical/coding-first-unique-char-in-string": {
-      "id": "technical/coding-first-unique-char-in-string",
-      "title": "First Unique Char in String",
-      "description": "Given a string s consisting of small English letters, find and return the first instance of a non-repeating character in it. If there is no such character, return '\\_'.",
       "sidebar": "tutorialSidebar"
     },
     "technical/coding-flatten-array": {
@@ -1012,6 +1018,18 @@
       "id": "technical/coding-spiral-2d-array",
       "title": "Spiral 2D Array",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/count-unique-words-in-array": {
+      "id": "technical/count-unique-words-in-array",
+      "title": "Count unique words in array",
+      "description": "Solution 1",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/first-unique-character-in-string-lc387": {
+      "id": "technical/first-unique-character-in-string-lc387",
+      "title": "First Unique Character in a String LC387",
+      "description": "Leetcode 387",
       "sidebar": "tutorialSidebar"
     },
     "technical/kth-largest-element-lc215": {
@@ -1054,6 +1072,12 @@
       "id": "technical/two-sum-lc1",
       "title": "Two Sum LC1",
       "description": "- Leetcode 1",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/word-search-lc79": {
+      "id": "technical/word-search-lc79",
+      "title": "Word Search LC79",
+      "description": "- Leetcode 79",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "technical/word-search-lc79",
+  "id": "technical/word-search-lc79",
+  "title": "Word Search LC79",
+  "description": "- Leetcode 79",
+  "source": "@site/docs-prep/technical/word-search-lc79.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/word-search-lc79",
+  "permalink": "/docs-prep/technical/word-search-lc79",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Word Search LC79",
+    "metaTitle": "Word Search LC79 | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Word Search LC79"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Two Sum LC1",
+    "permalink": "/docs-prep/technical/two-sum-lc1"
+  }
+}

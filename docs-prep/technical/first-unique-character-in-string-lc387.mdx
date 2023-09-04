@@ -1,0 +1,86 @@
+---
+title: 'First Unique Character in a String LC387'
+metaTitle: 'First Unique Character in a String LC387 | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'First Unique Char in String coding challenge'
+---
+
+# First Unique Character in a String (Leetcode 387)
+
+
+[Leetcode 387](https://leetcode.com/problems/first-unique-character-in-a-string/)
+
+Given a string s consisting of small English letters, find and return the first instance of a non-repeating character in it. 
+
+If there is no such character, return '\_'.
+
+## Example
+
+- For input = "abacabad", the output should be
+
+  `firstNotRepeatingCharacter(input) $: 'c'`
+
+  There are 2 non-repeating characters in the string: 'c' and 'd'. Return c since it appears in the string first.
+
+- For input = "abacabaabacaba", the output should be
+
+  `firstNotRepeatingCharacter(input) $: '_'`
+
+  There are no characters in this string that do not repeat.
+
+## Solution 1
+
+- Split string and loop over each character
+- If indexOf and lastIndexOf are equal it means there is only 1 occurrence
+  - This is the first instance of a unique character
+  - Return this as the result
+- If no items pass return '\_'
+
+```javascript
+const input = "abacabad";
+
+function firstNotRepeatingCharacter(input) {
+  var arr = input.split("");
+
+  for (var i = 0; i < arr.length; i++) {
+    var chr = arr[i];
+    if (arr.indexOf(arr[i]) == arr.lastIndexOf(arr[i])) {
+      return arr[i];
+    }
+  }
+
+  return "_";
+}
+
+console.log("solution1", firstNotRepeatingCharacter(input));
+```
+
+Big O -> 3(n) -> O(n)
+
+## Solution 2
+
+```javascript
+const input = "abacabad";
+
+function firstNotRepeatingCharacter(input) {
+  const resultsObj = {};
+  let firstNonRepeatingChar = '_'
+
+  input.split("").forEach((char) => {
+    resultsObj[char] = resultsObj[char] ? resultsObj[char] + 1 : 1;
+  });
+
+  for (const x in resultsObj) {
+    if (resultsObj[x]===1){
+      firstNonRepeatingChar = x;
+      // break out of for loop
+      break;
+    }
+  }
+
+  return firstNonRepeatingChar;
+}
+
+console.log("solution2", firstNotRepeatingCharacter(input));
+```
+
+Big O -> 1(n) -> O(n)
