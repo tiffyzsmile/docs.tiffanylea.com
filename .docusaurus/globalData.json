@@ -629,6 +629,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "technical/pattern-matcher",
+              "path": "/docs-prep/technical/pattern-matcher",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "technical/sum-of-left-leaves-lc404",
               "path": "/docs-prep/technical/sum-of-left-leaves-lc404",
               "sidebar": "tutorialSidebar"

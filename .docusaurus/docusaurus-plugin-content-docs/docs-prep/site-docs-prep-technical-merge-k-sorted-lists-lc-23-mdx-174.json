@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/merge-k-sorted-lists-lc23",
+  "id": "technical/merge-k-sorted-lists-lc23",
+  "title": "Merge k Sorted Lists LC23",
+  "description": "Leetcode 23",
+  "source": "@site/docs-prep/technical/merge-k-sorted-lists-lc23.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/merge-k-sorted-lists-lc23",
+  "permalink": "/docs-prep/technical/merge-k-sorted-lists-lc23",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Merge k Sorted Lists LC23",
+    "metaTitle": "Merge k Sorted Lists LC23 | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Merge k Sorted Lists LC23"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Longest Increasing Subsequence LC300",
+    "permalink": "/docs-prep/technical/longest-increasing-subsequence-lc300"
+  },
+  "next": {
+    "title": "Merge Sorted Array LC88",
+    "permalink": "/docs-prep/technical/merge-sorted-array-lc88"
+  }
+}

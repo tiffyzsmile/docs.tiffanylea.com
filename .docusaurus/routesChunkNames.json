@@ -344,7 +344,7 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-code-a-86-d31"
   },
-  "/docs-prep-901": {
+  "/docs-prep-754": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-prepe-2-a-23b"
@@ -710,6 +710,10 @@
   "/docs-prep/technical/most-common-substring-dde": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-prep-technical-most-common-substringfad-7ae"
+  },
+  "/docs-prep/technical/pattern-matcher-5bd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-prep-technical-pattern-matcher-6-ad-e81"
   },
   "/docs-prep/technical/sum-of-left-leaves-lc404-8c0": {
     "__comp": "__comp---theme-doc-item-178-a40",

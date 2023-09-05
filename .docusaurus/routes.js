@@ -327,7 +327,7 @@ export default [
   },
   {
     path: '/docs-prep',
-    component: ComponentCreator('/docs-prep', '901'),
+    component: ComponentCreator('/docs-prep', '754'),
     routes: [
       {
         path: '/docs-prep/',
@@ -866,6 +866,12 @@ export default [
       {
         path: '/docs-prep/technical/most-common-substring',
         component: ComponentCreator('/docs-prep/technical/most-common-substring', 'dde'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs-prep/technical/pattern-matcher',
+        component: ComponentCreator('/docs-prep/technical/pattern-matcher', '5bd'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

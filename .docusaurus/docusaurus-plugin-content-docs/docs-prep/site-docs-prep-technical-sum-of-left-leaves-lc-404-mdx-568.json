@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Most common substring",
-    "permalink": "/docs-prep/technical/most-common-substring"
+    "title": "Pattern Matcher",
+    "permalink": "/docs-prep/technical/pattern-matcher"
   },
   "next": {
     "title": "Two Sum LC1",

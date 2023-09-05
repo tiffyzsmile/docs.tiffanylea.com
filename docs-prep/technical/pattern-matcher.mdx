@@ -1,0 +1,56 @@
+---
+title: 'Pattern Matcher'
+metaTitle: 'Pattern Matcher | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Pattern Matcher'
+---
+
+# Pattern Matcher
+Given a pattern and a string s, find if s follows the same pattern.
+
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
+
+
+```javascript
+/**
+ * @param {string} pattern
+ * @param {string} s
+ * @return {boolean}
+ */
+var wordPattern = function(pattern, words) {
+    const wordsArr = words.split(" ");
+    const patternMap = {}
+    let isMatch = true;
+    const prevUsedWords = []
+    
+    // if more/less words than letters in pattern
+    if(wordsArr.length !== pattern.length){
+        return false;
+    }
+    
+    for(let i = 0; i < pattern.length;i++){
+        
+         // haven't come across this letter in pattern yet
+        if(!patternMap[pattern[i]]){
+            
+            // make sure it is not equal to other pattern words
+            if(prevUsedWords.includes(wordsArr[i])){
+                isMatch = false;
+                break;
+            }
+            
+            // if new word... set it and save it to current word
+            patternMap[pattern[i]] = wordsArr[i];
+            
+            // add word to previous words list
+            prevUsedWords.push(wordsArr[i])
+            
+        } else if(patternMap[pattern[i]]!==wordsArr[i]) {
+            
+            // else we have come across it but it doesn't match previous value
+            isMatch = false
+            break;
+        }
+    }
+    return isMatch;
+};
+```

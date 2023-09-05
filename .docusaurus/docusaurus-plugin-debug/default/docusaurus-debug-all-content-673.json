@@ -3054,6 +3054,33 @@
                 "permalink": "/docs-prep/technical/merge-two-sorted-lists-lc21"
               },
               "next": {
+                "title": "Pattern Matcher",
+                "permalink": "/docs-prep/technical/pattern-matcher"
+              }
+            },
+            {
+              "unversionedId": "technical/pattern-matcher",
+              "id": "technical/pattern-matcher",
+              "title": "Pattern Matcher",
+              "description": "Given a pattern and a string s, find if s follows the same pattern.",
+              "source": "@site/docs-prep/technical/pattern-matcher.mdx",
+              "sourceDirName": "technical",
+              "slug": "/technical/pattern-matcher",
+              "permalink": "/docs-prep/technical/pattern-matcher",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "title": "Pattern Matcher",
+                "metaTitle": "Pattern Matcher | Coding | Technical | Interview Prep | Tiffany Lea",
+                "metaDescription": "Pattern Matcher"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Most common substring",
+                "permalink": "/docs-prep/technical/most-common-substring"
+              },
+              "next": {
                 "title": "Sum of Left Leaves LC404",
                 "permalink": "/docs-prep/technical/sum-of-left-leaves-lc404"
               }
@@ -3077,8 +3104,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Most common substring",
-                "permalink": "/docs-prep/technical/most-common-substring"
+                "title": "Pattern Matcher",
+                "permalink": "/docs-prep/technical/pattern-matcher"
               },
               "next": {
                 "title": "Two Sum LC1",
@@ -3674,6 +3701,10 @@
                   {
                     "type": "doc",
                     "id": "technical/most-common-substring"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/pattern-matcher"
                   },
                   {
                     "type": "doc",

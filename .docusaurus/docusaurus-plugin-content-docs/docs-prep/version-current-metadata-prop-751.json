@@ -602,6 +602,12 @@
           },
           {
             "type": "link",
+            "label": "Pattern Matcher",
+            "href": "/docs-prep/technical/pattern-matcher",
+            "docId": "technical/pattern-matcher"
+          },
+          {
+            "type": "link",
             "label": "Sum of Left Leaves LC404",
             "href": "/docs-prep/technical/sum-of-left-leaves-lc404",
             "docId": "technical/sum-of-left-leaves-lc404"
@@ -1090,6 +1096,12 @@
       "id": "technical/most-common-substring",
       "title": "Most common substring",
       "description": "Video walkthrough",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/pattern-matcher": {
+      "id": "technical/pattern-matcher",
+      "title": "Pattern Matcher",
+      "description": "Given a pattern and a string s, find if s follows the same pattern.",
       "sidebar": "tutorialSidebar"
     },
     "technical/sum-of-left-leaves-lc404": {
