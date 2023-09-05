@@ -50,6 +50,8 @@ const config = {
         path: "docs-prep",
         routeBasePath: "docs-prep",
         sidebarPath: require.resolve("./sidebars.js"),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
     ],
   ],
