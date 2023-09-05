@@ -584,6 +584,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "technical/construct-string-from-binary-tree-lc606",
+              "path": "/docs-prep/technical/construct-string-from-binary-tree-lc606",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "technical/count-unique-words-in-array",
               "path": "/docs-prep/technical/count-unique-words-in-array",
               "sidebar": "tutorialSidebar"
@@ -599,8 +604,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical/merge-k-sorted-lists",
-              "path": "/docs-prep/technical/merge-k-sorted-lists",
+              "id": "technical/longest-increasing-subsequence-lc300",
+              "path": "/docs-prep/technical/longest-increasing-subsequence-lc300",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/merge-k-sorted-lists-lc23",
+              "path": "/docs-prep/technical/merge-k-sorted-lists-lc23",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -616,6 +626,11 @@
             {
               "id": "technical/most-common-substring",
               "path": "/docs-prep/technical/most-common-substring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/sum-of-left-leaves-lc404",
+              "path": "/docs-prep/technical/sum-of-left-leaves-lc404",
               "sidebar": "tutorialSidebar"
             },
             {

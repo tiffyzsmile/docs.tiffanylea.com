@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/construct-string-from-binary-tree",
+  "id": "technical/construct-string-from-binary-tree",
+  "title": "Kth Largest Element in an Array LC215",
+  "description": "Leetcode 215",
+  "source": "@site/docs-prep/technical/construct-string-from-binary-tree.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/construct-string-from-binary-tree",
+  "permalink": "/docs-prep/technical/construct-string-from-binary-tree",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Kth Largest Element in an Array LC215",
+    "metaTitle": "Kth Largest Element in an Array LC215| Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Two Sum LC1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs-prep/technical/coding"
+  },
+  "next": {
+    "title": "Count unique words in array",
+    "permalink": "/docs-prep/technical/count-unique-words-in-array"
+  }
+}

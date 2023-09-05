@@ -34,35 +34,44 @@ The space complexity of the iterative approach is O(1), since we only create a c
 ## Code
 
 ```javascript
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
- */
-var mergeTwoLists = function (list1, list2) {
-  const dummyNode = new ListNode(0, null);
-  let currentNode = dummyNode;
+const mergeTwoLists = (list1, list2) => {
+    const dummyNode = {};
+    let currentNode = dummyNode;
 
-  while (list1 && list2) {
-    if (list1.val < list2.val) {
-      currentNode.next = list1;
-      list1 = list1.next;
-    } else {
-      currentNode.next = list2;
-      list2 = list2.next;
+    // while both lists still have items
+    while (list1 && list2) {
+        // if list1 val is smaller
+        if (list1.val < list2.val) {
+            // set list1 as next
+            currentNode.next = list1;
+            // then set list1 to the next item 
+            list1 = list1.next;
+        } else {
+            // else list2 val is smaller... set list 2 as next
+            currentNode.next = list2;
+            // then set list2 to the next item 
+            list2 = list2.next;
+        }
+        // set current node to next input
+        currentNode = currentNode.next;
     }
-    currentNode = currentNode.next;
-  }
 
-  currentNode.next = list1 || list2;
+    // add on the remaining items from whichever list still has items
+    currentNode.next = list1 || list2;
 
-  return dummyNode.next;
+    return dummyNode.next;
 };
+
+const example1List1 = { val: 1, next: { val: 2, next: { val: 4 } } };
+const example1List2 = { val: 1, next: { val: 3, next: { val: 4 } } };
+
+const example2List1 = { };
+const example2List2 = { };
+
+const example3List1 = { };
+const example3List2 = { val:0 };
+
+console.log("example1", mergeTwoLists(example1List1, example1List2)); // [1,1,2,3,4,4] -> {  "val": 1, "next": { "val": 1, "next": { "val": 2, "next": { "val": 3, "next": { "val": 4, "next": { "val": 4 } } } } } }
+console.log("example2", mergeTwoLists(example2List1, example2List2)); // [] 
+console.log("example3", mergeTwoLists(example3List1, example3List2)); // [0]
 ```

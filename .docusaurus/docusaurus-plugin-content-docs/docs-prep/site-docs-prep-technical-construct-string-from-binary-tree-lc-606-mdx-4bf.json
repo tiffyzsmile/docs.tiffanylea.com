@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/construct-string-from-binary-tree-lc606",
+  "id": "technical/construct-string-from-binary-tree-lc606",
+  "title": "Construct String from Binary Tree LC606",
+  "description": "Leetcode 606",
+  "source": "@site/docs-prep/technical/construct-string-from-binary-tree-lc606.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/construct-string-from-binary-tree-lc606",
+  "permalink": "/docs-prep/technical/construct-string-from-binary-tree-lc606",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Construct String from Binary Tree LC606",
+    "metaTitle": "Construct String from Binary Tree LC606| Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Construct String from Binary Tree"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Coding",
+    "permalink": "/docs-prep/technical/coding"
+  },
+  "next": {
+    "title": "Count unique words in array",
+    "permalink": "/docs-prep/technical/count-unique-words-in-array"
+  }
+}

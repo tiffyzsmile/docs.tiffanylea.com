@@ -28,7 +28,9 @@ export default {
         "id": "docs-code",
         "path": "docs-code",
         "routeBasePath": "docs-code",
-        "sidebarPath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/sidebars.js"
+        "sidebarPath": "/Users/tiffany/Sites/TiffanyLea/docs.tiffanylea.com/sidebars.js",
+        "showLastUpdateAuthor": true,
+        "showLastUpdateTime": true
       }
     ],
     [

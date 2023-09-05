@@ -39,6 +39,8 @@ const config = {
         path: "docs-code",
         routeBasePath: "docs-code",
         sidebarPath: require.resolve("./sidebars.js"),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
     ],
     [

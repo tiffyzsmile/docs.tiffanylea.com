@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Kth Largest Element in an Array LC215",
-    "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+    "title": "Longest Increasing Subsequence LC300",
+    "permalink": "/docs-prep/technical/longest-increasing-subsequence-lc300"
   },
   "next": {
     "title": "Merge Sorted Array LC88",

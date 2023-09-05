@@ -1,0 +1,77 @@
+---
+title: 'Construct String from Binary Tree LC606'
+metaTitle: 'Construct String from Binary Tree LC606| Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Construct String from Binary Tree'
+---
+
+
+# Construct String from Binary Tree (Leetcode 606)
+
+[Leetcode 606](https://leetcode.com/problems/construct-string-from-binary-tree/)
+
+Given the `root` of a binary tree, construct a string consisting of parenthesis and integers from a binary tree with the preorder traversal way, and return it.
+
+Omit all the empty parenthesis pairs that do not affect the one-to-one mapping relationship between the string and the original binary tree.
+
+## Examples
+
+- Example 1
+  - Input
+    - root = `[1,2,3,4]`
+    - Output: `"1(2(4))(3)"`
+    - Explanation
+      - Originally, it needs to be `"1(2(4)())(3()())"` 
+      - but you need to omit all the unnecessary empty parenthesis pairs
+      - And it will be `"1(2(4))(3)"`
+- Example 2
+  - Input
+    - root = `[1,2,3,null,4]`
+    - Output: `"1(2()(4))(3)"`
+    - Explanation
+      - Almost the same as the first example
+      - except we cannot omit the first parenthesis pair to break the one-to-one mapping relationship between the input and the output
+
+
+
+
+```javascript
+const tree2str = (root) => {
+  // if no value just return
+  if (!root) {
+    return "";
+  }
+
+  // continue to traverse the tree
+  const left = tree2str(root.left);
+  const right = tree2str(root.right);
+
+  // only output left if there is left or right val
+  const leftOutput = left || right ? `(${left})` : "";
+
+  // only output right if there is a right val
+  const rightOutput = right ? `(${right})` : "";
+
+  return `${root.val}${leftOutput}${rightOutput}`;
+};
+
+// [1,2,3,4];
+const example1 = {
+  val: "1",
+  left: { val: "2", left: { val: "4" } },
+  right: { val: "3" }
+};
+
+//[1,2,3,null,4]
+const example2 = {
+  val: "1",
+  left: { val: "2", right: { val: "4" } },
+  right: { val: "3" }
+};
+
+console.log("example1", tree2str(example1));
+console.log("example2", tree2str(example2));
+```
+
+Big O -> O(n) 
+
+Explanation: we are traversing over every item in the tree (n)

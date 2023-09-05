@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/longest-increasing-subsequence-lc300",
+  "id": "technical/longest-increasing-subsequence-lc300",
+  "title": "Longest Increasing Subsequence LC300",
+  "description": "- Leetcode 300",
+  "source": "@site/docs-prep/technical/longest-increasing-subsequence-lc300.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/longest-increasing-subsequence-lc300",
+  "permalink": "/docs-prep/technical/longest-increasing-subsequence-lc300",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Longest Increasing Subsequence LC300",
+    "metaTitle": "Longest Increasing Subsequence LC300 | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Longest Increasing Subsequence LC300"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Kth Largest Element in an Array LC215",
+    "permalink": "/docs-prep/technical/kth-largest-element-lc215"
+  },
+  "next": {
+    "title": "Merge k Sorted Lists LC23",
+    "permalink": "/docs-prep/technical/merge-k-sorted-lists-lc23"
+  }
+}

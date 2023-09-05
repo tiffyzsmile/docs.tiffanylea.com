@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Coding",
-    "permalink": "/docs-prep/technical/coding"
+    "title": "Construct String from Binary Tree LC606",
+    "permalink": "/docs-prep/technical/construct-string-from-binary-tree-lc606"
   },
   "next": {
     "title": "First Unique Character in a String LC387",

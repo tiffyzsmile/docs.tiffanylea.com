@@ -1,0 +1,79 @@
+---
+title: 'Sum of Left Leaves LC404'
+metaTitle: 'Sum of Left Leaves LC404 | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Sum of Left Leaves LC404'
+---
+
+# Sum of Left Leaves (Leetcode 404)
+
+- [Leetcode 404](https://leetcode.com/problems/sum-of-left-leaves/)
+- [Video Walkthrough](https://www.youtube.com/watch?v=JqUtQTRuE48)
+
+Given the root of a binary tree, return the sum of all left leaves.
+
+A leaf is a node with no children. A left leaf is a leaf that is the left child of another node.
+
+## Examples
+- Example 1
+  - Input
+    - root = `[3,9,20,null,null,15,7]`
+  - Output: `24`
+  - Explanation
+    - There are two left leaves in the binary tree, with values 9 and 15 respectively
+- Example 2
+  - Input
+    - root = `[1]`
+  - Output: `0`
+
+## Solution
+
+```javascript
+const sumOfLeftLeaves = (root) => {
+  let sum = 0;
+
+  const checkNode = (root) => {
+    if (root === null) {
+      return;
+    }
+
+    // if node has left and left has no children (is leaf node) then add value to sum
+    if (root.left && !root.left.left && !root.left.right) {
+      sum = sum + root.left.val;
+    }
+
+    // continue to check child nodes
+    checkNode(root.left);
+    checkNode(root.right);
+  };
+
+  checkNode(root);
+  return sum;
+};
+
+// [3,9,20,null,null,15,7]
+const example1 = {
+  val: 3,
+  left: { val: 9, left: null, right: null },
+  right: {
+    val: 20,
+    left: { val: 15, left: null, right: null },
+    right: { val: 7, left: null, right: null }
+  }
+};
+
+//[1]
+const example2 = { val: 1, left: null, right: null };
+
+// [1,2,3,4,null,null,5]
+const example3 = {
+  val: 1,
+  left: { val: 2, left: { val: 4, left: null, right: null }, right: null },
+  right: { val: 3, left: null, right: { val: 5, left: null, right: null } }
+};
+
+console.log("example1", sumOfLeftLeaves(example1));
+console.log("example2", sumOfLeftLeaves(example2));
+console.log("example3", sumOfLeftLeaves(example3));
+```
+
+[//]: # (Big O -> O&#40;n^2&#41;)

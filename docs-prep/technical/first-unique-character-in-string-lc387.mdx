@@ -9,23 +9,19 @@ metaDescription: 'First Unique Char in String coding challenge'
 
 [Leetcode 387](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
-Given a string s consisting of small English letters, find and return the first instance of a non-repeating character in it. 
+Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
-If there is no such character, return '\_'.
-
-## Example
-
-- For input = "abacabad", the output should be
-
-  `firstNotRepeatingCharacter(input) $: 'c'`
-
-  There are 2 non-repeating characters in the string: 'c' and 'd'. Return c since it appears in the string first.
-
-- For input = "abacabaabacaba", the output should be
-
-  `firstNotRepeatingCharacter(input) $: '_'`
-
-  There are no characters in this string that do not repeat.
+## Examples
+- Example 1
+  - Input: `s = "leetcode"`
+  - Output: `0`
+- Example 2
+  - Input: `s = "loveleetcode"`
+  - Output: `2`
+- Example 3
+  - Input: `s = "aabb"`
+  - Output: `-1`
+- 
 
 ## Solution 1
 
@@ -33,54 +29,68 @@ If there is no such character, return '\_'.
 - If indexOf and lastIndexOf are equal it means there is only 1 occurrence
   - This is the first instance of a unique character
   - Return this as the result
-- If no items pass return '\_'
+- If no items pass return '-1'
 
 ```javascript
-const input = "abacabad";
+const firstUniqChar = (input) => {
+  var inputArr = input.split("");
 
-function firstNotRepeatingCharacter(input) {
-  var arr = input.split("");
+  for (var i = 0; i < inputArr.length; i++) {
+    var char = inputArr[i];
 
-  for (var i = 0; i < arr.length; i++) {
-    var chr = arr[i];
-    if (arr.indexOf(arr[i]) == arr.lastIndexOf(arr[i])) {
-      return arr[i];
+    if (inputArr.indexOf(char) == inputArr.lastIndexOf(char)) {
+      return inputArr.indexOf(char);
     }
   }
 
-  return "_";
-}
+  return -1;
+};
 
-console.log("solution1", firstNotRepeatingCharacter(input));
+const example1 = "leetcode";
+const example2 = "loveleetcode";
+const example3 = "aabb";
+const example4 = "dddccdbba";
+
+console.log("example1", firstUniqChar(example1)); // 0
+console.log("example2", firstUniqChar(example2)); // 2
+console.log("example3", firstUniqChar(example3)); // -1
+console.log("example4", firstUniqChar(example4)); // 8
 ```
 
-Big O -> 3(n) -> O(n)
+Big O -> O(3n) -> O(n)
 
 ## Solution 2
 
 ```javascript
-const input = "abacabad";
-
-function firstNotRepeatingCharacter(input) {
+const firstUniqChar = (input) => {
   const resultsObj = {};
-  let firstNonRepeatingChar = '_'
+  let firstNonRepeatingCharIndex = -1;
 
   input.split("").forEach((char) => {
     resultsObj[char] = resultsObj[char] ? resultsObj[char] + 1 : 1;
   });
 
   for (const x in resultsObj) {
-    if (resultsObj[x]===1){
-      firstNonRepeatingChar = x;
+    if (resultsObj[x] === 1) {
+      firstNonRepeatingCharIndex = input.indexOf(x);
       // break out of for loop
       break;
     }
   }
 
-  return firstNonRepeatingChar;
-}
+  return firstNonRepeatingCharIndex;
+};
 
-console.log("solution2", firstNotRepeatingCharacter(input));
+const example1 = "leetcode";
+const example2 = "loveleetcode";
+const example3 = "aabb";
+const example4 = "dddccdbba";
+
+console.log("example1", firstUniqChar(example1)); // 0
+console.log("example2", firstUniqChar(example2)); // 2
+console.log("example3", firstUniqChar(example3)); // -1
+console.log("example4", firstUniqChar(example4)); // 8
+
 ```
 
-Big O -> 1(n) -> O(n)
+Big O -> O(2n) -> O(n)

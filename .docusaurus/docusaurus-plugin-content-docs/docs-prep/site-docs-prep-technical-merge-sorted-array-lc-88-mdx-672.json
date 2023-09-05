@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Merge k Sorted Lists",
-    "permalink": "/docs-prep/technical/merge-k-sorted-lists"
+    "title": "Merge k Sorted Lists LC23",
+    "permalink": "/docs-prep/technical/merge-k-sorted-lists-lc23"
   },
   "next": {
     "title": "Merge Two Sorted Lists LC21",

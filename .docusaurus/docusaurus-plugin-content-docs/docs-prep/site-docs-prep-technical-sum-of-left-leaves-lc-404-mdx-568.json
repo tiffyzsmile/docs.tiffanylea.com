@@ -1,0 +1,27 @@
+{
+  "unversionedId": "technical/sum-of-left-leaves-lc404",
+  "id": "technical/sum-of-left-leaves-lc404",
+  "title": "Sum of Left Leaves LC404",
+  "description": "- Leetcode 404",
+  "source": "@site/docs-prep/technical/sum-of-left-leaves-lc404.mdx",
+  "sourceDirName": "technical",
+  "slug": "/technical/sum-of-left-leaves-lc404",
+  "permalink": "/docs-prep/technical/sum-of-left-leaves-lc404",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sum of Left Leaves LC404",
+    "metaTitle": "Sum of Left Leaves LC404 | Coding | Technical | Interview Prep | Tiffany Lea",
+    "metaDescription": "Sum of Left Leaves LC404"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Most common substring",
+    "permalink": "/docs-prep/technical/most-common-substring"
+  },
+  "next": {
+    "title": "Two Sum LC1",
+    "permalink": "/docs-prep/technical/two-sum-lc1"
+  }
+}

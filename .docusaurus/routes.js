@@ -327,7 +327,7 @@ export default [
   },
   {
     path: '/docs-prep',
-    component: ComponentCreator('/docs-prep', '7b7'),
+    component: ComponentCreator('/docs-prep', '901'),
     routes: [
       {
         path: '/docs-prep/',
@@ -816,6 +816,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs-prep/technical/construct-string-from-binary-tree-lc606',
+        component: ComponentCreator('/docs-prep/technical/construct-string-from-binary-tree-lc606', '4da'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs-prep/technical/count-unique-words-in-array',
         component: ComponentCreator('/docs-prep/technical/count-unique-words-in-array', 'd84'),
         exact: true,
@@ -834,8 +840,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs-prep/technical/merge-k-sorted-lists',
-        component: ComponentCreator('/docs-prep/technical/merge-k-sorted-lists', '0c1'),
+        path: '/docs-prep/technical/longest-increasing-subsequence-lc300',
+        component: ComponentCreator('/docs-prep/technical/longest-increasing-subsequence-lc300', 'e8e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs-prep/technical/merge-k-sorted-lists-lc23',
+        component: ComponentCreator('/docs-prep/technical/merge-k-sorted-lists-lc23', '407'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -854,6 +866,12 @@ export default [
       {
         path: '/docs-prep/technical/most-common-substring',
         component: ComponentCreator('/docs-prep/technical/most-common-substring', 'dde'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs-prep/technical/sum-of-left-leaves-lc404',
+        component: ComponentCreator('/docs-prep/technical/sum-of-left-leaves-lc404', '8c0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

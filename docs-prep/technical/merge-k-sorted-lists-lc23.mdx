@@ -1,0 +1,99 @@
+---
+title: 'Merge k Sorted Lists LC23'
+metaTitle: 'Merge k Sorted Lists LC23 | Coding | Technical | Interview Prep | Tiffany Lea'
+metaDescription: 'Merge k Sorted Lists LC23'
+---
+
+# Merge k Sorted Lists (Leetcode 23)
+
+[Leetcode 23](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
+
+Merge all the linked-lists into one sorted linked-list and return it.
+
+## Examples
+
+- Example 1
+  - Input: `lists = [[1,4,5],[1,3,4],[2,6]]`
+  - Output: `[1,1,2,3,4,4,5,6]`
+  - Explanation: 
+    - The linked-lists are:
+      - [
+        - 1->4->5,
+        - 1->3->4, 
+        - 2->6
+      - ]
+    - merging them into one sorted list: `1->1->2->3->4->4->5->6`
+- Example 2
+  - Input: `lists = []`
+  - Output: `[]`
+- Example 3
+  - Input: `lists = [[]]`
+  - Output: `[]`
+
+## Solution
+
+- Merging 2 list is simple
+- Keep merging 2 at a time until there is only 1 list left (lists.length ===1)
+ 
+
+
+```javascript
+const mergeTwoLists = (list1, list2) => {
+  const dummyNode = {};
+  let currentNode = dummyNode;
+
+  // while both lists still have items
+  while (list1 && list2) {
+    // if list1 val is smaller
+    if (list1.val < list2.val) {
+      // set list1 as next
+      currentNode.next = list1;
+      // then set list1 to the next item
+      list1 = list1.next;
+    } else {
+      // else list2 val is smaller... set list 2 as next
+      currentNode.next = list2;
+      // then set list2 to the next item
+      list2 = list2.next;
+    }
+    // set current node to next input
+    currentNode = currentNode.next;
+  }
+
+  // add on the remaining items from whichever list still has items
+  currentNode.next = list1 || list2;
+
+  return dummyNode.next;
+};
+
+const mergeKLists = (lists) => {
+  // if no lists return null
+  if(lists.length === 0){
+    return null;
+  }
+  // while we still have 2 lists
+  while (lists.length > 1) {
+    // remove first and second lists from lists array
+    const list1 = lists.shift();
+    const list2 = lists.shift();
+    // merge them together
+    const mergedArr = mergeTwoLists(list1, list2);
+    // push them back into original lists array
+    lists.push(mergedArr);
+  }
+  // we only have 1 list left so return it
+  return lists[0]
+};
+
+const example1 = [
+  { val: 1, next: { val: 4, next: { val: 5 } } },
+  { val: 1, next: { val: 3, next: { val: 4 } } },
+  { val: 2, next: { val: 6 } }
+];
+const example2 = [];
+
+console.log("example1", mergeKLists(example1)); // [1,1,2,3,4,4,5,6]
+console.log("example2", mergeKLists(example2)); // [] 
+```
